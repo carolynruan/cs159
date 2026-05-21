@@ -1,0 +1,161 @@
+from __future__ import annotations
+
+import importlib.util
+import inspect
+import os
+from dataclasses import dataclass
+from pathlib import Path
+from typing import Callable, Iterable
+
+import pandas as pd
+
+
+@dataclass(frozen=True)
+class AliaEditSpec:
+    name: str
+    prompt_suffix: str
+    seed: int = 0
+
+
+ALIA_EDIT_SPECS: list[AliaEditSpec] = [
+    AliaEditSpec("background", "change the background while preserving the animal"),
+    AliaEditSpec("weather", "change the weather conditions while preserving the animal"),
+    AliaEditSpec("lighting", "change the lighting and time of day while preserving the animal"),
+    AliaEditSpec("season", "change the season and vegetation while preserving the animal"),
+]
+
+
+def find_alia_repo(working_dir: str | Path = ".") -> Path | None:
+    working_dir = Path(working_dir)
+    for candidate in [working_dir / "ALIA", working_dir / "alia"]:
+        if candidate.exists():
+            return candidate.resolve()
+    return None
+
+
+def _load_module_from_path(module_path: Path):
+    spec = importlib.util.spec_from_file_location(module_path.stem, module_path)
+    if spec is None or spec.loader is None:
+        raise ImportError(f"Could not load module at {module_path}")
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    return module
+
+
+def _discover_callable(module) -> Callable | None:
+    preferred_names = [
+        "edit_image",
+        "edit",
+        "generate",
+        "run",
+        "main",
+    ]
+    for name in preferred_names:
+        candidate = getattr(module, name, None)
+        if callable(candidate):
+            return candidate
+    for _, candidate in inspect.getmembers(module, inspect.isfunction):
+        return candidate
+    return None
+
+
+def load_alia_callable(repo_path: str | Path) -> Callable:
+    repo_path = Path(repo_path)
+    candidate_files = [
+        repo_path / "demo.py",
+        repo_path / "edit.py",
+        repo_path / "main.py",
+        repo_path / "inference.py",
+        repo_path / "alia" / "demo.py",
+        repo_path / "alia" / "edit.py",
+        repo_path / "alia" / "main.py",
+    ]
+    for module_path in candidate_files:
+        if module_path.exists():
+            module = _load_module_from_path(module_path)
+            fn = _discover_callable(module)
+            if fn is not None:
+                return fn
+    raise FileNotFoundError(
+        f"Could not find a callable ALIA entrypoint in {repo_path}. "
+        "Inspect the repo and wire the helper to the correct script."
+    )
+
+
+def try_call_alia(editor_fn: Callable, image_path: str | Path, prompt: str, output_dir: str | Path, seed: int = 0):
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    call_patterns = [
+        dict(image_path=str(image_path), prompt=prompt, output_dir=str(output_dir), seed=seed),
+        dict(input_image=str(image_path), prompt=prompt, output_dir=str(output_dir), seed=seed),
+        dict(image=str(image_path), text=prompt, output_dir=str(output_dir), seed=seed),
+        dict(image_path=str(image_path), prompt=prompt, outdir=str(output_dir), seed=seed),
+    ]
+
+    last_error: Exception | None = None
+    for kwargs in call_patterns:
+        try:
+            result = editor_fn(**kwargs)
+            return result
+        except TypeError as exc:
+            last_error = exc
+            continue
+    if last_error is not None:
+        raise last_error
+    raise RuntimeError("ALIA call failed for an unknown reason.")
+
+
+def build_alia_augmentations(
+    source_df: pd.DataFrame,
+    output_root: str | Path,
+    repo_path: str | Path,
+    max_images_per_class: int = 12,
+    methods: Iterable[AliaEditSpec] = ALIA_EDIT_SPECS,
+) -> pd.DataFrame:
+    repo_path = Path(repo_path)
+    output_root = Path(output_root)
+    output_root.mkdir(parents=True, exist_ok=True)
+
+    editor_fn = load_alia_callable(repo_path)
+    rows = []
+    sampled = source_df.groupby("final_label", group_keys=False).head(max_images_per_class)
+
+    for _, row in sampled.iterrows():
+        image_path = row.get("path") or row.get("file_path") or row.get("image_path")
+        if not image_path or not os.path.exists(image_path):
+            continue
+
+        for spec in methods:
+            method_dir = output_root / spec.name / str(row["final_label"])
+            method_dir.mkdir(parents=True, exist_ok=True)
+            prompt = f"{spec.prompt_suffix}; keep the animal identity and species label unchanged."
+            try:
+                result = try_call_alia(
+                    editor_fn=editor_fn,
+                    image_path=image_path,
+                    prompt=prompt,
+                    output_dir=method_dir,
+                    seed=spec.seed,
+                )
+            except Exception as exc:
+                print(f"ALIA edit failed for {image_path} using {spec.name}: {exc}")
+                continue
+
+            generated_files = sorted(method_dir.glob("*"))
+            if not generated_files:
+                continue
+            out_file = generated_files[-1]
+            rows.append(
+                {
+                    "source": "alia_diffusion",
+                    "path": str(out_file),
+                    "final_label": row["final_label"],
+                    "split": "train",
+                    "alia_method": spec.name,
+                    "alia_source": str(image_path),
+                    "alia_result": str(result) if result is not None else "",
+                }
+            )
+
+    return pd.DataFrame(rows)
