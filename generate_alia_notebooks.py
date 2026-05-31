@@ -127,7 +127,7 @@ print("Train/Val/Test:", len(train_df), len(val_df), len(test_df))
 
 COMMON = r'''
 from alia_speciesnet_helpers import (
-    build_alia_augmentations,
+    build_alia_augmentations_from_repo,
     build_alia_prompt,
     build_alia_prompt_bank,
     build_alia_scene_description,
@@ -435,11 +435,49 @@ def make_model():
 SPECIESNET_EXPERIMENTS = r'''
 strategies = ["contextual_bias", "fine_grained", "domain_generalization"]
 balance_modes = ["uniform", "min_n"]
-plot_strategy_examples(train_df, strategies, GEN_ROOT)
 alia_repo = Path.cwd() / "ALIA"
+preview_source = train_df.groupby("label", group_keys=False).head(1).head(3).copy()
+preview_sets = {}
+for strategy in strategies:
+    preview_sets[strategy] = build_alia_augmentations_from_repo(
+        source_df=preview_source,
+        output_root=GEN_ROOT / "preview" / strategy,
+        repo_path=alia_repo,
+        max_images_per_class=1,
+        species_lookup=SNAPSHOT_TO_INAT,
+        prompt_strategy="prompt_bank",
+    )
+    print(f"Preview augmentations for {strategy}: {len(preview_sets[strategy])}")
+    if not preview_sets[strategy].empty:
+        print(preview_sets[strategy][["final_label", "alia_method", "path"]].head().to_string(index=False))
+
+fig, axes = plt.subplots(len(preview_source), len(strategies) + 1, figsize=(4 * (len(strategies) + 1), 4 * len(preview_source)))
+for r, (_, row) in enumerate(preview_source.reset_index(drop=True).iterrows()):
+    with gcsfs.GCSFileSystem(token="anon").open(GCS_ROOT + row["file_name"], "rb") as f:
+        original = Image.open(BytesIO(f.read())).convert("RGB")
+    axes[r, 0].imshow(original)
+    axes[r, 0].set_title(f"Original\n{row['label']}")
+    axes[r, 0].axis("off")
+    for c, strategy in enumerate(strategies, start=1):
+        if preview_sets[strategy].empty:
+            axes[r, c].axis("off")
+            continue
+        aug_rows = preview_sets[strategy][preview_sets[strategy]["final_label"] == row["label"]]
+        if len(aug_rows) == 0:
+            axes[r, c].axis("off")
+            continue
+        aug_path = Path(aug_rows.iloc[0]["path"])
+        edited = Image.open(aug_path).convert("RGB")
+        axes[r, c].imshow(edited)
+        axes[r, c].set_title(strategy)
+        axes[r, c].axis("off")
+plt.tight_layout()
+fig.savefig(FIG_ROOT / "alia_real_preview_grid.png", dpi=200)
+plt.show()
+
 augmented_sets = {}
 for strategy in strategies:
-    augmented_sets[strategy] = build_alia_augmentations(
+    augmented_sets[strategy] = build_alia_augmentations_from_repo(
         source_df=train_df,
         output_root=GEN_ROOT / strategy,
         repo_path=alia_repo,
@@ -476,11 +514,49 @@ plt.show()
 SNAPSHOT_EXPERIMENTS = r'''
 strategies = ["contextual_bias", "fine_grained", "domain_generalization"]
 balance_modes = ["uniform", "min_n"]
-plot_strategy_examples(train_df, strategies, GEN_ROOT)
 alia_repo = Path.cwd() / "ALIA"
+preview_source = train_df.groupby("label", group_keys=False).head(1).head(3).copy()
+preview_sets = {}
+for strategy in strategies:
+    preview_sets[strategy] = build_alia_augmentations_from_repo(
+        source_df=preview_source,
+        output_root=GEN_ROOT / "preview" / strategy,
+        repo_path=alia_repo,
+        max_images_per_class=1,
+        species_lookup=SNAPSHOT_TO_INAT,
+        prompt_strategy="prompt_bank",
+    )
+    print(f"Preview augmentations for {strategy}: {len(preview_sets[strategy])}")
+    if not preview_sets[strategy].empty:
+        print(preview_sets[strategy][["final_label", "alia_method", "path"]].head().to_string(index=False))
+
+fig, axes = plt.subplots(len(preview_source), len(strategies) + 1, figsize=(4 * (len(strategies) + 1), 4 * len(preview_source)))
+for r, (_, row) in enumerate(preview_source.reset_index(drop=True).iterrows()):
+    with gcsfs.GCSFileSystem(token="anon").open(GCS_ROOT + row["file_name"], "rb") as f:
+        original = Image.open(BytesIO(f.read())).convert("RGB")
+    axes[r, 0].imshow(original)
+    axes[r, 0].set_title(f"Original\n{row['label']}")
+    axes[r, 0].axis("off")
+    for c, strategy in enumerate(strategies, start=1):
+        if preview_sets[strategy].empty:
+            axes[r, c].axis("off")
+            continue
+        aug_rows = preview_sets[strategy][preview_sets[strategy]["final_label"] == row["label"]]
+        if len(aug_rows) == 0:
+            axes[r, c].axis("off")
+            continue
+        aug_path = Path(aug_rows.iloc[0]["path"])
+        edited = Image.open(aug_path).convert("RGB")
+        axes[r, c].imshow(edited)
+        axes[r, c].set_title(strategy)
+        axes[r, c].axis("off")
+plt.tight_layout()
+fig.savefig(FIG_ROOT / "alia_real_preview_grid.png", dpi=200)
+plt.show()
+
 augmented_sets = {}
 for strategy in strategies:
-    augmented_sets[strategy] = build_alia_augmentations(
+    augmented_sets[strategy] = build_alia_augmentations_from_repo(
         source_df=train_df,
         output_root=GEN_ROOT / strategy,
         repo_path=alia_repo,
