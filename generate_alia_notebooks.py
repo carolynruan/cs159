@@ -126,6 +126,13 @@ print("Train/Val/Test:", len(train_df), len(val_df), len(test_df))
 '''
 
 COMMON = r'''
+from alia_speciesnet_helpers import (
+    build_alia_augmentations,
+    build_alia_prompt,
+    build_alia_prompt_bank,
+    build_alia_scene_description,
+)
+
 class SerengetiDataset(Dataset):
     def __init__(self, df: pd.DataFrame, transform=None):
         self.df = df.reset_index(drop=True)
@@ -196,17 +203,6 @@ def make_class_counts(df: pd.DataFrame, title: str, out_path: Path):
     return counts
 
 
-def build_prompt(strategy: str, label: str) -> str:
-    species_text = SNAPSHOT_TO_INAT.get(label, label)
-    if strategy == "contextual_bias":
-        return f"Edit this Snapshot Serengeti image to introduce context bias for {species_text}; preserve the animal identity and species label."
-    if strategy == "fine_grained":
-        return f"Make this a fine-grained classification example for {species_text}; emphasize diagnostic visual details while preserving the animal identity."
-    if strategy == "domain_generalization":
-        return f"Create a domain-generalization variant of this {species_text} image by changing background, weather, lighting, or season while preserving the animal identity."
-    raise ValueError(strategy)
-
-
 def fallback_edit(image: Image.Image, strategy: str, seed: int) -> Image.Image:
     if strategy == "contextual_bias":
         return ImageOps.autocontrast(ImageEnhance.Contrast(image).enhance(1.1))
@@ -221,25 +217,6 @@ def fallback_edit(image: Image.Image, strategy: str, seed: int) -> Image.Image:
             image = ImageEnhance.Contrast(image).enhance(1.2)
         return image.filter(ImageFilter.GaussianBlur(radius=1))
     return image
-
-
-def generate_alia_images(source_df: pd.DataFrame, strategy: str, output_root: Path, max_images_per_class: int) -> pd.DataFrame:
-    rows = []
-    sampled = source_df.groupby("label", group_keys=False).head(max_images_per_class)
-    fs = gcsfs.GCSFileSystem(token="anon")
-    for _, row in sampled.iterrows():
-        with fs.open(GCS_ROOT + row["file_name"], "rb") as f:
-            image = Image.open(BytesIO(f.read())).convert("RGB")
-        out_dir = output_root / strategy / row["label"]
-        out_dir.mkdir(parents=True, exist_ok=True)
-        out_path = out_dir / f"{Path(row['file_name']).stem}_{strategy}.png"
-        edited = fallback_edit(image, strategy, seed=abs(hash((row["file_name"], strategy))) % 10_000)
-        edited.save(out_path)
-        rows.append({"source": "alia", "strategy": strategy, "label": row["label"], "path": str(out_path), "source_file": row["file_name"]})
-    out_df = pd.DataFrame(rows)
-    if not out_df.empty:
-        out_df.to_csv(output_root / f"alia_{strategy}_metadata.csv", index=False)
-    return out_df
 
 
 def load_preview_images(df: pd.DataFrame, n: int = 3):
@@ -263,6 +240,8 @@ def plot_strategy_examples(source_df: pd.DataFrame, strategies: list[str], outpu
         save_image(img, original_path)
         print("Saved original image:", original_path)
         for c, strategy in enumerate(strategies, start=1):
+            prompt = build_alia_prompt(strategy, label, species_lookup=SNAPSHOT_TO_INAT, seed=r * 10 + c)
+            print(f"Prompt for {strategy} / {label}: {prompt}")
             edited = fallback_edit(img, strategy, seed=r + c)
             edited_path = output_root / strategy / f"example_{r+1}_{label}.png"
             save_image(edited, edited_path)
@@ -457,7 +436,17 @@ SPECIESNET_EXPERIMENTS = r'''
 strategies = ["contextual_bias", "fine_grained", "domain_generalization"]
 balance_modes = ["uniform", "min_n"]
 plot_strategy_examples(train_df, strategies, GEN_ROOT)
-augmented_sets = {strategy: generate_alia_images(train_df, strategy, GEN_ROOT, ALIA_MAX_IMAGES_PER_CLASS) for strategy in strategies}
+alia_repo = Path.cwd() / "ALIA"
+augmented_sets = {}
+for strategy in strategies:
+    augmented_sets[strategy] = build_alia_augmentations(
+        source_df=train_df,
+        output_root=GEN_ROOT / strategy,
+        repo_path=alia_repo,
+        max_images_per_class=ALIA_MAX_IMAGES_PER_CLASS,
+        species_lookup=SNAPSHOT_TO_INAT,
+        prompt_strategy="prompt_bank",
+    )
 for strategy, aug_df in augmented_sets.items():
     print(strategy, len(aug_df))
     print(aug_df.head().to_string(index=False))
@@ -488,7 +477,17 @@ SNAPSHOT_EXPERIMENTS = r'''
 strategies = ["contextual_bias", "fine_grained", "domain_generalization"]
 balance_modes = ["uniform", "min_n"]
 plot_strategy_examples(train_df, strategies, GEN_ROOT)
-augmented_sets = {strategy: generate_alia_images(train_df, strategy, GEN_ROOT, ALIA_MAX_IMAGES_PER_CLASS) for strategy in strategies}
+alia_repo = Path.cwd() / "ALIA"
+augmented_sets = {}
+for strategy in strategies:
+    augmented_sets[strategy] = build_alia_augmentations(
+        source_df=train_df,
+        output_root=GEN_ROOT / strategy,
+        repo_path=alia_repo,
+        max_images_per_class=ALIA_MAX_IMAGES_PER_CLASS,
+        species_lookup=SNAPSHOT_TO_INAT,
+        prompt_strategy="prompt_bank",
+    )
 for strategy, aug_df in augmented_sets.items():
     print(strategy, len(aug_df))
     print(aug_df.head().to_string(index=False))

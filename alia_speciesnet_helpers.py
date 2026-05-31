@@ -25,6 +25,37 @@ ALIA_EDIT_SPECS: list[AliaEditSpec] = [
     AliaEditSpec("season", "change the season and vegetation while preserving the animal"),
 ]
 
+ALIA_PROMPT_BANKS: dict[str, list[str]] = {
+    "contextual_bias": [
+        "a camera trap photo of a {} standing near a waterhole",
+        "a camera trap photo of a {} grazing in an open field",
+        "a camera trap photo of a {} near acacia trees",
+        "a camera trap photo of a {} walking along a dirt path",
+    ],
+    "fine_grained": [
+        "a close-up camera trap photo of a {} showing distinctive markings",
+        "a sharp detailed photo of a {} emphasizing fur pattern and body shape",
+        "a close-up photo of a {} highlighting identifying characteristics",
+        "a detailed wildlife photo of a {} with visible diagnostic features",
+    ],
+    "domain_generalization": [
+        "a camera trap photo of a {} near a large body of water",
+        "a camera trap photo of a {} in a grassy field with trees and bushes",
+        "a camera trap photo of a {} during heavy rain",
+        "a camera trap photo of a {} during a dry season drought",
+        "a camera trap photo of a {} at sunrise",
+        "a camera trap photo of a {} at sunset",
+        "a camera trap photo of a {} on a cloudy day",
+        "a camera trap photo of a {} in dense vegetation",
+    ],
+}
+
+ALIA_PROMPT_HINTS: dict[str, str] = {
+    "contextual_bias": "Keep the animal identity fixed while changing surrounding scene context.",
+    "fine_grained": "Keep the animal identity fixed and emphasize small species-specific visual details.",
+    "domain_generalization": "Keep the animal identity fixed while varying environment, weather, season, and lighting.",
+}
+
 
 def find_alia_repo(working_dir: str | Path = ".") -> Path | None:
     working_dir = Path(working_dir)
@@ -98,6 +129,36 @@ def _fallback_edit(image: Image.Image, spec: AliaEditSpec) -> Image.Image:
     return image
 
 
+def build_alia_prompt(strategy: str, label: str, species_lookup: dict[str, str] | None = None, seed: int | None = None) -> str:
+    import random
+
+    species_lookup = species_lookup or {}
+    species = species_lookup.get(label, label)
+    bank = ALIA_PROMPT_BANKS.get(strategy)
+    if bank is None:
+        raise ValueError(f"Unknown ALIA strategy: {strategy}")
+    rng = random.Random(seed)
+    return rng.choice(bank).format(species)
+
+
+def build_alia_prompt_bank(strategy: str, label: str, species_lookup: dict[str, str] | None = None) -> list[str]:
+    species_lookup = species_lookup or {}
+    species = species_lookup.get(label, label)
+    bank = ALIA_PROMPT_BANKS.get(strategy)
+    if bank is None:
+        raise ValueError(f"Unknown ALIA strategy: {strategy}")
+    return [template.format(species) for template in bank]
+
+
+def build_alia_scene_description(strategy: str, label: str, species_lookup: dict[str, str] | None = None) -> str:
+    species_lookup = species_lookup or {}
+    species = species_lookup.get(label, label)
+    hint = ALIA_PROMPT_HINTS.get(strategy)
+    if hint is None:
+        raise ValueError(f"Unknown ALIA strategy: {strategy}")
+    return f"{species}: {hint}"
+
+
 def try_call_alia(editor_fn: Callable, image_path: str | Path, prompt: str, output_dir: str | Path, seed: int = 0):
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -128,6 +189,8 @@ def build_alia_augmentations(
     repo_path: str | Path,
     max_images_per_class: int = 12,
     methods: Iterable[AliaEditSpec] = ALIA_EDIT_SPECS,
+    prompt_strategy: str = "prompt_bank",
+    species_lookup: dict[str, str] | None = None,
 ) -> pd.DataFrame:
     repo_path = Path(repo_path)
     output_root = Path(output_root)
@@ -139,6 +202,7 @@ def build_alia_augmentations(
         editor_fn = None
     rows = []
     sampled = source_df.groupby("final_label", group_keys=False).head(max_images_per_class)
+    prompt_bank_cache: dict[str, list[str]] = {}
 
     for _, row in sampled.iterrows():
         image_path = row.get("path") or row.get("file_path") or row.get("image_path")
@@ -150,7 +214,18 @@ def build_alia_augmentations(
             method_dir.mkdir(parents=True, exist_ok=True)
             out_file = method_dir / f"{Path(image_path).stem}_{spec.name}.png"
             if editor_fn is not None:
-                prompt = f"{spec.prompt_suffix}; keep the animal identity and species label unchanged."
+                if prompt_strategy == "prompt_bank":
+                    bank = prompt_bank_cache.setdefault(
+                        spec.name,
+                        build_alia_prompt_bank(spec.name, str(row["final_label"]), species_lookup=species_lookup),
+                    )
+                    prompt = bank[0]
+                    if len(bank) > 1:
+                        prompt = bank[abs(hash((image_path, spec.name))) % len(bank)]
+                elif prompt_strategy == "scene_description":
+                    prompt = build_alia_scene_description(spec.name, str(row["final_label"]), species_lookup=species_lookup)
+                else:
+                    prompt = f"{spec.prompt_suffix}; keep the animal identity and species label unchanged."
                 try:
                     result = try_call_alia(
                         editor_fn=editor_fn,
