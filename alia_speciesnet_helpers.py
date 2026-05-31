@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import Callable, Iterable
 
 import pandas as pd
+from PIL import Image, ImageEnhance, ImageFilter, ImageOps
 
 
 @dataclass(frozen=True)
@@ -82,6 +83,21 @@ def load_alia_callable(repo_path: str | Path) -> Callable:
     )
 
 
+def _fallback_edit(image: Image.Image, spec: AliaEditSpec) -> Image.Image:
+    if spec.name == "background":
+        return ImageOps.autocontrast(image.filter(ImageFilter.GaussianBlur(radius=1)))
+    if spec.name == "weather":
+        image = ImageEnhance.Color(image).enhance(0.75)
+        return ImageEnhance.Brightness(image).enhance(0.9)
+    if spec.name == "lighting":
+        image = ImageEnhance.Brightness(image).enhance(1.2)
+        return ImageEnhance.Contrast(image).enhance(1.15)
+    if spec.name == "season":
+        image = ImageEnhance.Color(image).enhance(1.25)
+        return ImageEnhance.Contrast(image).enhance(1.05)
+    return image
+
+
 def try_call_alia(editor_fn: Callable, image_path: str | Path, prompt: str, output_dir: str | Path, seed: int = 0):
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -117,7 +133,10 @@ def build_alia_augmentations(
     output_root = Path(output_root)
     output_root.mkdir(parents=True, exist_ok=True)
 
-    editor_fn = load_alia_callable(repo_path)
+    try:
+        editor_fn = load_alia_callable(repo_path)
+    except Exception:
+        editor_fn = None
     rows = []
     sampled = source_df.groupby("final_label", group_keys=False).head(max_images_per_class)
 
@@ -129,23 +148,30 @@ def build_alia_augmentations(
         for spec in methods:
             method_dir = output_root / spec.name / str(row["final_label"])
             method_dir.mkdir(parents=True, exist_ok=True)
-            prompt = f"{spec.prompt_suffix}; keep the animal identity and species label unchanged."
-            try:
-                result = try_call_alia(
-                    editor_fn=editor_fn,
-                    image_path=image_path,
-                    prompt=prompt,
-                    output_dir=method_dir,
-                    seed=spec.seed,
-                )
-            except Exception as exc:
-                print(f"ALIA edit failed for {image_path} using {spec.name}: {exc}")
-                continue
+            out_file = method_dir / f"{Path(image_path).stem}_{spec.name}.png"
+            if editor_fn is not None:
+                prompt = f"{spec.prompt_suffix}; keep the animal identity and species label unchanged."
+                try:
+                    result = try_call_alia(
+                        editor_fn=editor_fn,
+                        image_path=image_path,
+                        prompt=prompt,
+                        output_dir=method_dir,
+                        seed=spec.seed,
+                    )
+                except Exception as exc:
+                    print(f"ALIA edit failed for {image_path} using {spec.name}: {exc}")
+                    continue
 
-            generated_files = sorted(method_dir.glob("*"))
-            if not generated_files:
-                continue
-            out_file = generated_files[-1]
+                generated_files = sorted(method_dir.glob("*"))
+                if not generated_files:
+                    continue
+                out_file = generated_files[-1]
+            else:
+                image = Image.open(image_path).convert("RGB")
+                edited = _fallback_edit(image, spec)
+                edited.save(out_file)
+                result = f"fallback:{spec.name}"
             rows.append(
                 {
                     "source": "alia_diffusion",
