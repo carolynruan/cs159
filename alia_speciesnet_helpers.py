@@ -52,12 +52,40 @@ ALIA_PROMPT_BANKS: dict[str, list[str]] = {
         "a camera trap photo of a {} on a cloudy day",
         "a camera trap photo of a {} in dense vegetation",
     ],
+    "background": [
+        "a camera trap photo of a {} in a different habitat",
+        "a camera trap photo of a {} in a different ecosystem",
+        "a camera trap photo of a {} in a new environment with different terrain",
+        "a camera trap photo of a {} with a completely different background",
+    ],
+    "weather": [
+        "a camera trap photo of a {} during heavy rain",
+        "a camera trap photo of a {} in thick fog",
+        "a camera trap photo of a {} during a thunderstorm",
+        "a camera trap photo of a {} under overcast skies",
+    ],
+    "lighting": [
+        "a camera trap photo of a {} at golden hour sunset",
+        "a camera trap photo of a {} at blue hour dawn",
+        "a camera trap photo of a {} under bright midday sun",
+        "a camera trap photo of a {} in dramatic side lighting",
+    ],
+    "season": [
+        "a camera trap photo of a {} during dry season drought",
+        "a camera trap photo of a {} during wet season with lush green vegetation",
+        "a camera trap photo of a {} surrounded by dry brown grass",
+        "a camera trap photo of a {} in dense rainy season foliage",
+    ],
 }
 
 ALIA_PROMPT_HINTS: dict[str, str] = {
     "contextual_bias": "Keep the animal identity fixed while changing surrounding scene context.",
     "fine_grained": "Keep the animal identity fixed and emphasize small species-specific visual details.",
     "domain_generalization": "Keep the animal identity fixed while varying environment, weather, season, and lighting.",
+    "background": "Keep the animal identity fixed while changing the background habitat and terrain.",
+    "weather": "Keep the animal identity fixed while changing the weather conditions.",
+    "lighting": "Keep the animal identity fixed while changing the lighting and time of day.",
+    "season": "Keep the animal identity fixed while changing the season and vegetation.",
 }
 
 _ALIA_IMG2IMG_PIPELINE = None
