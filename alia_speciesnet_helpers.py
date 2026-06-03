@@ -78,6 +78,13 @@ ALIA_PROMPT_BANKS: dict[str, list[str]] = {
     ],
 }
 
+SERENGETI_CANONICAL_PROMPTS: dict[str, str] = {
+    "background": "a camera trap photo of a {} in a different habitat",
+    "weather":    "a camera trap photo of a {} during heavy rain",
+    "lighting":   "a camera trap photo of a {} at golden hour",
+    "season":     "a camera trap photo of a {} during the dry season",
+}
+
 ALIA_PROMPT_HINTS: dict[str, str] = {
     "contextual_bias": "Keep the animal identity fixed while changing surrounding scene context.",
     "fine_grained": "Keep the animal identity fixed and emphasize small species-specific visual details.",
@@ -464,9 +471,16 @@ def build_alia_augmentations(
     repo_path: str | Path,
     max_images_per_class: int = 12,
     methods: Iterable[AliaEditSpec] = ALIA_EDIT_SPECS,
-    prompt_strategy: str = "prompt_bank",
     species_lookup: dict[str, str] | None = None,
+    n: int = 2,
 ) -> pd.DataFrame:
+    pipe = _get_alia_img2img_pipeline()
+    if pipe is None:
+        raise RuntimeError(
+            "Diffusion pipeline could not be loaded. "
+            "Install diffusers and run on a GPU to use ALIA augmentation."
+        )
+
     repo_path = Path(repo_path)
     output_root = Path(output_root)
     output_root.mkdir(parents=True, exist_ok=True)
@@ -474,7 +488,6 @@ def build_alia_augmentations(
     rows = []
     label_col = "final_label" if "final_label" in source_df.columns else "label"
     sampled = source_df.groupby(label_col, group_keys=False).head(max_images_per_class)
-    prompt_bank_cache: dict[tuple[str, str], list[str]] = {}
 
     for _, row in sampled.iterrows():
         image_path = None
@@ -494,51 +507,86 @@ def build_alia_augmentations(
         if not exists:
             continue
 
+        image = _load_image(image_path)
+
         for spec in methods:
-            method_dir = output_root / spec.name / str(row["final_label"])
+            label = str(row[label_col])
+            prompt_template = SERENGETI_CANONICAL_PROMPTS.get(spec.name, spec.prompt_suffix)
+            prompt = prompt_template.format(label)
+
+            method_dir = output_root / spec.name / label
             method_dir.mkdir(parents=True, exist_ok=True)
-            out_file = method_dir / f"{Path(image_path).stem}_{spec.name}.png"
-            if prompt_strategy == "prompt_bank":
-                cache_key = (spec.name, str(row["final_label"]))
-                bank = prompt_bank_cache.setdefault(
-                    cache_key,
-                    build_alia_prompt_bank(spec.name, str(row["final_label"]), species_lookup=species_lookup),
-                )
-                prompt = bank[0]
-                if len(bank) > 1:
-                    prompt = bank[int(_cache_key(f"{image_path}|{spec.name}"), 16) % len(bank)]
-            elif prompt_strategy == "scene_description":
-                prompt = build_alia_scene_description(spec.name, str(row["final_label"]), species_lookup=species_lookup)
-            else:
-                prompt = f"{spec.prompt_suffix}; keep the animal identity and species label unchanged."
+            stem = Path(image_path).stem
 
-            image = _load_image(image_path)
-            edited = None
-            try:
-                edited = _run_alia_img2img(
-                    image=image,
-                    prompt=prompt,
-                    strength=0.55 if spec.name == "fine_grained" else 0.65,
-                    guidance_scale=7.5,
-                    seed=spec.seed,
-                )
-            except Exception as exc:
-                print(f"ALIA diffusion edit failed for {image_path} using {spec.name}: {exc}")
-            if edited is None:
-                edited = _fallback_edit(image, spec)
+            generated = pipe(
+                prompt=prompt,
+                image=image,
+                strength=0.6,
+                guidance_scale=5,
+                num_images_per_prompt=n,
+                generator=torch.Generator(device=_get_device()).manual_seed(spec.seed),
+            ).images
 
-            edited.save(out_file)
-            result = "diffusers:img2img" if edited is not None else f"fallback:{spec.name}"
-            rows.append(
-                {
-                    "source": "alia_diffusion",
-                    "path": str(out_file),
-                    "final_label": row[label_col],
-                    "split": "train",
-                    "alia_method": spec.name,
-                    "alia_source": str(image_path),
-                    "alia_result": str(result) if result is not None else "",
-                }
-            )
+            for idx, edited in enumerate(generated):
+                out_file = method_dir / f"{stem}_{spec.name}_{idx}.png"
+                edited.save(out_file)
+                rows.append(
+                    {
+                        "source": "alia_diffusion",
+                        "path": str(out_file),
+                        "final_label": label,
+                        "split": "train",
+                        "alia_method": spec.name,
+                        "alia_source": str(image_path),
+                        "alia_prompt": prompt,
+                        "alia_result": "diffusers:img2img",
+                    }
+                )
 
     return pd.DataFrame(rows)
+
+
+def clip_filter_augmentations(
+    aug_df: pd.DataFrame,
+    positive_prompt_template: str = "a camera trap photo of a {}",
+    negative_prompts: list[str] | None = None,
+) -> pd.DataFrame:
+    if aug_df.empty:
+        return aug_df
+
+    try:
+        import clip
+    except ImportError:
+        raise ImportError(
+            "openai-clip is not installed. "
+            "Run: pip install git+https://github.com/openai/CLIP.git"
+        )
+
+    if negative_prompts is None:
+        negative_prompts = ["a painting", "a cartoon", "a blurry photo", "an empty field"]
+
+    device = _get_device()
+    model, preprocess = clip.load("ViT-L/14", device=device)
+    model.eval()
+
+    kept_rows = []
+    for _, row in aug_df.iterrows():
+        label = row["final_label"]
+        positive_text = positive_prompt_template.format(label)
+        texts = clip.tokenize([positive_text] + negative_prompts).to(device)
+        try:
+            image = preprocess(Image.open(row["path"])).unsqueeze(0).to(device)
+        except Exception:
+            continue
+        with torch.no_grad():
+            img_feat = model.encode_image(image)
+            txt_feat = model.encode_text(texts)
+            img_feat = img_feat / img_feat.norm(dim=-1, keepdim=True)
+            txt_feat = txt_feat / txt_feat.norm(dim=-1, keepdim=True)
+            pred = (100.0 * img_feat @ txt_feat.T).softmax(dim=-1).argmax(dim=1).item()
+        if pred == 0:
+            kept_rows.append(row)
+
+    if not kept_rows:
+        return pd.DataFrame(columns=aug_df.columns)
+    return pd.DataFrame(kept_rows).reset_index(drop=True)
