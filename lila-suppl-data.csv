@@ -1,0 +1,2307 @@
+class,order,family,genus,species,common_name,count_train,count_validation,count_test
+,,,,,Blank,16477843,1609250,1048018
+Mammalia,Cetartiodactyla,Cervidae,Odocoileus,virginianus,White-tailed Deer,3856989,384620,267429
+Mammalia,Artiodactyla,Bovidae,Bos,taurus,Domestic Cattle,3322065,274972,186654
+Mammalia,Diprotodontia,Macropodidae,Wallabia,bicolor,Swamp Wallaby,721735,80112,30708
+Mammalia,Cetartiodactyla,Cervidae,Odocoileus,hemionus,Mule Deer,687145,75080,60587
+Mammalia,Rodentia,Sciuridae,Sciurus,carolinensis,Eastern Gray Squirrel,532363,67438,97497
+Mammalia,Primates,Hominidae,Homo,sapiens,Human,452354,40937,20933
+Mammalia,Carnivora,Procyonidae,Procyon,lotor,Northern Raccoon,419200,42508,49536
+Mammalia,Cetartiodactyla,Suidae,Sus,scrofa,Wild Boar,341772,45037,10506
+Aves,,,,,Bird,311874,17890,25614
+Mammalia,Carnivora,Canidae,Canis,latrans,Coyote,285064,21304,26253
+Mammalia,Cetartiodactyla,Cervidae,Cervus,elaphus,Red Deer,217185,24644,17902
+Aves,Passeriformes,Corvidae,Corvus,corax,Common Raven,209824,4863,297
+Mammalia,Carnivora,Ursidae,Ursus,americanus,American Black Bear,192530,15916,38576
+Aves,Galliformes,Phasianidae,Meleagris,gallopavo,Wild Turkey,182589,16311,8778
+Mammalia,Cetartiodactyla,Tayassuidae,Pecari,tajacu,Collared Peccary,181116,24340,28942
+Mammalia,Perissodactyla,Equidae,Equus,caballus,Domestic Horse,180369,4320,24156
+Mammalia,Diprotodontia,Vombatidae,Vombatus,ursinus,Common Wombat,166241,17691,4412
+Mammalia,Cetartiodactyla,Tayassuidae,Tayassu,pecari,White-lipped Peccary,152051,23626,10252
+Mammalia,Diprotodontia,Macropodidae,Macropus,rufogriseus,Red-necked Wallaby,150035,11270,1651
+Mammalia,Primates,Cercopithecidae,Macaca,nemestrina,Southern Pig-tailed Macaque,148591,16066,6669
+Mammalia,Diprotodontia,Phalangeridae,Trichosurus,vulpecula,Common Brushtail Possum,145060,15090,919
+Mammalia,Cetartiodactyla,Cervidae,Capreolus,capreolus,European Roe Deer,143832,11207,2531
+Mammalia,Cetartiodactyla,Bovidae,Philantomba,monticola,Blue Duiker,141277,8976,31017
+Mammalia,Diprotodontia,Macropodidae,Macropus,giganteus,Eastern Grey Kangaroo,134636,11664,8227
+Mammalia,Carnivora,Canidae,Vulpes,vulpes,Red Fox,116115,19083,16755
+Aves,Passeriformes,Corvidae,Corvus,,Corvus Species,111509,1162,90337
+Mammalia,Cetartiodactyla,Bovidae,Cephalophus,nigrifrons,Black-fronted Duiker,107790,9810,15796
+Mammalia,Rodentia,Sciuridae,Sciurus,niger,Eastern Fox Squirrel,103966,9667,2317
+Mammalia,Cetartiodactyla,Bovidae,Cephalophus,callipygus,Peters' Duiker,98354,6068,164
+Mammalia,Cetartiodactyla,Cervidae,Mazama,americana,Red Brocket,96654,11925,9298
+Mammalia,Didelphimorphia,Didelphidae,Didelphis,virginiana,Virginia Opossum,95495,7982,15477
+Mammalia,Rodentia,Muridae,Rattus,,Rattus Species,90274,9955,1873
+Mammalia,Rodentia,Cuniculidae,Cuniculus,paca,Spotted Paca,87004,9272,14472
+Mammalia,Cetartiodactyla,Cervidae,Cervus,canadensis,Elk,80895,6929,22900
+Mammalia,Lagomorpha,Leporidae,Sylvilagus,floridanus,Eastern Cottontail,79288,10798,11551
+Mammalia,Cetartiodactyla,Bovidae,Tragelaphus,scriptus,Bushbuck,79222,15301,17429
+Mammalia,Cetartiodactyla,Cervidae,Cervus,nippon,Sika Deer,78590,6365,0
+Mammalia,,,,,Mammal,78436,9048,7902
+Mammalia,Perissodactyla,Tapiridae,Tapirus,terrestris,Lowland Tapir,77021,10147,15123
+Mammalia,Cetartiodactyla,Bovidae,Bison,bison,American Bison,76318,12227,11162
+Mammalia,Primates,Cercopithecidae,Macaca,fascicularis,Common Long-tailed Macaque,75663,11656,1285
+Aves,Galliformes,Cracidae,Mitu,tuberosum,Razor-billed Curassow,75144,4629,25895
+Mammalia,Rodentia,Dasyproctidae,Dasyprocta,leporina,Red-rumped Agouti,73407,5834,8611
+Aves,Gruiformes,Psophiidae,Psophia,crepitans,Gray-winged Trumpeter,73284,9959,11
+Mammalia,Carnivora,Felidae,Felis,catus,Domestic Cat,73217,7184,11015
+Mammalia,Cetartiodactyla,Cervidae,Dama,dama,Common Fallow Deer,68999,2419,0
+Mammalia,Cetartiodactyla,Cervidae,Alces,alces,Moose,65948,4744,21837
+Mammalia,Rodentia,Dasyproctidae,Dasyprocta,punctata,Central American Agouti,63720,3852,1542
+,,,,,Vehicle,63383,12078,7427
+Mammalia,Rodentia,Dasyproctidae,Dasyprocta,fuliginosa,Black Agouti,60472,4827,17996
+Mammalia,Carnivora,Canidae,Urocyon,cinereoargenteus,Grey Fox,58768,6020,17048
+Mammalia,Cetartiodactyla,Bovidae,Cephalophus,silvicultor,Yellow-backed Duiker,58092,8003,2796
+Mammalia,Rodentia,Sciuridae,Sundasciurus,juvencus,Northern Palawan Tree Squirrel,56837,9018,0
+Mammalia,Cetartiodactyla,Bovidae,Capra,aegagrus hircus,Domestic Goat,56542,3253,183
+Mammalia,Cetartiodactyla,Antilocapridae,Antilocapra,americana,Pronghorn,55724,6098,11891
+Mammalia,Lagomorpha,Leporidae,Oryctolagus,cuniculus,European Rabbit,54584,9053,183
+Mammalia,Rodentia,,,,Rodent,54459,5585,6788
+Mammalia,Cetartiodactyla,Bovidae,Tragelaphus,spekii,Sitatunga,53264,18702,0
+Mammalia,Cetartiodactyla,Suidae,Sus,barbatus,Bearded Pig,52013,5630,0
+Aves,Passeriformes,Menuridae,Menura,novaehollandiae,Superb Lyrebird,51168,6483,7646
+Mammalia,Cingulata,Dasypodidae,Dasypus,novemcinctus,Nine-banded Armadillo,47886,5641,4387
+Mammalia,Cetartiodactyla,Bovidae,Cephalophus,harveyi,Harvey's Duiker,47444,2736,0
+Aves,Galliformes,Phasianidae,Gallus,gallus domesticus,Domestic Chicken,46807,2441,2798
+Mammalia,Rodentia,Sciuridae,Tamiasciurus,douglasii,Douglas's Squirrel,46429,4088,955
+Aves,Accipitriformes,Accipitridae,Aquila,chrysaetos,Golden Eagle,46421,2812,17923
+Mammalia,Proboscidea,Elephantidae,Loxodonta,africana,African Elephant,45958,3021,2010
+Mammalia,Carnivora,Felidae,Lynx,rufus,Bobcat,44940,4931,8275
+Mammalia,Rodentia,Sciuridae,Sciurus,griseus,Western Gray Squirrel,40273,4714,1357
+Mammalia,Cetartiodactyla,Bovidae,Kobus,vardonii,Puku,39711,8335,0
+Mammalia,Rodentia,Muridae,,,Muridae Family,39379,4082,1462
+Mammalia,Rodentia,Dasyproctidae,Dasyprocta,prymnolopha,Black-rumped Agouti,38662,6431,0
+Mammalia,Rodentia,Sciuridae,Marmota,flaviventris,Yellow-bellied Marmot,37589,315,16
+Mammalia,Cetartiodactyla,Cervidae,Muntiacus,muntjak,Southern Red Muntjac,36573,2823,11837
+Mammalia,Carnivora,Canidae,Canis,familiaris,Domestic Dog,35435,3974,3365
+Mammalia,Rodentia,Myocastoridae,Myocastor,coypus,Nutria,35009,3855,0
+Mammalia,Artiodactyla,Bovidae,Ovis,aries,Domestic Sheep,33844,559,6907
+Mammalia,Cetartiodactyla,Cervidae,Rusa,unicolor,Sambar,33357,4465,1810
+Mammalia,Lagomorpha,Leporidae,Lepus,americanus,Snowshoe Hare,31569,2735,899
+Mammalia,Rodentia,Dasyproctidae,Dasyprocta,ruatanica,Roatan Island Agouti,31309,2333,0
+Aves,Galliformes,Cracidae,Crax,alector,Black Curassow,31233,4755,0
+Mammalia,Lagomorpha,Leporidae,,,Rabbit and Hare Family,30320,1232,3939
+Mammalia,Cetartiodactyla,Cervidae,Mazama,,Mazama Species,29928,5343,9864
+Mammalia,Rodentia,Nesomyidae,Cricetomys,gambianus,Gambian Rat,29288,2341,25
+Mammalia,Cetartiodactyla,Cervidae,Mazama,nemorivaga,Amazonian Brown Brocket,28977,5270,4225
+Mammalia,Cetartiodactyla,Bovidae,Nesotragus,moschatus,Suni,28018,3904,0
+Mammalia,Cetartiodactyla,Bovidae,Budorcas,taxicolor,Takin,27719,1865,0
+Mammalia,Carnivora,Procyonidae,Nasua,nasua,South American Coati,26345,2439,1794
+Mammalia,Diprotodontia,Macropodidae,Petrogale,penicillata,Brush-tailed Rock Wallaby,26248,3502,0
+Mammalia,Lagomorpha,Leporidae,Lepus,europaeus,European Hare,25800,1927,100
+Mammalia,Cetartiodactyla,Bovidae,Madoqua,guentheri,Guenther's Dik-dik,25667,1816,0
+Mammalia,Carnivora,Ursidae,Ursus,arctos,Brown Bear,25245,857,2654
+Mammalia,Primates,Cercopithecidae,Cercopithecus,mitis,Blue Monkey,25233,17136,469
+Aves,Galliformes,Megapodiidae,Alectura,lathami,Australian Brush-turkey,25186,1731,9840
+Mammalia,Rodentia,Dasyproctidae,Myoprocta,pratti,Green Acouchi,24030,1966,0
+Mammalia,Rodentia,Sciuridae,Cynomys,ludovicianus,Arizona Black-tailed Prairie Dog,23372,2594,824
+Mammalia,Cetartiodactyla,Suidae,Potamochoerus,porcus,Red River Hog,23275,3372,491
+Mammalia,Rodentia,Sciuridae,Tamias,striatus,Eastern Chipmunk,22770,1853,2997
+Aves,Passeriformes,Turdidae,Turdus,migratorius,American Robin,22423,1749,190
+Mammalia,Cetartiodactyla,Bovidae,Syncerus,caffer,African Buffalo,22272,3660,1321
+Mammalia,Rodentia,Dasyproctidae,Dasyprocta,azarae,Azara's Agouti,21820,2697,22297
+Mammalia,Cetartiodactyla,Bovidae,Cephalophus,dorsalis,Bay Duiker,21482,1318,2361
+Mammalia,Perissodactyla,Equidae,Equus,asinus,Domestic Donkey,20666,0,455
+Mammalia,Peramelemorphia,Peramelidae,Perameles,nasuta,Long-nosed Bandicoot,20338,2375,4174
+Mammalia,Scandentia,Tupaiidae,Tupaia,palawanensis,Palawan Treeshrew,20258,2775,0
+Aves,Passeriformes,,,,Passeriformes Order,20172,2227,29543
+Aves,Galliformes,Phasianidae,Phasianus,colchicus,Ring-necked Pheasant,19932,345,78
+Mammalia,Rodentia,Nesomyidae,Cricetomys,emini,Forest Giant Pouched Rat,19751,961,31
+Mammalia,Cetartiodactyla,Bovidae,Cephalophus,ogilbyi,Ogilby's Duiker,19428,462,13370
+Mammalia,Carnivora,Felidae,Leopardus,pardalis,Ocelot,18918,1867,1883
+Mammalia,Cetartiodactyla,Cervidae,Muntiacus,atherodes,Bornean Yellow Muntjac,18571,794,0
+Mammalia,Cetartiodactyla,Tragulidae,Tragulus,napu,Greater Oriental Chevrotain,17632,1002,788
+Mammalia,Didelphimorphia,Didelphidae,Didelphis,marsupialis,Common Opossum,17190,1549,5719
+Mammalia,Rodentia,Cricetidae,Neotoma,fuscipes,Dusky-footed Woodrat,17019,1275,281
+Mammalia,Primates,Cercopithecidae,Cercocebus,sanjei,Sanje River Mangabey,16994,1998,0
+Mammalia,Cetartiodactyla,Suidae,Potamochoerus,larvatus,Bushpig,16915,4675,210
+Mammalia,Cetartiodactyla,Cervidae,Elaphodus,cephalophus,Tufted Deer,16784,736,0
+Mammalia,Rodentia,Dasyproctidae,Myoprocta,acouchy,Red Acouchi,16746,1044,0
+Aves,Accipitriformes,Accipitridae,Haliaeetus,leucocephalus,Bald Eagle,16702,2196,14686
+Mammalia,Diprotodontia,Phalangeridae,Trichosurus,caninus,Short-eared Brushtail Possum,16230,1120,2858
+Mammalia,Cingulata,Dasypodidae,Dasypus,,Dasypus Species,15731,1817,3265
+Mammalia,Diprotodontia,Macropodidae,Macropus,robustus,Common Wallaroo,15559,2709,625
+Mammalia,Rodentia,Sciuridae,Tamiasciurus,hudsonicus,Red Squirrel,15527,2014,267
+Mammalia,Carnivora,Mustelidae,Meles,meles,Eurasian Badger,15463,3585,389
+Mammalia,Cetartiodactyla,Bovidae,Aepyceros,melampus,Impala,15430,6076,0
+Mammalia,Rodentia,Hystricidae,Hystrix,brachyura,Malayan Porcupine,15384,849,2532
+Mammalia,Carnivora,Canidae,Canis,aureus,Golden Jackal,15232,2984,5
+Aves,Gruiformes,Psophiidae,Psophia,leucoptera,White-winged Trumpeter,15114,948,1145
+Mammalia,Lagomorpha,Leporidae,Lepus,townsendii,White-tailed Jackrabbit,14973,1313,863
+Mammalia,Carnivora,Mephitidae,Mephitis,mephitis,Striped Skunk,14912,1742,2761
+Mammalia,Carnivora,Herpestidae,Bdeogale,crassicauda,Bushy-tailed Mongoose,14782,1580,0
+Mammalia,Carnivora,Felidae,Puma,concolor,Puma,14764,1273,1830
+Aves,Anseriformes,,,,Anseriformes Order,14516,3356,1231
+Aves,Galliformes,Phasianidae,Argusianus,argus,Argos Real,14408,1722,3986
+Aves,Galliformes,Cracidae,Mitu,salvini,Salvin's Curassow,14310,1027,0
+Mammalia,Rodentia,Muridae,Mus,musculus,House Mouse,14235,1649,0
+Aves,Galliformes,Cracidae,Crax,fasciolata,Bare-faced Curassow,14111,1365,676
+Mammalia,Cetartiodactyla,Cervidae,,,Cervidae Family,13991,1598,3268
+Mammalia,Lagomorpha,Leporidae,Sylvilagus,,Sylvilagus Species,13905,1722,28
+Aves,Gruiformes,Psophiidae,Psophia,viridis,Dark-winged Trumpeter,13697,2200,5201
+Aves,Accipitriformes,Accipitridae,Buteo,jamaicensis,Red-tailed Hawk,13586,46,1666
+Mammalia,Carnivora,Canidae,Canis,lupus,Grey Wolf,13524,1536,2492
+Mammalia,Primates,Hominidae,Pan,troglodytes,Chimpanzee,13396,1847,612
+Aves,Struthioniformes,Tinamidae,Tinamus,major,Great Tinamou,13263,1065,455
+Aves,Passeriformes,Corcoracidae,Corcorax,melanorhamphos,White-winged Chough,12803,705,0
+Mammalia,Primates,Cercopithecidae,Allochrocebus,lhoesti,L'Hoest's Monkey,12747,1469,427
+Mammalia,Primates,Cercopithecidae,Papio,anubis,Olive Baboon,12610,1421,93
+Mammalia,Lagomorpha,Leporidae,Sylvilagus,audubonii,Desert Cottontail,12267,457,0
+Mammalia,Carnivora,Mephitidae,Mydaus,marchei,Palawan Stink-badger,12218,608,66
+Mammalia,Rodentia,Sciuridae,Sciurus,vulgaris,Eurasian Red Squirrel,12155,811,209
+Mammalia,Artiodactyla,Suidae,Sus,scrofa scrofa,Domestic Pig,12129,633,104
+Aves,Passeriformes,Corvidae,Corvus,orru,Torresian Crow,12070,270,0
+Mammalia,Carnivora,Canidae,Cerdocyon,thous,Crab-eating Fox,12035,412,52
+Mammalia,Diprotodontia,Macropodidae,Macropus,fuliginosus,Western Gray Kangaroo,11808,2071,0
+Mammalia,Carnivora,Viverridae,Viverra,tangalunga,Malay Civet,11759,1329,0
+Mammalia,Carnivora,Canidae,Lycalopex,culpaeus,Culpeo,11723,1700,0
+Mammalia,Rodentia,Sciuridae,Callospermophilus,lateralis,Golden Mantled Ground Squirrel,11621,129,215
+Mammalia,Pilosa,Myrmecophagidae,Myrmecophaga,tridactyla,Giant Anteater,11226,1303,1650
+Mammalia,Lagomorpha,Leporidae,Sylvilagus,brasiliensis,Common Tapeti,11071,558,0
+Mammalia,Lagomorpha,Leporidae,Lepus,californicus,Black-tailed Jackrabbit,11052,1584,1931
+Aves,Galliformes,Numididae,Agelastes,niger,Black Guineafowl,11046,308,97
+Mammalia,Diprotodontia,Phalangeridae,Trichosurus,cunninghami,Mountain Brushtail Possum,10936,2062,9
+Mammalia,Rodentia,Hystricidae,Hystrix,indica,Indian Crested Porcupine,10876,1142,0
+Mammalia,Cetartiodactyla,Bovidae,Pseudois,nayaur,Blue Sheep,10713,1343,0
+Mammalia,Macroscelidea,Macroscelididae,Petrodromus,tetradactylus,Four-toed Sengi,10309,127,0
+Mammalia,Didelphimorphia,Didelphidae,Didelphis,pernigra,Andean White-eared Opossum,10174,165,0
+Mammalia,Diprotodontia,Macropodidae,,,Kangaroo Family,9826,1280,1990
+Mammalia,Diprotodontia,Macropodidae,Thylogale,,Thylogale Species,9670,45,0
+Mammalia,Cetartiodactyla,Cervidae,Muntiacus,reevesi,Reeves' Muntjac,9657,774,0
+Mammalia,Carnivora,Felidae,Panthera,onca,Jaguar,9578,1081,438
+Mammalia,Cetartiodactyla,Bovidae,Naemorhedus,griseus,Chinese Goral,9436,1770,0
+Mammalia,Rodentia,Hystricidae,Atherurus,africanus,African Brush-tailed Porcupine,9422,359,3143
+Mammalia,Primates,Cercopithecidae,Papio,kindae,Kinda Baboon,9221,6981,0
+Reptilia,,,,,Reptile,9199,141,218
+Mammalia,Carnivora,Mustelidae,Martes,americana,American Marten,9188,443,117
+Mammalia,Chordata,Canidae,Canis,lupus dingo,Dingo,9093,939,1056
+Aves,Cathartiformes,Cathartidae,Cathartes,aura,Turkey Vulture,8994,118,498
+Mammalia,Rodentia,Cricetidae,Peromyscus,,Peromyscus Species,8981,338,2
+Mammalia,Rodentia,Sciuridae,Marmota,monax,Woodchuck,8977,862,920
+Mammalia,Rodentia,Sciuridae,Ammospermophilus,leucurus,White-tailed Antelope Squirrel,8926,16,0
+Mammalia,Cetartiodactyla,Cervidae,Muntiacus,,Muntjac Species,8892,594,0
+Mammalia,Peramelemorphia,Peramelidae,Isoodon,macrourus,Northern Brown Bandicoot,8846,1083,1367
+Mammalia,Perissodactyla,Equidae,Equus,grevyi,Grevy's Zebra,8797,1277,0
+Aves,Galliformes,Numididae,Guttera,pucherani,Pintade huppée,8680,730,9
+Mammalia,Cetartiodactyla,Bovidae,Capricornis,milneedwardsii,Chinese Serow,8598,684,505
+Mammalia,Cetartiodactyla,Bovidae,Rupicapra,rupicapra,Northern Chamois,8543,144,1176
+Mammalia,Cetartiodactyla,Tragulidae,,,Mouse-deer Family,8412,794,0
+Mammalia,Rodentia,Hystricidae,Hystrix,crassispinis,Thick-spined Porcupine,8408,617,0
+Mammalia,Rodentia,Erethizontidae,Erethizon,dorsatum,North American Porcupine,8401,1297,174
+Mammalia,Diprotodontia,Macropodidae,Thylogale,thetis,Red-necked Pademelon,8143,5419,279
+Mammalia,Rodentia,Castoridae,Castor,canadensis,American Beaver,8121,209,53
+Mammalia,Cingulata,Dasypodidae,Dasypus,kappleri,Greater Long-nosed Armadillo,8110,606,142
+Mammalia,Rodentia,Dasyproctidae,Dasyprocta,variegata,Brown Agouti,8064,969,0
+Mammalia,Primates,Hylobatidae,,,Hylobatidae Family,7970,556,0
+Mammalia,Proboscidea,Elephantidae,Elephas,maximus,Asian Elephant,7962,267,791
+Mammalia,Monotremata,Tachyglossidae,Tachyglossus,aculeatus,Short-beaked Echidna,7936,799,239
+Mammalia,Perissodactyla,Tapiridae,Tapirus,bairdii,Baird's Tapir,7829,276,0
+Aves,Struthioniformes,Tinamidae,Crypturellus,,Crypturellus Species,7721,1187,426
+Mammalia,Lagomorpha,Leporidae,Sylvilagus,bachmani,Brush Rabbit,7702,747,3
+Mammalia,Diprotodontia,Potoroidae,Potorous,tridactylus,Long-nosed Potoroo,7700,679,652
+Mammalia,Rodentia,Echimyidae,Proechimys,brevicauda,Huallaga Spiny Rat,7679,333,0
+Mammalia,Rodentia,Hystricidae,Trichys,fasciculata,Long-tailed Porcupine,7572,538,18
+Mammalia,Carnivora,Viverridae,Paradoxurus,hermaphroditus,Common Palm Civet,7408,825,244
+Aves,Galliformes,Phasianidae,Lophura,diardi,Siamese Fireback,7214,1218,0
+Mammalia,Rodentia,Muridae,Rattus,rattus,House Rat,7182,1008,0
+Mammalia,Diprotodontia,Macropodidae,Macropus,agilis,Agile Wallaby,7179,349,0
+Aves,Passeriformes,Monarchidae,Grallina,cyanoleuca,Magpie-lark,7169,91,0
+Aves,Galliformes,Phasianidae,Ithaginis,cruentus,Blood Pheasant,7048,229,0
+Mammalia,Cetartiodactyla,Bovidae,Sylvicapra,grimmia,Common Duiker,7028,283,0
+Mammalia,Cetartiodactyla,Bovidae,Gazella,gazella,Mountain Gazelle,7004,2863,0
+Mammalia,Carnivora,Viverridae,Paguma,larvata,Masked Palm Civet,7001,1483,66
+Mammalia,Cetartiodactyla,Cervidae,Odocoileus,,Odocoileus Species,6902,430,746
+Aves,Gruiformes,Rallidae,Aramides,cajaneus,Grey-necked Wood-rail,6865,685,646
+Mammalia,Cetartiodactyla,Giraffidae,Giraffa,camelopardalis,Giraffe,6858,3001,0
+Mammalia,Primates,Cercopithecidae,Macaca,arctoides,Stump-tailed Macaque,6800,625,0
+Aves,Passeriformes,Turdidae,Turdus,merula,Common Blackbird,6719,419,295
+Aves,Passeriformes,Corvidae,Corvus,brachyrhynchos,American Crow,6686,912,2482
+Mammalia,Cetartiodactyla,Bovidae,Ovis,orientalis,Mouflon,6642,400,0
+Mammalia,Cetartiodactyla,Bovidae,Bos,gaurus,Gaur,6612,178,0
+Aves,Galliformes,Phasianidae,Gallus,gallus,Red Junglefowl,6543,377,72
+Mammalia,Cetartiodactyla,Cervidae,Mazama,gouazoubira,Gray Brocket,6476,645,3
+Aves,Anseriformes,Anatidae,Anas,platyrhynchos,Mallard,6475,222,1
+Aves,Passeriformes,Artamidae,Gymnorhina,tibicen,Australian Magpie,6405,734,756
+Mammalia,Carnivora,Mustelidae,Pekania,pennanti,Fisher,6253,383,724
+Mammalia,Rodentia,Cricetidae,Neotoma,cinerea,Bushy-tailed Woodrat,6123,423,0
+Aves,Gruiformes,Psophiidae,Psophia,obscura,Black-winged Trumpeter,5989,679,0
+Aves,Galliformes,Numididae,Acryllium,vulturinum,Vulturine Guineafowl,5986,451,0
+Mammalia,Diprotodontia,Macropodidae,Thylogale,stigmatica,Red-legged Pademelon,5965,2883,0
+Mammalia,Cetartiodactyla,Bovidae,Capra,,Capra Species,5961,460,0
+Mammalia,Carnivora,Mustelidae,Eira,barbara,Tayra,5923,676,842
+Aves,Passeriformes,Artamidae,Strepera,graculina,Pied Currawong,5760,1552,640
+Mammalia,Carnivora,Ursidae,Helarctos,malayanus,Sun Bear,5698,496,202
+Mammalia,Rodentia,Sciuridae,Otospermophilus,beecheyi,California Ground Squirrel,5661,373,151
+Mammalia,Cetartiodactyla,Bovidae,Cephalophus,spadix,Abbott's Duiker,5597,317,0
+Aves,Columbiformes,Columbidae,Leptotila,rufaxilla,Grey-fronted Dove,5461,642,1105
+Aves,Columbiformes,Columbidae,Leucosarcia,melanoleuca,Wonga Pigeon,5394,297,907
+Aves,Passeriformes,Pachycephalidae,Colluricincla,harmonica,Grey Shrike-thrush,5383,481,258
+Aves,Struthioniformes,Tinamidae,Tinamus,tao,Grey Tinamou,5317,328,953
+Aves,Galliformes,Cracidae,Penelope,jacquacu,Spix's Guan,5302,408,2150
+Mammalia,Cetartiodactyla,Bovidae,Gazella,dorcas,Dorcas Gazelle,5248,97,0
+Mammalia,Rodentia,Sciuridae,Neotamias,,Neotamias Species,5239,863,108
+Mammalia,Dasyuromorphia,Dasyuridae,Sminthopsis,griseoventer,Grey-bellied Dunnart,5169,987,0
+Aves,Columbiformes,Columbidae,Geotrygon,montana,Ruddy Quail-dove,5159,419,303
+Mammalia,Rodentia,Sciuridae,,,Sciuridae Family,5051,365,1326
+Mammalia,Didelphimorphia,Didelphidae,Metachirus,nudicaudatus,Brown Four-eyed Opossum,5005,439,410
+Mammalia,Rodentia,Muridae,Rattus,norvegicus,Brown Rat,4968,310,3
+Mammalia,Primates,Hominidae,Gorilla,beringei,Eastern Gorilla,4950,517,454
+Mammalia,Lagomorpha,Leporidae,Lepus,,Lepus Species,4946,179,111
+Mammalia,Carnivora,Procyonidae,Nasua,narica,White-nosed Coati,4911,251,0
+Mammalia,Perissodactyla,Equidae,Equus,quagga,Plains Zebra,4881,1890,0
+Aves,Pelecaniformes,Threskiornithidae,Lophotibis,cristata,Madagascar Crested Ibis,4830,175,0
+Mammalia,Carnivora,Felidae,Prionailurus,bengalensis,Leopard Cat,4812,396,659
+Aves,Columbiformes,Columbidae,Zentrygon,frenata,White-throated Quail-dove,4752,476,0
+Aves,Galliformes,Cracidae,Nothocrax,urumutum,Nocturnal Curassow,4747,1114,113
+Mammalia,Carnivora,Felidae,Lynx,canadensis,Canada Lynx,4704,288,524
+Mammalia,Carnivora,Mustelidae,Martes,,Martes Species,4703,831,116
+Mammalia,Rodentia,Caviidae,Hydrochoerus,hydrochaeris,Capybara,4687,104,134
+Mammalia,Diprotodontia,Macropodidae,Macropus,eugenii,Tammar Wallaby,4654,189,0
+Mammalia,Carnivora,Viverridae,Genetta,servalina,Servaline Genet,4649,672,166
+Mammalia,Lagomorpha,Leporidae,Lepus,capensis,Cape Hare,4614,304,0
+Aves,Passeriformes,Corvidae,Pica,hudsonia,Black-billed Magpie,4551,240,1056
+Aves,Columbiformes,Columbidae,Leptotila,verreauxi,White-tipped Dove,4546,420,405
+Mammalia,Carnivora,Ursidae,Ursus,thibetanus,Asiatic Black Bear,4544,328,0
+Mammalia,Rodentia,Cricetidae,Peromyscus,leucopus,White-footed Mouse,4511,197,0
+Aves,Galliformes,Numididae,Guttera,plumifera,Plumed Guineafowl,4501,742,46
+Mammalia,Primates,Cercopithecidae,Mandrillus,leucophaeus,Drill,4438,1426,0
+Mammalia,Carnivora,Herpestidae,Herpestes,brachyurus,Short-tailed Mongoose,4431,518,2
+Mammalia,Didelphimorphia,Didelphidae,,,Possum Family,4416,573,466
+Aves,Passeriformes,Corvidae,,,Corvidae Family,4390,652,10
+Aves,Struthioniformes,Tinamidae,Tinamus,,Tinamus Species,4365,451,1102
+Mammalia,Cetartiodactyla,Cervidae,Muntiacus,vaginalis,Northern Red Muntjac,4364,593,0
+Aves,Struthioniformes,Tinamidae,,,Tinamidae Family,4352,524,995
+Mammalia,Carnivora,Felidae,Panthera,pardus,Leopard,4317,209,33
+Mammalia,Diprotodontia,Macropodidae,Macropus,parryi,Whiptail Wallaby,4305,1184,0
+Aves,Passeriformes,Pittidae,Pitta,sordida,Western Hooded Pitta,4295,224,22
+Mammalia,Rodentia,Cricetidae,,,Cricetidae Family,4258,710,3
+Mammalia,Carnivora,Mustelidae,Martes,caurina,Pacific Marten,4159,210,453
+Mammalia,Carnivora,Mustelidae,Melogale,moschata,Small-toothed Ferret Badger,4154,216,138
+Mammalia,Rodentia,Hystricidae,Hystrix,pumila,Phillipine Porcupine,4119,265,149
+Mammalia,Carnivora,Viverridae,Hemigalus,derbyanus,Banded Civet,4091,421,108
+Mammalia,Carnivora,Canidae,Canis,,Canis Species,4015,86,211
+Mammalia,Perissodactyla,Equidae,Equus,ferus,Przewalski's Horse,3963,119,0
+Mammalia,Primates,Aotidae,Aotus,nigriceps,Black-headed Night Monkey,3953,1246,0
+Aves,Columbiformes,Columbidae,Leptotila,,Leptotila Species,3883,177,248
+Mammalia,Rodentia,Muridae,Rattus,tanezumi,Oriental House Rat,3815,0,0
+Mammalia,Primates,Cercopithecidae,Semnopithecus,entellus,Northern Plains Gray Langur,3801,147,0
+Aves,Galliformes,Phasianidae,Polyplectron,napoleonis,Palawan Peacock-pheasant,3714,443,16
+Mammalia,Dasyuromorphia,Dasyuridae,,,Dasyuridae Family,3689,307,18
+Mammalia,Cetartiodactyla,Tragulidae,Tragulus,kanchil,Lesser Oriental Chevrotain,3591,378,3926
+Mammalia,Perissodactyla,Tapiridae,Tapirus,indicus,Malay Tapir,3566,412,2135
+Mammalia,Carnivora,Mustelidae,Taxidea,taxus,American Badger,3558,137,609
+Mammalia,Cingulata,Chlamyphoridae,Priodontes,maximus,Giant Armadillo,3528,211,776
+Aves,Passeriformes,Corvidae,Cyanocitta,cristata,Blue Jay,3479,275,267
+Mammalia,Diprotodontia,Phalangeridae,Trichosurus,,Trichosurus Species,3479,1095,1773
+Aves,Cathartiformes,Cathartidae,Coragyps,atratus,American Black Vulture,3445,512,4
+Mammalia,Rodentia,Sciuridae,Funisciurus,leucogenys,Orange Headed Tree Squirrel,3441,108,0
+Mammalia,Cetartiodactyla,Cervidae,Mazama,temama,Central American Red Brocket,3437,152,0
+Aves,Gruiformes,Psophiidae,Psophia,dextralis,Olive-winged Trumpeter,3408,484,12
+Mammalia,Peramelemorphia,Peramelidae,,,Peramelidae Family,3399,504,463
+Mammalia,Primates,Cercopithecidae,Macaca,thibetana,Milne-edwards' Macaque,3398,191,0
+Mammalia,Rodentia,Sciuridae,Urocitellus,columbianus,Columbian Ground Squirrel,3346,411,0
+Aves,Galliformes,Phasianidae,Meleagris,ocellata,Ocellated Turkey,3344,359,0
+Mammalia,Primates,Cercopithecidae,Chlorocebus,pygerythrus,Vervet Monkey,3325,912,0
+Mammalia,Rodentia,Sciuridae,Urocitellus,beldingi,Belding's Ground Squirrel,3313,252,0
+Aves,Galliformes,Cracidae,Penelope,superciliaris,Rusty-margined Guan,3283,834,66
+Mammalia,Carnivora,Mustelidae,Arctonyx,collaris,Greater Hog Badger,3279,266,0
+Mammalia,Diprotodontia,Macropodidae,Macropus,parma,Parma Wallaby,3258,131,1761
+Mammalia,Rodentia,Sciuridae,Sciurus,granatensis,Red-tailed Squirrel,3253,249,0
+Mammalia,Carnivora,Eupleridae,Fossa,fossana,Spotted Fanaloka,3239,595,0
+Mammalia,Rodentia,Sciuridae,Sciurus,,Sciurus Species,3223,241,40
+Aves,Passeriformes,Icteridae,Sturnella,neglecta,Western Meadowlark,3153,276,0
+Mammalia,Carnivora,Eupleridae,Cryptoprocta,ferox,Fossa,3108,180,1
+Aves,Struthioniformes,Tinamidae,Crypturellus,variegatus,Variegated Tinamou,3107,193,4
+Aves,Columbiformes,Columbidae,,,Columbidae Family,3096,231,25
+Mammalia,Carnivora,Felidae,Leopardus,wiedii,Margay,3074,579,102
+Mammalia,Primates,Hominidae,Gorilla,gorilla,Western Gorilla,3017,261,19
+Aves,Galliformes,Cracidae,Ortalis,canicollis,Chaco Chachalaca,2965,149,0
+Mammalia,Macroscelidea,Macroscelididae,Rhynchocyon,udzungwensis,Grey-faced Sengi,2944,227,0
+Aves,Anseriformes,Anhimidae,Chauna,torquata,Southern Screamer,2941,0,0
+Mammalia,Cetartiodactyla,Bovidae,Tragelaphus,oryx,Common Eland,2916,76,0
+Mammalia,Carnivora,Procyonidae,Potos,flavus,Kinkajou,2913,1058,0
+Aves,Passeriformes,Corvidae,Corvus,corone,Carrion Crow,2885,77,29
+Aves,Passeriformes,Rhipiduridae,Rhipidura,leucophrys,Willie Wagtail,2885,26,3
+Aves,Gruiformes,Psophiidae,Psophia,,Psophia Species,2877,0,2631
+Mammalia,Rodentia,Echimyidae,Isothrix,barbarabrownae,Barbara Brown's Brush-tailed Rat,2862,242,0
+Reptilia,Squamata,Varanidae,Varanus,varius,Lace Monitor,2846,122,41
+Mammalia,Carnivora,Hyaenidae,Crocuta,crocuta,Spotted Hyaena,2842,533,0
+Aves,Anseriformes,Anatidae,Aix,sponsa,Wood Duck,2824,313,0
+Mammalia,Rodentia,Cuniculidae,Cuniculus,taczanowskii,Mountain Paca,2800,187,0
+Aves,Galliformes,Odontophoridae,Odontophorus,gujanensis,Marbled Wood-quail,2798,144,0
+Aves,Columbiformes,Columbidae,Columba,palumbus,Common Woodpigeon,2773,236,20
+Mammalia,Cetartiodactyla,Bovidae,,,Bovidae Family,2698,712,564
+Mammalia,Carnivora,Mustelidae,Martes,flavigula,Yellow-throated Marten,2694,249,6
+Aves,Galliformes,Odontophoridae,Callipepla,californica,California Quail,2686,79,40
+Mammalia,Carnivora,Felidae,Caracal,aurata,African Golden Cat,2682,335,226
+Aves,Galliformes,Cracidae,Crax,rubra,Great Curassow,2666,259,0
+Mammalia,Rodentia,Sciuridae,Rheithrosciurus,macrotis,Tufted Ground Squirrel,2610,214,0
+Mammalia,Rodentia,Sciuridae,Glaucomys,sabrinus,Carolina Flying Squirrel,2584,209,78
+Aves,Pelecaniformes,Ardeidae,Bubulcus,ibis,Cattle Egret,2560,201,0
+Aves,Procellariiformes,Procellariidae,Pterodroma,defilippiana,Masatierra Petrel,2558,3620,0
+Mammalia,Cetartiodactyla,Suidae,Phacochoerus,africanus,Common Warthog,2531,129,0
+Mammalia,Rodentia,Muridae,Rattus,exulans,Polynesian Rat,2521,0,0
+Mammalia,Cetartiodactyla,Tayassuidae,,,Peccary Family,2518,141,633
+Mammalia,Diprotodontia,Macropodidae,Macropus,dorsalis,Black-striped Wallaby,2505,0,0
+Aves,Passeriformes,Corvidae,Pica,pica,Common Magpie,2503,202,0
+Mammalia,Dasyuromorphia,Dasyuridae,Dasyurus,maculatus,Spotted-tailed Quoll,2493,114,439
+Mammalia,Carnivora,Viverridae,Genetta,,Genetta Species,2460,467,2
+Mammalia,Primates,Cebidae,Sapajus,cay,Azaras's Capuchin,2459,494,0
+Mammalia,Cetartiodactyla,Cervidae,Rangifer,tarandus,Reindeer,2452,326,404
+Aves,Pelecaniformes,Ardeidae,Ardea,herodias,Great Blue Heron,2451,407,11
+Aves,Passeriformes,Turdidae,,,Turdidae Family,2450,381,0
+Aves,Galliformes,Odontophoridae,Callipepla,gambelii,Gambel's Quail,2441,71,0
+Aves,Passeriformes,Corvidae,Garrulus,glandarius,Jay,2436,222,14
+Mammalia,Rodentia,Sciuridae,Paraxerus,vexillarius,Svynnerton's Bush Squirrel,2436,56,0
+Aves,Gruiformes,Rallidae,Himantornis,haematopus,Nkulengu Rail,2418,37,0
+Mammalia,Pilosa,Myrmecophagidae,Tamandua,tetradactyla,Southern Tamandua,2370,242,726
+Mammalia,Carnivora,Canidae,,,Canine Family,2343,196,510
+Mammalia,Rodentia,Sciuridae,Sciurus,igniventris,Northern Amazon Red Squirrel,2340,207,6
+Aves,Cariamiformes,Cariamidae,Cariama,cristata,Red-legged Seriema,2339,463,0
+Aves,Galliformes,Cracidae,Penelope,,Penelope Species,2294,124,390
+Mammalia,Cetartiodactyla,Bovidae,Bison,,Bison Species,2286,920,0
+Aves,Passeriformes,Ptilonorhynchidae,Ptilonorhynchus,violaceus,Satin Bowerbird,2264,229,1332
+Aves,Galliformes,Phasianidae,Tragopan,temminckii,Temminck's Tragopan,2233,392,0
+Mammalia,Primates,,,,Primate,2224,354,34
+Mammalia,Rodentia,Sciuridae,Protoxerus,stangeri,African Giant Squirrel,2199,375,1362
+Mammalia,Cetartiodactyla,Cervidae,Axis,axis,Chital,2196,806,0
+Aves,Pelecaniformes,Threskiornithidae,Mesembrinibis,cayennensis,Green Ibis,2188,93,46
+Mammalia,Rodentia,Dasyproctidae,Dasyprocta,iacki,Iack's Red-rumped Agouti,2165,154,0
+Aves,Passeriformes,Turdidae,Ixoreus,naevius,Varied Thrush,2164,357,0
+Mammalia,Carnivora,Canidae,Lycalopex,griseus,Argentine Gray Fox,2126,62,2
+Mammalia,Carnivora,Canidae,Atelocynus,microtis,Short-eared Dog,2114,527,804
+Aves,Passeriformes,Corvidae,Corvus,frugilegus,Rook,2104,0,0
+Mammalia,Rodentia,Echimyidae,Proechimys,,Proechimys Species,2098,63,0
+Mammalia,Rodentia,Echimyidae,Proechimys,semispinosus,Tome's Spiny Rat,2096,403,0
+Mammalia,Perissodactyla,Equidae,Equus,hemionus,Asiatic Wild Ass,2059,4,0
+Mammalia,Cetartiodactyla,Suidae,Sus,ahoenobarbus,Palawan Bearded Pig,2051,6,27
+Reptilia,Crocodylia,Crocodylidae,Crocodylus,niloticus,Crocodile,2048,0,0
+Mammalia,Rodentia,Hystricidae,Atherurus,macrourus,Asiatic Brush-tailed Porcupine,2021,617,233
+Aves,Cuculiformes,Cuculidae,Geococcyx,californianus,Greater Roadrunner,2015,339,0
+Mammalia,Cetartiodactyla,Bovidae,Capra,ibex,Alpine Ibex,2008,0,0
+Mammalia,Rodentia,Cricetidae,Ondatra,zibethicus,Muskrat,2003,104,23
+Aves,Passeriformes,Turdidae,Turdus,,Turdus Species,2002,101,0
+Mammalia,Carnivora,Herpestidae,Crossarchus,obscurus,Common Cusimanse,1998,149,0
+Mammalia,Didelphimorphia,Didelphidae,Philander,opossum,Gray Four-eyed Opossum,1960,250,957
+Mammalia,Perissodactyla,Tapiridae,Tapirus,pinchaque,Mountain Tapir,1958,190,0
+Aves,Columbiformes,Columbidae,Chalcophaps,indica,Common Emerald Dove,1952,115,26
+Aves,Gruiformes,Rallidae,Fulica,americana,American Coot,1941,21,0
+Mammalia,Rodentia,Sciuridae,Funisciurus,pyrropus,Fire-footed Rope Squirrel,1940,22,3
+Mammalia,Rodentia,Muridae,Hydromys,chrysogaster,Common Water Rat,1939,88,0
+Mammalia,Cetartiodactyla,Hippopotamidae,Hippopotamus,amphibius,Hippopotamus,1937,927,0
+Aves,Passeriformes,Alaudidae,Eremophila,alpestris,Horned Lark,1936,18,15
+Mammalia,Carnivora,Felidae,Felis,silvestris,Wild Cat,1929,349,123
+Aves,Piciformes,Picidae,Colaptes,auratus,Northern Flicker,1904,128,16
+Aves,Passeriformes,Corvidae,Perisoreus,canadensis,Grey Jay,1899,41,23
+Mammalia,Peramelemorphia,,,,Bandicoot,1897,106,11
+Mammalia,Carnivora,Mustelidae,Martes,martes,Pine Marten,1897,252,64
+Mammalia,Hyracoidea,Procaviidae,Procavia,capensis,Rock Hyrax,1894,104,0
+Aves,Cuculiformes,Cuculidae,Coua,serriana,Red-breasted Coua,1892,68,0
+Mammalia,Lagomorpha,Leporidae,Sylvilagus,nuttallii,Mountain Cottontail,1883,105,0
+Aves,Galliformes,Phasianidae,Alectoris,chukar,Chukar,1866,221,0
+Aves,Columbiformes,Columbidae,Zenaida,macroura,Mourning Dove,1852,67,1
+Mammalia,Rodentia,Sciuridae,Funisciurus,carruthersi,Carruther's Mountain Squirrel,1848,228,349
+Aves,Galliformes,Phasianidae,Rollulus,rouloul,Crested Partridge,1829,174,51
+Mammalia,Rodentia,Sciuridae,Sciurus,spadiceus,Southern Amazon Red Squirrel,1818,165,66
+Aves,Passeriformes,Icteridae,Quiscalus,quiscula,Common Grackle,1802,457,11
+Mammalia,Carnivora,Procyonidae,Procyon,cancrivorus,Crab-eating Raccoon,1801,111,251
+Aves,Passeriformes,Cinclosomatidae,Cinclosoma,punctatum,Spotted Quail-thrush,1800,141,11
+Mammalia,Carnivora,Canidae,Canis,adustus,Side-striped Jackal,1793,240,275
+Aves,Passeriformes,Corvidae,Cyanocitta,stelleri,Steller's Jay,1738,281,95
+Mammalia,Rodentia,Muridae,Rattus,fuscipes,Bush Rat,1718,374,27
+Mammalia,Carnivora,Felidae,Lynx,pardinus,Iberian Lynx,1711,54,0
+Mammalia,Cetartiodactyla,Bovidae,Ovis,canadensis,Bighorn Sheep,1699,887,0
+Aves,Procellariiformes,Procellariidae,Ardenna,creatopus,Pink-footed Shearwater,1698,0,0
+Aves,Galliformes,Phasianidae,Pternistis,nobilis,Handsome Francolin,1691,58,40
+Mammalia,Carnivora,Procyonidae,Bassaricyon,alleni,Eastern Lowland Olingo,1690,294,0
+Mammalia,Cetartiodactyla,Bovidae,Bos,,Bos Species,1682,133,0
+Aves,Struthioniformes,Casuariidae,Dromaius,novaehollandiae,Emu,1680,10,0
+Mammalia,Cetartiodactyla,Cervidae,Dama,mesopotamica,Persian Fallow Deer,1680,16,0
+Mammalia,Rodentia,Hystricidae,Hystrix,cristata,Crested Porcupine,1676,317,0
+Mammalia,Carnivora,Canidae,Vulpes,velox,Swift Fox,1674,270,1386
+Aves,Galliformes,Phasianidae,Alectoris,rufa,Red-legged Partridge,1674,221,0
+Mammalia,Hyracoidea,Procaviidae,Dendrohyrax,validus,Eastern Tree Hyrax,1673,66,0
+Mammalia,Carnivora,Felidae,Herpailurus,yagouaroundi,Jaguarundi,1668,188,73
+Mammalia,Cetartiodactyla,Bovidae,Hippotragus,niger,Sable Antelope,1664,42,0
+Mammalia,Cetartiodactyla,Camelidae,Lama,guanicoe,Guanaco,1661,611,0
+Aves,Falconiformes,Falconidae,Caracara,plancus,Southern Caracara,1613,38,0
+Mammalia,Carnivora,Mustelidae,Gulo,gulo,Wolverine,1608,218,108
+Aves,Charadriiformes,Turnicidae,Turnix,varius,Painted Button-quail,1594,280,33
+Mammalia,Carnivora,Viverridae,Civettictis,civetta,African Civet,1593,631,212
+Mammalia,Carnivora,Felidae,Felis,,Felis Species,1588,192,577
+Mammalia,Diprotodontia,Macropodidae,Lagorchestes,conspicillatus,Spectacled Hare-wallaby,1576,240,0
+Mammalia,Rodentia,Cricetidae,Neotoma,floridana,Eastern Woodrat,1567,20,0
+Mammalia,Lagomorpha,Ochotonidae,Ochotona,princeps,American Pika,1564,266,0
+Aves,Passeriformes,Muscicapidae,Kittacincla,nigra,White-vented Shama,1552,382,4
+Mammalia,Primates,Cercopithecidae,Macaca,leonina,Northern Pig-tailed Macaque,1543,440,0
+Mammalia,Carnivora,Mustelidae,Martes,foina,Beech Marten,1536,369,96
+Mammalia,Carnivora,Herpestidae,Herpestes,naso,Long-nosed Mongoose,1517,73,32
+Aves,Accipitriformes,Accipitridae,Buteogallus,urubitinga,Great Black Hawk,1506,58,130
+Mammalia,Primates,Cercopithecidae,Colobus,angolensis,Angolan Colobus,1487,0,0
+Mammalia,Primates,Cercopithecidae,Rhinopithecus,roxellana,Golden Snub-nosed Monkey,1485,69,0
+Mammalia,Primates,Cercopithecidae,Semnopithecus,dussumieri,Southern Plains Gray Langur,1483,167,0
+Aves,Coraciiformes,Alcedinidae,Dacelo,novaeguineae,Laughing Kookaburra,1479,159,308
+Mammalia,Rodentia,Sciuridae,Neotamias,sonomae,Sonoma Chipmunk,1446,21,0
+Aves,Galliformes,Phasianidae,Peliperdix,lathami,Forest Francolin,1444,43,0
+Aves,Galliformes,Megapodiidae,Megapodius,cumingii,Philippine Scrubfowl,1433,0,7
+Mammalia,Carnivora,Procyonidae,Bassariscus,astutus,Ringtail,1432,67,495
+Mammalia,Lagomorpha,Leporidae,Sylvilagus,palustris,Marsh Rabbit,1428,144,0
+Mammalia,Primates,Cercopithecidae,Cercocebus,torquatus,Red-capped Mangabey,1415,2,3068
+Aves,Anseriformes,Anatidae,Anser,brachyrhynchus,Pink-footed Goose,1409,0,0
+Aves,Gruiformes,,,,Gruiformes Order,1388,1133,182
+Aves,Columbiformes,Columbidae,Geopelia,cuneata,Diamond Dove,1387,25,0
+Aves,Passeriformes,Menuridae,Menura,,Menura Species,1386,0,0
+Aves,Passeriformes,Formicariidae,Chamaeza,nobilis,Striated Antthrush,1357,23,0
+Aves,Passeriformes,Turdidae,Zoothera,lunulata,Bassian Thrush,1356,108,522
+Mammalia,Carnivora,Mustelidae,Lontra,canadensis,North American River Otter,1354,93,15
+Aves,Passeriformes,Cardinalidae,Cardinalis,cardinalis,Northern Cardinal,1352,167,36
+Mammalia,Rodentia,Sciuridae,Dremomys,rufigenis,Red-cheeked Squirrel,1347,55,174
+Aves,Procellariiformes,Procellariidae,Pterodroma,phaeopygia,Galapagos Petrel,1338,0,0
+Aves,Struthioniformes,Tinamidae,Crypturellus,cinereus,Cinereous Tinamou,1315,107,339
+Mammalia,Peramelemorphia,Peramelidae,Isoodon,obesulus,Southern Brown Bandicoot,1312,9,0
+Mammalia,Carnivora,Ursidae,Tremarctos,ornatus,Spectacled Bear,1304,182,0
+Mammalia,Rodentia,Nesomyidae,Nesomys,rufus,Eastern Red Forest Rat,1296,221,0
+Aves,Passeriformes,Corvidae,Aphelocoma,californica,California Scrub-Jay,1296,134,1
+Mammalia,Diprotodontia,Potoroidae,Aepyprymnus,rufescens,Rufous Bettong,1275,4,0
+Mammalia,Primates,Cebidae,Cebus,albifrons,Humboldt's White-fronted Capuchin,1267,41,68
+Aves,Galliformes,Phasianidae,Centrocercus,urophasianus,Greater Sage Grouse,1265,13,7
+Aves,Passeriformes,Psophodidae,Psophodes,olivaceus,Eastern Whipbird,1264,91,47
+Aves,Galliformes,Phasianidae,Lophophorus,lhuysii,Chinese Monal,1258,147,0
+Mammalia,Carnivora,Herpestidae,Atilax,paludinosus,Marsh Mongoose,1251,186,74
+Mammalia,Carnivora,Mustelidae,Mellivora,capensis,Honey Badger,1237,136,0
+Aves,Passeriformes,Corvidae,Nucifraga,columbiana,Clark's Nutcracker,1220,0,0
+Aves,Passeriformes,Fringillidae,Leucosticte,tephrocotis,Grey-crowned Rosy-Finch,1218,117,0
+Aves,Galliformes,Phasianidae,,,Phasianidae Family,1206,92,111
+Mammalia,Diprotodontia,Pseudocheiridae,Pseudocheirus,peregrinus,Common Ringtail Possum,1194,97,275
+Mammalia,Carnivora,Canidae,Canis,rufus,Red Wolf,1191,18,0
+Mammalia,Didelphimorphia,Didelphidae,Caluromys,lanatus,Brown-eared Woolly Opossum,1178,60,0
+Aves,Galliformes,Numididae,Numida,meleagris,Helmeted Guineafowl,1177,82,0
+Mammalia,Rodentia,Muridae,Leopoldamys,sabanus,Long-tailed Giant Rat,1166,124,0
+Mammalia,Cetartiodactyla,Tragulidae,Hyemoschus,aquaticus,Water Chevrotain,1160,0,2306
+Aves,Galliformes,Phasianidae,Coturnix,,Quail Species,1153,22,5
+Mammalia,Cetartiodactyla,Camelidae,Vicugna,,Vicugna Species,1148,0,0
+Aves,Passeriformes,Passerellidae,Zonotrichia,leucophrys,White-crowned Sparrow,1138,99,0
+Aves,Pelecaniformes,Ardeidae,Tigrisoma,lineatum,Rufescent Tiger-heron,1138,12,68
+Mammalia,Rodentia,Sciuridae,Sciurus,ignitus,Bolivian Squirrel,1136,81,0
+Mammalia,Carnivora,Mephitidae,Mephitis,macroura,Hooded Skunk,1133,11,0
+Aves,Accipitriformes,Accipitridae,Buteo,lineatus,Red-shouldered Hawk,1125,63,274
+Aves,Galliformes,Phasianidae,Bonasa,umbellus,Ruffed Grouse,1123,142,10
+Aves,Caprimulgiformes,Caprimulgidae,,,Caprimulgidae Family,1113,29,0
+Aves,Charadriiformes,Laridae,Larus,canus,Mew Gull,1111,0,0
+Mammalia,Carnivora,Viverridae,Viverra,zibetha,Large Indian Civet,1108,240,0
+Mammalia,Cetartiodactyla,Cervidae,Mazama,nana,Brazilian Dwarf Brocket,1105,20,0
+Mammalia,Perissodactyla,Equidae,Equus,,Equus Species,1099,50,0
+Mammalia,Carnivora,Herpestidae,,,Herpestidae Family,1093,142,50
+Aves,Strigiformes,,,,Owl,1088,103,122
+Aves,Passeriformes,Passerellidae,Junco,hyemalis,Dark-eyed Junco,1074,28,5
+Mammalia,Rodentia,Echimyidae,,,Spiny Rat Family,1072,107,0
+Aves,Passeriformes,Turdidae,Turdus,cardis,Japanese Thrush,1062,0,0
+Aves,Struthioniformes,Rheidae,Rhea,americana,Greater Rhea,1058,0,0
+Aves,Columbiformes,Columbidae,Turtur,brehmeri,Blue-headed Wood-dove,1054,35,0
+Aves,Galliformes,Cracidae,Mitu,tomentosum,Crestless Curassow,1049,45,700
+Aves,Anseriformes,Anatidae,Branta,canadensis,Canada Goose,1040,1014,82
+Mammalia,Carnivora,Herpestidae,Bdeogale,nigripes,Black-legged Mongoose,1034,62,102
+Mammalia,Rodentia,Heteromyidae,Dipodomys,ordii,Ord's Kangaroo Rat,1031,0,0
+Aves,Passeriformes,Formicariidae,Formicarius,colma,Rufous-capped Antthrush,1030,96,5
+Aves,Passeriformes,Meliphagidae,Manorina,flavigula,Yellow-throated Miner,1027,0,0
+Aves,Columbiformes,Columbidae,Nesoenas,picturata,Malagasy turtle dove,1027,89,0
+Aves,Passeriformes,Artamidae,Strepera,versicolor,Grey Currawong,1015,273,68
+Aves,Gruiformes,Rallidae,Gallinula,galeata,Common Gallinule,1012,146,0
+Aves,Passeriformes,Pellorneidae,Trichastoma,cinereiceps,Ashy-headed Babbler,1009,53,0
+Mammalia,Rodentia,Muridae,Pseudomys,hermannsburgensis,Sandy Inland Mouse,1004,41,0
+Aves,Columbiformes,Columbidae,Geophaps,plumifera,Spinifex Pigeon,1003,28,0
+Mammalia,Artiodactyla,Camelidae,Camelus,dromedarius,Dromedary Camel,983,198,0
+Mammalia,Artiodactyla,Cervidae,Rusa,timorensis,Javan Deer,981,2,0
+Mammalia,Rodentia,Cricetidae,Neotoma,,Neotoma Species,976,152,32
+Reptilia,Squamata,Iguanidae,Iguana,iguana,Common Green Iguana,971,17,1
+Aves,Galliformes,Odontophoridae,Oreortyx,pictus,Mountain Quail,965,75,5
+Insecta,,,,,Insect,959,37,7
+Aves,Columbiformes,Columbidae,Turtur,tympanistria,Tambourine Dove,956,66,0
+Mammalia,Scandentia,Tupaiidae,,,Tupaiidae Family,955,97,0
+Aves,Coraciiformes,Brachypteraciidae,Geobiastes,squamiger,Scaly Ground-roller,952,91,0
+Mammalia,Carnivora,Felidae,Leopardus,,Leopardus Species,948,107,267
+Aves,Galliformes,Cracidae,Ortalis,guttata,Speckled Chachalaca,947,11,777
+Mammalia,Carnivora,Ursidae,Ailuropoda,melanoleuca,Giant Panda,942,91,0
+Mammalia,Carnivora,Nandiniidae,Nandinia,binotata,African Palm Civet,939,47,101
+Mammalia,Diprotodontia,Potoroidae,Potorous,longipes,Long-footed Potoroo,939,72,0
+Mammalia,Perissodactyla,Tapiridae,Tapirus,,Tapirus Species,937,0,18
+Mammalia,Cetartiodactyla,Cervidae,Ozotoceros,bezoarticus,Pampas Deer,935,15,1389
+Mammalia,Cingulata,Dasypodidae,,,Armadillo Family,934,203,237
+Aves,Passeriformes,Corvidae,Nucifraga,caryocatactes,Nutcracker,933,3,0
+Mammalia,Carnivora,Ursidae,Ursus,U. arctos,Grizzly Bear,930,99,0
+Mammalia,Rodentia,Heteromyidae,Dipodomys,merriami,Merriam's Kangaroo Rat,926,1,0
+Reptilia,Squamata,Varanidae,Varanus,salvator,Common Water Monitor,915,22,0
+Mammalia,Cetartiodactyla,Bovidae,Tragelaphus,strepsiceros,Greater Kudu,914,564,0
+Mammalia,Rodentia,Sciuridae,Tamias,,Tamias Species,910,120,39
+Mammalia,Cetartiodactyla,Bovidae,Cephalophus,leucogaster,White-bellied Duiker,906,12,2
+Aves,Galliformes,Phasianidae,Crossoptilon,auritum,Blue Eared-pheasant,902,51,0
+Aves,Passeriformes,Laniidae,Lanius,ludovicianus,Loggerhead Shrike,899,0,0
+Mammalia,Carnivora,Mustelidae,,,Weasel Family,896,62,14
+Aves,Charadriiformes,Laridae,Larus,argentatus,Goéland argenté,894,0,0
+Aves,Galliformes,Cracidae,Penelope,pileata,White-crested Guan,889,155,0
+Aves,Psittaciformes,Psittacidae,Platycercus,elegans,Crimson Rosella,886,62,149
+Mammalia,Didelphimorphia,Didelphidae,Didelphis,albiventris,White-eared Opossum,879,56,0
+Mammalia,Carnivora,Procyonidae,,,Coati Family,878,164,4
+Mammalia,Primates,Cebidae,Sapajus,apella,Margarita Island Capuchin,876,69,302
+Mammalia,Pholidota,Manidae,Manis,culionensis,Philippine Pangolin,875,326,15
+Mammalia,Rodentia,Sciuridae,Glaucomys,,Glaucomys Species,872,87,0
+Mammalia,Cetartiodactyla,Bovidae,Nanger,granti,Grant's Gazelle,871,183,0
+Aves,Passeriformes,Corvidae,Corvus,palmarum,Hispaniolan Palm Crow,870,0,0
+Mammalia,Carnivora,Felidae,Leptailurus,serval,Serval,866,45,37
+Mammalia,Artiodactyla,,,,Even-toed ungulate,862,38,40
+Mammalia,Carnivora,Viverridae,Genetta,maculata,Large-spotted Genet,856,39,0
+Mammalia,Cetartiodactyla,Bovidae,Ovis,,Ovis Species,850,80,0
+Mammalia,Cetartiodactyla,Bovidae,Bos,javanicus,Banteng,846,204,0
+Mammalia,Rodentia,Sciuridae,Funisciurus,anerythrus,Redness Tree Squirrel,845,46,0
+Aves,Passeriformes,Muscicapidae,Erithacus,rubecula,European Robin,842,197,0
+Aves,Passeriformes,Pittidae,Hydrornis,soror,Blue-rumped Pitta,842,95,0
+Mammalia,Carnivora,Mustelidae,Lutra,lutra,Eurasian Otter,842,34,96
+Mammalia,Lagomorpha,Ochotonidae,Ochotona,gloveri,Glover's Pika,834,0,0
+Aves,Accipitriformes,Accipitridae,Buteogallus,schistaceus,Slate-colored Hawk,833,43,130
+Mammalia,Rodentia,Dasyproctidae,Dasyprocta,,Dasyprocta Species,832,6,1002
+Aves,Passeriformes,Passerellidae,Pipilo,maculatus,Spotted Towhee,832,13,2
+Aves,Struthioniformes,Tinamidae,Crypturellus,soui,Little Tinamou,829,72,21
+Mammalia,Carnivora,Canidae,Cuon,alpinus,Dhole,828,175,40
+Aves,Galliformes,Phasianidae,Chrysolophus,pictus,Golden Pheasant,826,8,0
+Mammalia,Cetartiodactyla,Bovidae,Kobus,ellipsiprymnus,Waterbuck,822,8,0
+Mammalia,Lagomorpha,Ochotonidae,Ochotona,thibetana,Moupin Pika,822,45,0
+Aves,Passeriformes,Grallariidae,Grallaria,squamigera,Undulated Antpitta,820,84,0
+Mammalia,Rodentia,Nesomyidae,Nesomys,,Nesomys Species,816,22,0
+Mammalia,Rodentia,Sciuridae,Otospermophilus,variegatus,Rock Squirrel,808,12,0
+Aves,Struthioniformes,Tinamidae,Crypturellus,undulatus,Undulated Tinamou,805,54,76
+Aves,Pelecaniformes,Ardeidae,Cochlearius,cochlearius,Boat-billed Heron,796,0,0
+Aves,Galliformes,Phasianidae,Tympanuchus,phasianellus,Sharp-tailed Grouse,795,28,10
+Aves,Passeriformes,Muscicapidae,Myophonus,caeruleus,Blue Whistling-thrush,793,46,67
+Mammalia,Carnivora,Mustelidae,Mustela,sibirica,Siberian Weasel,789,120,0
+Aves,Anseriformes,Anatidae,,,Anatidae Family,787,507,0
+Aves,Passeriformes,Parulidae,Seiurus,aurocapilla,Ovenbird,782,70,0
+Mammalia,Diprotodontia,Potoroidae,Potorous,,Potorous Species,780,146,0
+Mammalia,Rodentia,Sciuridae,Notocitellus,annulatus,Ring-tailed Ground Squirrel,770,3,0
+Mammalia,Carnivora,Canidae,Lycalopex,vetulus,Hoary Fox,770,61,0
+Mammalia,Primates,Cebidae,Sapajus,macrocephalus,Large-headed Capuchin,767,309,0
+Aves,Galliformes,Phasianidae,Lophura,ignita,Faisán Noble,764,36,0
+Aves,Passeriformes,Furnariidae,Furnarius,leucopus,Pale-Legged Hornero,763,38,0
+Mammalia,Dasyuromorphia,Dasyuridae,Dasycercus,blythi,Brush-tailed Mulgara,762,0,0
+Aves,Accipitriformes,Accipitridae,Circus,hudsonius,Northern Harrier,760,8,0
+Aves,Galliformes,Phasianidae,Dendragapus,fuliginosus,Sooty Grouse,758,0,0
+Mammalia,Rodentia,Muridae,Apodemus,,Apodemus Species,755,26,0
+Mammalia,Carnivora,Mustelidae,Pteronura,brasiliensis,Giant Otter,755,0,12
+Aves,Galliformes,Phasianidae,Lophura,bulweri,Bulwer's Pheasant,753,116,0
+Mammalia,Diprotodontia,Phascolarctidae,Phascolarctos,cinereus,Koala,751,108,293
+Mammalia,Primates,Lemuridae,Eulemur,fulvus,Brown Lemur,750,0,0
+Aves,Passeriformes,Turdidae,Catharus,guttatus,Hermit Thrush,750,47,0
+Reptilia,Squamata,Varanidae,Varanus,panoptes,Yellow-spotted monitor,750,0,0
+Mammalia,Rodentia,Heteromyidae,Dipodomys,,Dipodomys Species,743,2,0
+Mammalia,Diprotodontia,Macropodidae,Setonix,brachyurus,Quokka,740,0,0
+Mammalia,Carnivora,Felidae,Panthera,uncia,Snow Leopard,735,66,0
+Mammalia,Carnivora,Viverridae,Genetta,genetta,Common Genet,733,30,49
+Aves,Columbiformes,Columbidae,Aplopelia,larvata,Lemon Dove,730,82,0
+Mammalia,Carnivora,Canidae,Chrysocyon,brachyurus,Maned Wolf,728,37,0
+Aves,Passeriformes,Turdidae,Turdus,philomelos,Song Thrush,726,25,0
+Mammalia,Cetartiodactyla,,,,Cetartiodactyla Order,720,39,34
+Mammalia,Rodentia,Sciuridae,Glaucomys,volans,Mexican Flying Squirrel,714,69,24
+Mammalia,Cetartiodactyla,Suidae,Sus,,Sus Species,712,29,0
+Aves,Galliformes,Phasianidae,Pavo,cristatus,Indian Peafowl,708,41,0
+Aves,Passeriformes,Ptilonorhynchidae,Ailuroedus,crassirostris,Green Catbird,702,116,24
+Mammalia,Carnivora,Viverridae,Diplogale,hosei,Hose's Civet,690,62,0
+Aves,Galliformes,Phasianidae,Falcipennis,canadensis,Spruce Grouse,690,43,4
+Mammalia,Pholidota,Manidae,Manis,javanica,Sunda Pangolin,679,48,66
+Mammalia,Cetartiodactyla,Cervidae,Mazama,chunyi,Peruvian Dwarf Brocket,669,22,0
+Aves,Struthioniformes,Tinamidae,Crypturellus,bartletti,Bartlett's Tinamou,663,18,0
+Mammalia,Didelphimorphia,Didelphidae,Didelphis,,Didelphis Species,656,87,319
+Aves,Charadriiformes,Laridae,Larus,fuscus,Lesser Black-backed Gull,648,0,0
+Mammalia,Rodentia,Echimyidae,Proechimys,guyannensis,Cayenne Spiny Rat,645,54,0
+Aves,Anseriformes,Anatidae,Cygnus,olor,Mute Swan,639,0,0
+Aves,Cuculiformes,Cuculidae,Centropus,phasianinus,Pheasant Coucal,637,180,0
+Mammalia,Carnivora,Felidae,Neofelis,diardi,Sunda Clouded Leopard,628,66,25
+Mammalia,Rodentia,Sciuridae,Marmota,himalayana,Himalayan Marmot,626,91,0
+Mammalia,Rodentia,Sciuridae,Paraxerus,boehmi,Boehm's Bush Squirrel,622,30,19
+Mammalia,Carnivora,Mustelidae,Mustela,frenata,Long-tailed Weasel,622,65,6
+Mammalia,Carnivora,Herpestidae,Herpestes,smithii,Ruddy Mongoose,614,14,0
+Aves,Galliformes,Odontophoridae,Colinus,virginianus,Northern Bobwhite,608,18,0
+Aves,Passeriformes,Mimidae,Toxostoma,rufum,Brown Thrasher,606,3,0
+Mammalia,Primates,Atelidae,Alouatta,juara,Juruá Red Howler Monkey,601,0,0
+Aves,Galliformes,Phasianidae,Gallus,,Gallus Species,600,0,0
+Mammalia,Rodentia,Sciuridae,Sciurus,aestuans,Guianan Squirrel,599,111,3
+Mammalia,Rodentia,Anomaluridae,Anomalurus,derbianus,Lord Derby's Scaly-tailed Squirrel,599,0,52
+Mammalia,Carnivora,Hyaenidae,Hyaena,hyaena,Striped Hyaena,599,114,0
+Mammalia,Carnivora,Felidae,,,Cat Family,593,38,53
+Mammalia,Carnivora,Viverridae,Arctictis,binturong,Binturong,586,95,42
+Mammalia,Macroscelidea,Macroscelididae,Rhynchocyon,chrysopygus,Golden-rumped Sengi,584,0,0
+Aves,Charadriiformes,Turnicidae,Turnix,velox,Little Buttonquail,582,10,0
+Mammalia,Cetartiodactyla,Bovidae,Bison,bonasus,European Bison,579,0,0
+Aves,Galliformes,Phasianidae,Lerwa,lerwa,Snow Partridge,577,14,0
+Aves,Passeriformes,Muscicapidae,Copsychus,albospecularis,Merle dyal malgache,571,41,0
+Aves,Struthioniformes,Tinamidae,Tinamus,guttatus,White-throated Tinamou,568,43,257
+Mammalia,Carnivora,Ailuridae,Ailurus,fulgens,Red Panda,568,55,0
+Mammalia,Primates,Cercopithecidae,Macaca,mulatta,Rhesus Monkey,567,50,37
+Aves,Passeriformes,Pittidae,Pitta,versicolor,Noisy Pitta,565,40,5
+Mammalia,Carnivora,Felidae,Panthera,tigris,Tiger,561,152,165
+Mammalia,Cetartiodactyla,Bovidae,Oryx,beisa,Beisa Oryx,561,7,0
+Aves,Caprimulgiformes,Caprimulgidae,Eurostopodus,argus,Spotted Nightjar,558,5,0
+Reptilia,Squamata,Varanidae,Varanus,rosenbergi,Heath Monitor,550,34,0
+Mammalia,Carnivora,Felidae,Leopardus,tigrinus,Northern Tiger Cat,547,56,0
+Mammalia,Chiroptera,,,,Bat,546,21,52
+Mammalia,Tubulidentata,Orycteropodidae,Orycteropus,afer,Aardvark,544,34,0
+Aves,Passeriformes,Formicariidae,Formicarius,analis,Black-faced Antthrush,540,76,0
+Aves,Columbiformes,Columbidae,Phaps,elegans,Brush Bronzewing,539,6,0
+Mammalia,Carnivora,Viverridae,Viverricula,indica,Small Indian Civet,538,141,162
+Aves,Galliformes,Odontophoridae,Odontophorus,stellatus,Starred Wood-quail,534,43,0
+Mammalia,Dasyuromorphia,Dasyuridae,Dasyurus,hallucatus,Northern Quoll,524,0,0
+Mammalia,Carnivora,Mustelidae,Neovison,vison,American Mink,521,34,27
+Mammalia,Primates,Cercopithecidae,Macaca,assamensis,Assam Macaque,517,70,10
+Mammalia,Pholidota,Manidae,Phataginus,tricuspis,White-bellied Pangolin,516,3,6
+Mammalia,Rodentia,Sciuridae,Lariscus,insignis,Three-striped Ground Squirrel,512,35,382
+Aves,Galliformes,Phasianidae,Pternistis,jacksoni,Jackson's Francolin,511,6,0
+Mammalia,Carnivora,Canidae,Vulpes,macrotis,Kit Fox,509,51,0
+Mammalia,Lagomorpha,,,,Lagomorpha Order,505,0,6
+Mammalia,Carnivora,Herpestidae,Herpestes,ichneumon,Egyptian Mongoose,501,19,0
+Mammalia,Diprotodontia,Macropodidae,Macropus,rufus,Red Kangaroo,494,84,0
+Mammalia,Rodentia,Sciuridae,Urocitellus,richardsonii,Richardson's Ground Squirrel,491,104,61
+Aves,Passeriformes,Icteridae,Molothrus,ater,Brown-headed Cowbird,491,99,0
+Mammalia,Rodentia,Sciuridae,Neotamias,townsendii,Townsend's Chipmunk,489,27,0
+Aves,Passeriformes,Acanthizidae,Sericornis,frontalis,White-browed Scrubwren,488,121,33
+Mammalia,Scandentia,Tupaiidae,Tupaia,dorsalis,Striped Treeshrew,487,28,0
+Mammalia,Primates,Cercopithecidae,Papio,ursinus,Chacma Baboon,486,0,0
+Mammalia,Rodentia,Muridae,Apodemus,sylvaticus,Long-tailed Field Mouse,485,15,5
+Aves,Galliformes,Phasianidae,Dendragapus,obscurus,Blue Grouse,483,26,0
+Aves,Strigiformes,Strigidae,Athene,cunicularia,Burrowing Owl,483,14,2
+Mammalia,Carnivora,Eupleridae,Galidia,elegans,Ring-tailed Vontsira,482,30,0
+Mammalia,Carnivora,Herpestidae,Herpestes,urva,Crab-eating Mongoose,481,34,0
+Aves,Passeriformes,Passerellidae,Melospiza,melodia,Song Sparrow,478,3,0
+Mammalia,Rodentia,Nesomyidae,Eliurus,tanala,Tanala Tuft-tailed Rat,478,27,0
+Mammalia,Pilosa,Myrmecophagidae,Tamandua,mexicana,Northern Tamandua,478,58,0
+Aves,Passeriformes,Acanthizidae,Sericornis,citreogularis,Yellow-throated Scrubwren,477,47,13
+Mammalia,Carnivora,Prionodontidae,Prionodon,pardicolor,Spotted Linsang,476,31,2
+Mammalia,Cetartiodactyla,Cervidae,Capreolus,,Capreolus Species,474,15,0
+Mammalia,Carnivora,Herpestidae,Herpestes,semitorquatus,Collared Mongoose,474,17,0
+Aves,Strigiformes,Strigidae,Bubo,virginianus,Great Horned Owl,466,48,24
+Mammalia,Primates,Cercopithecidae,Cercocebus,agilis,Agile Mangabey,466,0,0
+Aves,Galliformes,Cracidae,,,Cracidae Family,461,71,346
+Aves,Gruiformes,Gruidae,Grus,grus,Common Crane,460,0,0
+Aves,Passeriformes,Petroicidae,Eopsaltria,australis,Eastern Yellow Robin,457,27,400
+Mammalia,Primates,Hominidae,Pongo,pygmaeus,Bornean Orangutan,457,63,0
+Mammalia,Rodentia,Caviidae,Galea,spixii,Spix's Yellow-toothed Cavy,453,0,0
+Aves,Galliformes,Phasianidae,Lophura,nycthemera,Silver Pheasant,447,9,119
+Mammalia,Cetartiodactyla,Bovidae,Capricornis,sumatraensis,Sumatran Serow,444,5,18
+Mammalia,Dasyuromorphia,Dasyuridae,Dasykaluta,rosamondae,Kaluta,444,0,0
+Aves,Passeriformes,Icteridae,Euphagus,carolinus,Rusty Blackbird,444,0,0
+Aves,Passeriformes,Estrildidae,Neochmia,temporalis,Red-browed Finch,441,5,0
+Aves,Passeriformes,Mimidae,Dumetella,carolinensis,Grey Catbird,438,115,0
+Mammalia,Primates,Atelidae,Alouatta,caraya,Black-and-gold Howler Monkey,436,84,0
+Aves,Passeriformes,Motacillidae,Anthus,rubescens,Buff-bellied Pipit,435,23,0
+Mammalia,Cingulata,Chlamyphoridae,Euphractus,sexcinctus,Yellow Armadillo,432,38,2
+Mammalia,Cetartiodactyla,Bovidae,Litocranius,walleri,Gerenuk,432,68,0
+Mammalia,Rodentia,Gliridae,Eliomys,quercinus,Garden Dormouse,430,0,0
+Mammalia,Dasyuromorphia,Dasyuridae,Antechinus,agilis,Agile Antechinus,428,32,0
+Mammalia,Diprotodontia,,,,Diprotodontia Order,425,84,79
+Mammalia,Rodentia,Sciuridae,Sundasciurus,hippurus,Horse-tailed Squirrel,423,47,6
+Aves,Passeriformes,Passeridae,,,Passeridae Family,421,0,18
+Mammalia,Lagomorpha,Leporidae,Sylvilagus,aquaticus,Swamp Rabbit,412,22,0
+Aves,Eurypygiformes,Eurypygidae,Eurypyga,helias,Sunbittern,411,0,19
+Mammalia,Primates,Cebidae,Saimiri,sciureus,Common Squirrel Monkey,411,66,301
+Aves,Columbiformes,,,,Columbiformes Order,410,0,77
+Mammalia,Carnivora,,,,Carnivorous Mammal,408,91,44
+Reptilia,Squamata,Phrynosomatidae,Sceloporus,,Spiny Lizard,407,0,0
+Aves,Pelecaniformes,Ardeidae,Ardea,albus,Great Egret,398,48,0
+Mammalia,Primates,Galagidae,Galago,,Galago Species,395,36,154
+Mammalia,Carnivora,Canidae,Nyctereutes,procyonoides,Raccoon Dog,391,141,0
+Mammalia,Lagomorpha,Leporidae,Lepus,nigricollis,Indian Hare,391,60,0
+Aves,Charadriiformes,Laridae,Larus,californicus,California Gull,390,0,0
+Aves,Columbiformes,Columbidae,Phaps,chalcoptera,Common Bronzewing,390,36,5
+Mammalia,Hyracoidea,Procaviidae,Dendrohyrax,arboreus,Southern Tree Hyrax,382,10,237
+Mammalia,Lagomorpha,Leporidae,Lepus,victoriae,African Savanna Hare,382,16,0
+Mammalia,Carnivora,Canidae,Speothos,venaticus,Bush Dog,382,39,9
+Mammalia,Carnivora,Mephitidae,Spilogale,gracilis,Western Spotted Skunk,378,62,120
+Mammalia,Eulipotyphla,Erinaceidae,Erinaceus,europaeus,Western European Hedgehog,377,59,4
+Aves,Passeriformes,Turdidae,Geokichla,citrina,Orange-headed Thrush,375,6,0
+Aves,Passeriformes,Fringillidae,Haemorhous,mexicanus,House Finch,374,0,0
+Aves,Passeriformes,Sturnidae,Sturnus,vulgaris,Common Starling,373,18,0
+Aves,Columbiformes,Columbidae,Ocyphaps,lophotes,Crested Pigeon,373,0,0
+Mammalia,Primates,Atelidae,Lagothrix,poeppigii,Poeppig's Woolly Monkey,372,0,0
+Mammalia,Carnivora,Mustelidae,Mustela,erminea,Stoat,371,1,0
+Arachnida,Araneae,Theraphosidae,Aphonopelma,paloma,Paloma dwarf,370,27,0
+Aves,Anseriformes,Anatidae,Branta,,Branta Species,366,2,0
+Aves,Passeriformes,Passerellidae,Arremon,brunneinucha,Chestnut-capped Brush-finch,366,20,0
+Mammalia,Scandentia,Tupaiidae,Tupaia,belangeri,Northern Treeshrew,366,78,149
+Mammalia,Carnivora,Eupleridae,Galidictis,fasciata,Broad-striped Vontsira,365,14,0
+Aves,Passeriformes,Icteridae,Euphagus,cyanocephalus,Brewer's Blackbird,365,25,0
+Mammalia,Cetartiodactyla,Cervidae,Blastocerus,dichotomus,Marsh Deer,361,2,0
+Mammalia,Primates,Cercopithecidae,Trachypithecus,hatinhensis,Hatinh Langur,360,15,0
+Aves,Accipitriformes,Accipitridae,Busarellus,nigricollis,Black-collared Hawk,359,227,9
+Mammalia,Primates,Lemuridae,Eulemur,rufifrons,Red-fronted Brown Lemur,358,0,0
+Aves,Galliformes,Cracidae,Chamaepetes,goudotii,Sickle-winged Guan,355,63,0
+Mammalia,Rodentia,Sciuridae,Ammospermophilus,harrisii,Harris's Antelope Squirrel,354,6,0
+Aves,Piciformes,Picidae,Dryocopus,martius,Black Woodpecker,353,135,5
+Aves,Gruiformes,Rallidae,Mentocrex,kioloides,Madagascar Wood-rail,352,31,0
+Aves,Gruiformes,Gruidae,Antigone,canadensis,Sandhill Crane,352,23,0
+Aves,Charadriiformes,Scolopacidae,,,Scolopacidae Family,350,320,0
+Aves,Cuculiformes,Cuculidae,Coua,reynaudii,Red-fronted Coua,347,10,0
+Mammalia,Cetartiodactyla,Moschidae,Moschus,berezovskii,Forest Musk Deer,344,144,0
+Reptilia,Squamata,Varanidae,Varanus,,Monitor species,344,10,0
+Mammalia,Didelphimorphia,Didelphidae,Marmosa,,Marmosa Species,343,190,0
+Mammalia,Chiroptera,Pteropodidae,Eidolon,helvum,African Straw-coloured Fruit-bat,342,38,0
+Mammalia,Rodentia,Diatomyidae,Laonastes,aenigmamus,Kha-nyou,342,0,0
+Mammalia,Primates,Lorisidae,Perodicticus,ibeanus,East African Potto,341,178,0
+Aves,Galliformes,Odontophoridae,Odontophorus,,Odontophorus Species,341,3,3
+Aves,Passeriformes,Turdidae,Hylocichla,mustelina,Wood Thrush,340,102,0
+Aves,Passeriformes,Passeridae,Passer,domesticus,House Sparrow,340,1,0
+Mammalia,Carnivora,Herpestidae,Ichneumia,albicauda,White-tailed Mongoose,339,3,0
+Mammalia,Carnivora,Mephitidae,Conepatus,chinga,Molina's Hog-nosed Skunk,338,0,0
+Aves,Columbiformes,Columbidae,Streptopelia,decaocto,Collared Dove,334,21,0
+Mammalia,Cetartiodactyla,Tragulidae,Moschiola,indica,Indian Chevrotain,331,1,0
+Mammalia,Primates,Cercopithecidae,Macaca,siberu,Siberut Macaque,329,38,0
+Aves,Passeriformes,Turdidae,Catharus,ustulatus,Russet-backed Thrush,329,0,190
+Aves,Galliformes,Phasianidae,Tetraophasis,obscurus,Chestnut-throated Partridge,327,2,0
+Aves,Strigiformes,Strigidae,Asio,flammeus,Short-eared Owl,326,4,0
+Mammalia,Carnivora,Herpestidae,Urva,javanica,Javan Mongoose,324,49,13
+Mammalia,Rodentia,Dasyproctidae,Dasyprocta,kalinowskii,Kalinowski Agouti,322,144,0
+Aves,Accipitriformes,Accipitridae,Aquila,audax,Wedge-tailed Eagle,321,34,0
+Mammalia,Lagomorpha,Ochotonidae,Ochotona,,Ochotona Species,321,61,0
+Mammalia,Carnivora,Mephitidae,Spilogale,putorius,Eastern Spotted Skunk,321,4,82
+Mammalia,Cetartiodactyla,Bovidae,Madoqua,kirkii,Kirk's Dik-dik,320,5,0
+Aves,Anseriformes,Anatidae,Mareca,americana,American Wigeon,319,0,0
+Mammalia,Cetartiodactyla,Cervidae,Mazama,rufina,Dwarf Red Brocket,317,23,0
+Mammalia,Primates,Cercopithecidae,Cercopithecus,cephus,Moustached Monkey,312,9,0
+Aves,Falconiformes,,,,Falcon,311,22,616
+Mammalia,Rodentia,Sciuridae,Sundasciurus,philippinensis,Philippine Tree Squirrel,309,52,394
+Reptilia,Testudines,Testudinidae,Chelonoidis,,Giant Land Tortoise Species,308,17,24
+Mammalia,Primates,Callitrichidae,Saguinus,imperator,Emperor Tamarin,305,0,0
+Aves,Passeriformes,Corvidae,Corvus,caurinus,Northwestern Crow,304,0,0
+Mammalia,Carnivora,Prionodontidae,Prionodon,linsang,Banded Linsang,301,7,24
+Mammalia,Rodentia,Sciuridae,Sciurus,colliaei,Collie's Squirrel,300,0,0
+Mammalia,Carnivora,Procyonidae,Nasuella,olivacea,Western Mountain Coati,298,3,0
+Aves,Passeriformes,Turdidae,Turdus,rufiventris,Rufous-bellied Thrush,296,3,0
+Mammalia,Rodentia,Sciuridae,Marmota,sibirica,Mongolian Marmot,295,188,0
+Aves,Passeriformes,Passerellidae,Pipilo,erythrophthalmus,Rufous-sided Towhee,293,7,0
+Aves,Passeriformes,Passerellidae,Zonotrichia,albicollis,White-throated Sparrow,292,1,0
+Mammalia,Cetartiodactyla,Cervidae,Cervus,,Cervus Species,292,27,0
+Aves,Accipitriformes,Accipitridae,Buteo,buteo,Eurasian Buzzard,286,16,3
+Mammalia,Scandentia,Tupaiidae,Tupaia,glis,Common Treeshrew,286,57,0
+Aves,Columbiformes,Columbidae,Columbina,talpacoti,Ruddy Ground-dove,285,15,0
+Aves,Galliformes,Phasianidae,Tetrao,urogallus,Western Capercaillie,285,62,59
+Mammalia,Carnivora,Eupleridae,Eupleres,goudotii,Eastern Falanouc,284,23,0
+Mammalia,Primates,Cercopithecidae,Presbytis,rubicunda,Maroon Leaf Monkey,283,91,0
+Aves,Otidiformes,Otididae,Ardeotis,australis,Australian Bustard,280,5,0
+Mammalia,Primates,Cercopithecidae,Macaca,radiata,Bonnet Macaque,275,11,0
+Aves,Strigiformes,Strigidae,Strix,varia,Barred Owl,273,17,186
+Aves,Strigiformes,Strigidae,Scotopelia,peli,Pel's Fishing-owl,273,1183,0
+Aves,Columbiformes,Columbidae,Geopelia,humeralis,Bar-shouldered Dove,270,0,0
+Aves,Galliformes,Phasianidae,Pucrasia,macrolopha,Koklass Pheasant,269,15,0
+Aves,Passeriformes,Meliphagidae,Gavicalis,virescens,Singing Honeyeater,268,3,0
+Aves,Galliformes,Megapodiidae,Megapodius,laperouse,Micronesian Scrubfowl,267,0,0
+Aves,Passeriformes,Turdidae,Zoothera,,Zoothera Species,267,0,471
+Aves,Galliformes,Phasianidae,Pternistis,squamatus,Scaly Francolin,266,25,0
+Reptilia,Testudines,Emydidae,Emys,marmorata,Western Pond Turtle,265,0,0
+Aves,Passeriformes,Icteridae,,,Icteridae Family,264,3,0
+Mammalia,Carnivora,Herpestidae,Bdeogale,omnivora,Sokoke Dog Mongoose,264,0,0
+Mammalia,Rodentia,Sciuridae,Neotamias,minimus,Least Chipmunk,263,20,13
+Aves,Passeriformes,Pittidae,Hydrornis,cyaneus,Blue Pitta,262,17,0
+Mammalia,Rodentia,Sciuridae,Menetes,berdmorei,Berdmore's Squirrel,261,30,0
+Aves,Anseriformes,Anatidae,Anas,superciliosa,Pacific Black Duck,261,249,0
+Mammalia,Macroscelidea,Macroscelididae,Rhynchocyon,petersi,Black and Rufous Sengi,260,17,0
+Mammalia,Cetartiodactyla,Bovidae,Raphicerus,campestris,Steenbok,258,0,0
+Reptilia,Squamata,,,,Lizards and Snakes,256,4,0
+Mammalia,Rodentia,Chinchillidae,Lagidium,viscacia,Southern Mountain Viscacha,253,81,0
+Mammalia,Rodentia,Sciuridae,Tamiops,swinhoei,Swinhoe's Striped Squirrel,253,0,0
+Aves,Passeriformes,Formicariidae,Formicarius,,Formicarius Species,252,42,0
+Mammalia,Rodentia,Cricetidae,Peromyscus,maniculatus,North American Deermouse,250,0,0
+Mammalia,Rodentia,Nesomyidae,Eliurus,,Eliurus Species,250,10,0
+Mammalia,Carnivora,Viverridae,,,Civet Genet Family,248,27,1
+Mammalia,Lagomorpha,Leporidae,Nesolagus,timminsi,Annamite Striped Rabbit,248,80,0
+Mammalia,Rodentia,Sciuridae,Marmota,caligata,Hoary Marmot,247,25,0
+Mammalia,Carnivora,Herpestidae,Mungos,mungo,Banded Mongoose,247,0,0
+Mammalia,Rodentia,Caviidae,Hydrochoerus,isthmius,Lesser Capybara,247,0,0
+Mammalia,Rodentia,Cricetidae,Neotoma,lepida,Desert Woodrat,246,5,0
+Mammalia,Eulipotyphla,Erinaceidae,Erinaceus,concolor,Southern White-breasted Hedgehog,246,61,0
+Aves,Piciformes,Picidae,Colaptes,cafer,Red-shafted Flicker,246,2,2
+Aves,Columbiformes,Columbidae,Zenaida,,Zenaida Species,245,9,0
+Aves,Accipitriformes,Accipitridae,Pseudastur,albicollis,White Hawk,245,3,0
+Mammalia,Eulipotyphla,Erinaceidae,Echinosorex,gymnura,Moonrat,245,3,92
+Mammalia,Cetartiodactyla,Bovidae,Boselaphus,tragocamelus,Nilgai,244,41,0
+Aves,Columbiformes,Columbidae,Patagioenas,picazuro,Picazuro Pigeon,244,3,0
+Mammalia,Primates,Cebidae,Saimiri,boliviensis,Bolivian/peruvian Squirrel Monkey,243,31,0
+Mammalia,Carnivora,Felidae,Pardofelis,marmorata,Marbled Cat,242,28,22
+Aves,Galliformes,Cracidae,Pipile,pipile,Trinidad Piping-guan,241,0,0
+Mammalia,Rodentia,Hystricidae,Hystrix,africaeaustralis,Cape Porcupine,240,11,0
+Mammalia,Diprotodontia,Potoroidae,,,Potoroidae Family,239,85,0
+Aves,Cuculiformes,Cuculidae,Centropus,sinensis,Greater Coucal,239,77,16
+Aves,Passeriformes,Maluridae,Malurus,cyaneus,Superb Fairy-wren,239,13,32
+Aves,Coraciiformes,Momotidae,Momotus,momota,Amazonian Motmot,238,29,164
+Aves,Galliformes,,,,Galliformes Order,237,9,42
+Mammalia,Rodentia,Cricetidae,Scapteromys,tumidus,Swamp Rat,236,0,0
+Aves,Piciformes,Ramphastidae,Ramphastos,vitellinus,Channel-billed Toucan,235,0,0
+Aves,Passeriformes,Icteridae,Agelaius,phoeniceus,Red-winged Blackbird,235,58,0
+Aves,Galliformes,Cracidae,Pipile,cumanensis,Blue-throated Piping-Guan,231,29,0
+Aves,Anseriformes,Anatidae,Cairina,moschata,Muscovy Duck,229,0,31
+Mammalia,Rodentia,Sciuridae,Sciurus,aberti,Abert's Squirrel,229,1,0
+Mammalia,Rodentia,Nesomyidae,Hypogeomys,antimena,Malagasy Giant Jumping Rat,229,47,0
+Aves,Cuculiformes,Cuculidae,Neomorphus,geoffroyi,Rufous-vented Ground-Cuckoo,229,16,0
+Aves,Piciformes,Picidae,Hylatomus,pileatus,Pileated Woodpecker,226,5,0
+Aves,Gruiformes,Aramidae,Aramus,guarauna,Limpkin,225,2,3
+Aves,Accipitriformes,Accipitridae,Buteo,rufinus,Long-legged Buzzard,220,0,0
+Aves,Galliformes,Phasianidae,Gallus,sonneratii,Grey Junglefowl,220,50,0
+Mammalia,Dasyuromorphia,Dasyuridae,Sminthopsis,macroura,Stripe-faced Dunnart,219,0,0
+Aves,Passeriformes,Mimidae,Toxostoma,longirostre,Long-billed Thrasher,218,10,0
+Mammalia,Rodentia,Sciuridae,Urocitellus,armatus,Uinta Ground Squirrel,218,18,0
+Mammalia,Primates,Cercopithecidae,Lophocebus,albigena,Grey-cheeked Mangabey,217,11,19
+Mammalia,Rodentia,Sciuridae,Heliosciurus,ruwenzorii,Ruwenzori Sun Squirrel,216,46,70
+Reptilia,Squamata,Teiidae,Tupinambis,,Tupinambis species,215,15,3
+Aves,Accipitriformes,Accipitridae,Aegypius,monachus,Cinereous Vulture,215,0,0
+Mammalia,Primates,Cercopithecidae,Cercopithecus,nictitans,Putty-nosed Monkey,214,3,0
+Aves,Pelecaniformes,Ardeidae,Egretta,thula,Snowy Egret,214,3,0
+Mammalia,Cetartiodactyla,Suidae,Hylochoerus,meinertzhageni,Forest Hog,213,0,0
+Aves,Pelecaniformes,Threskiornithidae,Bostrychia,hagedash,Hadada Ibis,209,0,0
+Mammalia,Didelphimorphia,Didelphidae,Marmosops,,Marmosops Species,209,0,0
+Aves,Accipitriformes,Accipitridae,Accipiter,trivirgatus,Crested Goshawk,207,0,0
+Aves,Galliformes,Phasianidae,Crossoptilon,crossoptilon,White Eared-pheasant,206,0,0
+Mammalia,Cetartiodactyla,Tragulidae,Tragulus,,Chevrotain Species,204,19,247
+Aves,Psittaciformes,Cacatuidae,Eolophus,roseicapilla,Galah,204,38,0
+Mammalia,Rodentia,Gliridae,Graphiurus,murinus,Woodland Dormouse,203,45,216
+Aves,Accipitriformes,Accipitridae,Harpia,harpyja,Harpy Eagle,203,0,1
+Aves,Pelecaniformes,Ardeidae,Ardea,cocoi,Cocoi Heron,203,10,40
+Mammalia,Lagomorpha,Leporidae,Lepus,timidus,Mountain Hare,201,128,0
+Mammalia,Cetartiodactyla,Bovidae,Oryx,leucoryx,Arabian Oryx,201,0,0
+Mammalia,Lagomorpha,Leporidae,Sylvilagus,obscurus,Appalachian Cottontail,200,104,10
+Aves,Galliformes,Phasianidae,Lophura,erythrophthalma,Faisán de Carúncula Azul,199,20,0
+Aves,Piciformes,Bucconidae,Monasa,morphoeus,White-fronted Nunbird,196,12,3
+Aves,Passeriformes,Menuridae,Menura,alberti,Albert's Lyrebird,194,0,0
+Mammalia,Carnivora,Ursidae,,,Bear Family,193,6,32
+Aves,Pelecaniformes,Threskiornithidae,Eudocimus,albus,White Ibis,192,0,0
+Mammalia,Afrosoricida,Tenrecidae,Tenrec,ecaudatus,Tailess Tenrec,192,59,0
+Mammalia,Cetartiodactyla,Cervidae,Hydropotes,inermis,Water Deer,192,298,0
+Aves,Passeriformes,Artamidae,Cracticus,nigrogularis,Pied Butcherbird,191,5,0
+Aves,Piciformes,Ramphastidae,Ramphastos,tucanus,Red-billed Toucan,190,20,0
+Aves,Passeriformes,Corvidae,Corvus,mellori,Little Raven,190,11,0
+Mammalia,Hyracoidea,Procaviidae,Dendrohyrax,dorsalis,Western Tree Hyrax,189,0,0
+Mammalia,Rodentia,Echimyidae,Thrichomys,,Thrichomys Species,189,0,0
+Mammalia,Rodentia,Sciuridae,Callosciurus,notatus,Plantain Squirrel,187,7,0
+Mammalia,Rodentia,Sciuridae,Sciurus,arizonensis,Arizona Gray Squirrel,183,0,0
+Mammalia,Carnivora,Mustelidae,Lontra,longicaudis,Neotropical Otter,182,6,29
+Reptilia,Testudines,,,,Turtle Order,182,6,0
+Aves,Passeriformes,Troglodytidae,Salpinctes,obsoletus,Rock Wren,182,11,0
+Mammalia,Primates,Cercopithecidae,Macaca,,Macaque Species,181,5,0
+Aves,Accipitriformes,Accipitridae,,,Accipitridae Family,181,18,35
+Mammalia,Carnivora,Herpestidae,Herpestes,sanguineus,Common Slender Mongoose,178,15,0
+Mammalia,Primates,Cercopithecidae,Piliocolobus,gordonorum,Udzungwa Red Colobus,178,55,0
+Aves,Galliformes,Phasianidae,Ammoperdix,heyi,Sand Partridge,177,0,0
+Aves,Galliformes,Cracidae,Ortalis,vetula,Plain Chachalaca,177,31,0
+Aves,Columbiformes,Columbidae,Turtur,afer,Blue-spotted Wood-dove,177,0,0
+Aves,Passeriformes,Tyrannidae,Tyrannus,tyrannus,Eastern Kingbird,177,10,0
+Aves,Galliformes,Phasianidae,Synoicus,ypsilophorus,Brown Quail,176,128,0
+Aves,Passeriformes,Corvidae,Corvus,monedula,Eurasian Jackdaw,176,0,0
+Aves,Charadriiformes,,,,Charadriiformes Order,173,36,3
+Aves,Gruiformes,Rallidae,Rallina,fasciata,Red-legged Crake,171,0,0
+Aves,Piciformes,Picidae,Sphyrapicus,thyroideus,Williamson's Sapsucker,171,0,0
+Reptilia,Squamata,Teiidae,Salvator,merianae,Argentine black and white tegu,171,6,0
+Mammalia,Carnivora,Felidae,Lynx,lynx,Eurasian Lynx,170,59,327
+Aves,Falconiformes,Falconidae,Falco,sparverius,American Kestrel,170,0,2
+Aves,Passeriformes,Picathartidae,Picathartes,oreas,Grey-necked Rockfowl,168,0,0
+Mammalia,Carnivora,Herpestidae,Urva,auropunctata,Small Indian Mongoose,168,17,0
+Aves,Psittaciformes,Cacatuidae,Cacatua,galerita,Sulphur-crested Cockatoo,168,45,0
+Aves,Struthioniformes,Tinamidae,Nothocercus,bonapartei,Highland Tinamou,167,38,0
+Mammalia,Chiroptera,Phyllostomidae,Desmodus,rotundus,Vampire Bat,166,0,0
+Mammalia,Carnivora,Mephitidae,Conepatus,semistriatus,Striped Hog-nosed Skunk,165,37,0
+Reptilia,Squamata,Scincidae,Bellatorias,major,Land Mullet,164,13,0
+Aves,Galliformes,Cracidae,Penelope,purpurascens,Crested Guan,164,9,0
+Aves,Passeriformes,Pycnonotidae,Alophoixus,frater,Palawan Bulbul,164,4,0
+Mammalia,Artiodactyla,Camelidae,Lama,glama,Llama,161,0,0
+Mammalia,Primates,Atelidae,Alouatta,puruensis,Purús Red Howler Monkey,161,106,0
+Mammalia,Lagomorpha,Ochotonidae,Ochotona,erythrotis,Chinese Red Pika,160,0,0
+Mammalia,Rodentia,Sciuridae,Funisciurus,congicus,Congo Rope Squirrel,159,0,0
+Aves,Columbiformes,Columbidae,Spilopelia,chinensis,Eastern Spotted Dove,159,8,0
+Mammalia,Rodentia,Gliridae,Glis,glis,Edible Dormouse,157,9,0
+Aves,Passeriformes,Pittidae,Hydrornis,elliotii,Bar-bellied Pitta,157,35,0
+Mammalia,Pholidota,Manidae,Smutsia,gigantea,Giant Ground Pangolin,157,30,30
+Mammalia,Cetartiodactyla,Cervidae,Muntiacus,truongsonensis,Annamite Muntjac,156,0,0
+Aves,Charadriiformes,Jacanidae,Jacana,jacana,Wattled Jacana,155,0,0
+Mammalia,Didelphimorphia,Didelphidae,Philander,,Philander Species,154,0,2
+Mammalia,Carnivora,Felidae,Leopardus,guttulus,Southern Tiger Cat,154,7,0
+Amphibia,,,,,Amphibian,154,0,0
+Mammalia,Rodentia,Cricetidae,Hylaeamys,megacephalus,Azara's Broad-Headed Oryzomys,153,0,0
+Mammalia,Lagomorpha,Leporidae,Lepus,granatensis,Granada Hare,152,8,0
+Mammalia,Rodentia,Sciuridae,Cynomys,leucurus,White-tailed Prairie Dog,152,0,0
+Mammalia,Primates,Galagidae,Otolemur,crassicaudatus,Thick-tailed Greater Galago,152,22,0
+Mammalia,Carnivora,Canidae,Vulpes,,Vulpes Species,152,27,1
+Mammalia,Rodentia,Muridae,Rattus,tiomanicus,Malaysian Field Rat,150,1,0
+Mammalia,Primates,Cercopithecidae,Presbytis,femoralis,Banded Surili,149,0,0
+Mammalia,Perissodactyla,Equidae,,,Equidae Family,149,18,0
+Mammalia,Rodentia,Sciuridae,Callosciurus,erythraeus,Pallas's Squirrel,149,5,134
+Aves,Caprimulgiformes,,,,Caprimulgiformes Order,148,0,78
+Aves,Galliformes,Phasianidae,Syrmaticus,reevesii,Reeves's Pheasant,148,0,0
+Mammalia,Diprotodontia,Macropodidae,Macropus,,Macropus Species,146,123,570
+Aves,Charadriiformes,Burhinidae,Burhinus,grallarius,Bush Thick-knee,146,0,0
+Mammalia,Primates,Cebidae,Cebus,capucinus,Colombian White-throated Capuchin,146,1,0
+Mammalia,Carnivora,Viverridae,Paradoxurus,jerdoni,Brown Palm Civet,144,5,0
+Aves,Passeriformes,Mimidae,Mimus,polyglottos,Northern Mockingbird,144,1,0
+Mammalia,Dasyuromorphia,Dasyuridae,Phascogale,tapoatafa,Brush-tailed Phascogale,143,14,0
+Mammalia,Didelphimorphia,Didelphidae,Marmosa,regina,Short-furred Woolly Mouse Opossum,140,0,0
+Aves,Passeriformes,Muscicapidae,Chamaetylas,poliocephala,Brown-chested Alethe,140,20,0
+Aves,Piciformes,Picidae,Leuconotopicus,villosus,Hairy Woodpecker,139,6,16
+Aves,Passeriformes,Pycnonotidae,Eurillas,gracilis,Grey Greenbul,139,0,0
+Aves,Accipitriformes,Accipitridae,Morphnus,guianensis,Crested Eagle,138,139,0
+Mammalia,Rodentia,Sciuridae,Eutamias,,Eutamias Species,138,4,0
+Aves,Columbiformes,Columbidae,Leptotila,cassinii,Grey-chested Dove,138,59,0
+Aves,Passeriformes,Mimidae,Oreoscoptes,montanus,Sage Thrasher,138,0,0
+Aves,Passeriformes,Pomatostomidae,Pomatostomus,temporalis,Grey-crowned Babbler,137,25,0
+Mammalia,Primates,Cebidae,Sapajus,,Sapajus Species,137,5,55
+Aves,Strigiformes,Strigidae,Strix,aluco,Tawny Owl,137,14,0
+Mammalia,Rodentia,Cricetidae,Neotoma,mexicana,Mexican Woodrat,136,4,0
+Mammalia,Carnivora,Canidae,Vulpes,corsac,Corsac Fox,136,9,0
+Aves,Piciformes,Bucconidae,Monasa,nigrifrons,Black-fronted Nunbird,135,0,25
+Aves,Accipitriformes,Accipitridae,Rupornis,magnirostris,Roadside Hawk,135,12,8
+Aves,Pelecaniformes,,,,Pelecaniformes Order,134,8,5
+Aves,Anseriformes,Anatidae,Chenonetta,jubata,Maned Duck,133,52,0
+Mammalia,Lagomorpha,Leporidae,Lepus,peguensis,Burmese Hare,133,15,0
+Aves,Pelecaniformes,Ardeidae,Ardea,cinerea,Grey Heron,131,0,1
+Aves,Struthioniformes,Tinamidae,Crypturellus,strigulosus,Brazilian Tinamou,131,14,0
+Mammalia,Cetartiodactyla,Bovidae,Alcelaphus,buselaphus,Hartebeest,130,0,0
+Aves,Galliformes,Phasianidae,Perdix,perdix,Grey Partridge,129,0,0
+Mammalia,Carnivora,Mustelidae,Mustela,,Mustela Species,129,11,5
+Aves,Cathartiformes,Cathartidae,Cathartes,,Cathartes Species,129,0,0
+Aves,Cathartiformes,Cathartidae,Cathartes,burrovianus,Lesser Yellow-headed Vulture,129,0,549
+Mammalia,Primates,Daubentoniidae,Daubentonia,madagascariensis,Aye-aye,129,1,0
+Mammalia,Rodentia,Dasyproctidae,,,Dasyproctidae Family,129,12,13
+Aves,Passeriformes,Passerellidae,Atlapetes,latinuchus,Rufous-naped Brush Finch,129,6,0
+Aves,Piciformes,Picidae,Melanerpes,carolinus,Red-bellied Woodpecker,129,52,10
+Mammalia,Carnivora,Viverridae,Arctogalidia,trivirgata,Small-toothed Palm Civet,127,26,3
+Mammalia,Carnivora,Mephitidae,,,Skunk Family,126,43,11
+Aves,Gruiformes,Rallidae,Canirallus,oculeus,Grey-throated Rail,126,10,0
+Mammalia,Rodentia,Sciuridae,Marmota,marmota,Alpine Marmot,125,0,0
+Aves,Pelecaniformes,Ardeidae,,,Ardeidae Family,124,0,0
+Mammalia,Cingulata,Chlamyphoridae,Cabassous,tatouay,Greater Naked-tailed Armadillo,124,19,0
+Reptilia,Squamata,Agamidae,Lophognathus,longirostris,Long-snouted Lashtail,124,0,0
+Aves,Passeriformes,Paridae,Baeolophus,bicolor,Tufted Titmouse,124,14,0
+Mammalia,Carnivora,Mustelidae,Meles,leucurus,Asian Badger,124,0,0
+Aves,Bucerotiformes,Bucerotidae,Bucorvus,leadbeateri,Southern Ground-hornbill,121,0,0
+Aves,Caprimulgiformes,Aegothelidae,Aegotheles,cristatus,Australian Owlet-nightjar,121,11,300
+Aves,Pelecaniformes,Threskiornithidae,Bostrychia,olivacea,Ibis olivâtre,120,0,0
+Mammalia,Didelphimorphia,Didelphidae,Didelphis,aurita,Brazilian Common Opossum,120,5,0
+Amphibia,Anura,,,,Frogs,120,6,0
+Aves,Cuculiformes,Cuculidae,Neomorphus,rufipennis,Rufous-winged Ground-cuckoo,119,12,0
+Mammalia,Rodentia,Echimyidae,Dactylomys,,Dactylomys Species,119,49,0
+Aves,Bucerotiformes,Bucerotidae,Bycanistes,bucinator,Trumpeter Hornbill,119,0,0
+Aves,Suliformes,Anhingidae,Anhinga,anhinga,Anhinga,119,0,0
+Mammalia,Carnivora,Mephitidae,Conepatus,leuconotus,American Hog-nosed Skunk,119,23,0
+Aves,Passeriformes,Leiotrichidae,Garrulax,leucolophus,White-crested Laughingthrush,118,15,0
+Mammalia,Cetartiodactyla,Bovidae,Eudorcas,thomsonii,Thomson's Gazelle,118,0,0
+Aves,Strigiformes,Tytonidae,Tyto,alba,Common Barn Owl,117,3,0
+Aves,Charadriiformes,Scolopacidae,Gallinago,delicata,Wilson's Snipe,117,1,0
+Aves,Gruiformes,Rallidae,Hypotaenidia,philippensis,Buff-banded Rail,117,0,0
+Aves,Passeriformes,Corvidae,Cyanocorax,yncas,Green Jay,117,35,0
+Mammalia,Rodentia,Sciuridae,Callosciurus,prevostii,Prevost's Squirrel,116,76,0
+Mammalia,Rodentia,Gliridae,,,Gliridae Family,115,0,0
+Mammalia,Rodentia,Sciuridae,Petaurista,elegans,Spotted Giant Flying Squirrel,115,0,0
+Aves,Accipitriformes,Accipitridae,Stephanoaetus,coronatus,Crowned Eagle,114,0,0
+Mammalia,Rodentia,Muridae,Zyzomys,argurus,Common Rock Rat,114,0,0
+Mammalia,Primates,Galagidae,Galago,matschiei,Spectacled Lesser Galago,114,0,0
+Aves,Piciformes,Picidae,Celeus,lugubris,Pale-crested Woodpecker,113,0,0
+Aves,Caprimulgiformes,Caprimulgidae,Nyctidromus,albicollis,Pauraque,113,0,4
+Aves,Passeriformes,Grallariidae,Grallaria,andicolus,Stripe-headed Antpitta,113,0,0
+Aves,Gruiformes,Rallidae,Aramides,,Aramides Species,112,5,3
+Mammalia,Carnivora,Felidae,Catopuma,temminckii,Asiatic Golden Cat,112,4,56
+Aves,Gruiformes,Rallidae,Porzana,carolina,Sora,112,4,0
+Aves,Galliformes,Phasianidae,Lagopus,leucura,White-tailed Ptarmigan,112,0,0
+Aves,Passeriformes,Orthonychidae,Orthonyx,temminckii,Logrunner,111,10,0
+Aves,Struthioniformes,Tinamidae,Nothocercus,julius,Tawny-breasted Tinamou,110,18,0
+Aves,Galliformes,Cracidae,Penelope,marail,Marail Guan,110,3,0
+Aves,Passeriformes,Turdidae,Catharus,,Catharus Species,109,67,0
+Mammalia,Carnivora,Mustelidae,Mustela,putorius,Western Polecat,107,23,0
+Mammalia,Carnivora,Herpestidae,Herpestes,edwardsii,Indian Grey Mongoose,106,8,0
+Aves,Cuculiformes,Cuculidae,Crotophaga,major,Greater Ani,106,40,3
+Aves,Galliformes,Cracidae,Penelope,obscura,Dusky-legged Guan,105,0,0
+Aves,Gruiformes,Rallidae,,,Rallidae Family,104,7,0
+Mammalia,Cetartiodactyla,Cervidae,Hippocamelus,antisensis,Taruca,104,0,0
+Aves,Charadriiformes,Laridae,Anous,stolidus,Brown Noddy,103,0,0
+Aves,Galliformes,Phasianidae,Tetraogallus,tibetanus,Tibetan Snowcock,103,25,0
+Aves,Passeriformes,Pachycephalidae,Pachycephala,olivacea,Olive Whistler,103,3,0
+Mammalia,Rodentia,Cricetidae,Tylomys,watsoni,Watson's Climbing Rat,103,15,0
+Aves,Coraciiformes,Brachypteraciidae,Atelornis,pittoides,Pitta-like Ground-roller,102,0,0
+Aves,Passeriformes,Turdidae,Turdus,albicollis,White-necked Thrush,101,7,0
+Amphibia,Anura,Bufonidae,Rhinella,marina,Cane Toad,101,0,0
+Aves,Columbiformes,Columbidae,Chalcophaps,longirostris,Brown-capped Emerald Dove,100,6,0
+Aves,Pelecaniformes,Ardeidae,Butorides,virescens,Green Heron,99,8,0
+Aves,Bucerotiformes,Bucerotidae,Lophoceros,alboterminatus,Crowned Hornbill,99,0,0
+Aves,Struthioniformes,Tinamidae,Crypturellus,erythropus,Red-legged Tinamou,99,41,0
+Aves,Galliformes,Phasianidae,Polyplectron,bicalcaratum,Grey Peacock-Pheasant,98,3,0
+Mammalia,Carnivora,Felidae,Leopardus,colocolo,Pampas Cat,98,17,0
+Aves,Passeriformes,Corvidae,Corvus,cornix,Hooded Crow,98,0,0
+Aves,Passeriformes,Turdidae,Turdus,hortulorum,Grey-backed Thrush,98,0,2
+Aves,Galliformes,Odontophoridae,Odontophorus,speciosus,Rufous-breasted Wood-quail,98,9,0
+Mammalia,Carnivora,Mustelidae,Mustela,altaica,Altai Weasel,97,4,0
+Aves,Passeriformes,Timaliidae,Erythrogenys,hypoleucos,Large Scimitar-babbler,97,12,0
+Mammalia,Rodentia,Sciuridae,Marmota,,Marmota Species,96,22,1
+Aves,Passeriformes,Passerellidae,Pooecetes,gramineus,Vesper Sparrow,96,0,0
+Aves,Charadriiformes,Charadriidae,Vanellus,indicus,Red-wattled Lapwing,96,0,0
+Reptilia,Squamata,Scincidae,Egernia,cunninghami,Cunningham's skink,96,0,0
+Aves,Accipitriformes,Accipitridae,Spilornis,cheela,Crested Serpent-Eagle,96,16,1
+Mammalia,Rodentia,Heteromyidae,Dipodomys,microps,Chisel-toothed Kangaroo Rat,95,0,0
+Mammalia,Lagomorpha,Leporidae,Lepus,corsicanus,Corsican Hare,94,0,0
+Aves,Ciconiiformes,Ciconiidae,Ciconia,ciconia,White Stork,94,30,0
+Aves,Passeriformes,Corvidae,Corvus,bennetti,Little Crow,94,0,0
+Mammalia,Didelphimorphia,Didelphidae,Monodelphis,glirina,Amazonian Red-sided Opossum,93,0,0
+Reptilia,Squamata,Varanidae,Varanus,giganteus,Perentie,93,0,0
+Reptilia,Squamata,Agamidae,Ctenophorus,caudicinctus,Ring-tailed dragon,92,9,0
+Mammalia,Perissodactyla,,,,Perissodactyla Order,92,0,0
+Mammalia,Primates,Cercopithecidae,Trachypithecus,obscurus,Dusky Langur,92,0,0
+Mammalia,Rodentia,Cricetidae,Neacomys,spinosus,Bristly Mouse,90,33,0
+Mammalia,Rodentia,Sciuridae,Trogopterus,xanthipes,Complex-toothed Flying Squirrel,90,0,0
+Mammalia,Rodentia,Sciuridae,Petaurista,petaurista,Red Giant Flying Squirrel,88,0,0
+Mammalia,Didelphimorphia,Didelphidae,Philander,andersoni,Anderson's Four-eyed Opossum,88,3,60
+Mammalia,Cingulata,Chlamyphoridae,Cabassous,unicinctus,Southern Naked-Tailed Armadillo,88,21,29
+Reptilia,Squamata,Scincidae,,,Scincidae Family,87,5,0
+Aves,Passeriformes,Passerellidae,Passerella,iliaca,Red Fox-sparrow,87,0,0
+Aves,Accipitriformes,Accipitridae,Terathopius,ecaudatus,Bateleur,86,0,0
+Aves,Pelecaniformes,Ardeidae,Nycticorax,nycticorax,Black-crowned Night-heron,85,11,3
+Aves,Passeriformes,Mimidae,Toxostoma,redivivum,California Thrasher,84,0,0
+Aves,Passeriformes,Corvidae,Aphelocoma,wollweberi,Mexican Jay,84,0,0
+Aves,Passeriformes,Tyrannidae,,,Tyrannidae Family,84,5,0
+Reptilia,Squamata,Agamidae,Ctenophorous,isolepsis,Military sand-dragon,84,0,0
+Mammalia,Carnivora,Felidae,Lynx,,Lynx Species,84,0,0
+Mammalia,Lagomorpha,Leporidae,Lepus,tolai,Tolai Hare,84,0,0
+Aves,Pelecaniformes,Ardeidae,Nyctanassa,violacea,Yellow-crowned Night-heron,83,31,0
+Mammalia,Afrosoricida,Tenrecidae,Setifer,,Setifer Species,83,13,0
+Mammalia,Didelphimorphia,Didelphidae,Marmosa,robinsoni,Robinson's Mouse Opossum,83,10,0
+Aves,Charadriiformes,Scolopacidae,Scolopax,rusticola,Eurasian Woodcock,83,12,0
+Mammalia,Primates,Cercopithecidae,Papio,cynocephalus,Yellow Baboon,82,86,0
+Aves,Passeriformes,Acanthizidae,,,Acanthizidae Family,82,0,0
+Aves,Anseriformes,Anatidae,Bucephala,albeola,Bufflehead,81,0,0
+Mammalia,Didelphimorphia,,,,Didelphimorphia Order,81,0,245
+Aves,Psittaciformes,Cacatuidae,Cacatua,sanguinea,Little Corella,81,0,0
+Reptilia,Squamata,Phrynosomatidae,Sceloporus,occidentalis,Western fence lizard,80,0,0
+Aves,Passeriformes,Maluridae,Malurus,lamberti,Variegated Fairy-wren,80,16,0
+Mammalia,Carnivora,Herpestidae,Helogale,parvula,Common Dwarf Mongoose,80,0,0
+Mammalia,Carnivora,Felidae,Catopuma,badia,Borneo Bay Cat,79,32,0
+Aves,Passeriformes,Fringillidae,Fringilla,coelebs,Common Chaffinch,79,0,0
+Aves,Accipitriformes,Accipitridae,Buteogallus,meridionalis,Savanna Hawk,78,0,0
+Mammalia,Primates,Cercopithecidae,Presbytis,frontata,White-fronted Langur,78,5,0
+Aves,Passeriformes,Tyrannidae,Tyrannus,verticalis,Western Kingbird,78,0,0
+Aves,Passeriformes,Turdidae,Catharus,swainsoni,Swainson's Thrush,78,14,0
+Mammalia,Rodentia,Sciuridae,Paraxerus,palliatus,Red Bush Squirrel,77,15,0
+Aves,Piciformes,Picidae,Picus,viridis,Green Woodpecker,77,28,0
+Mammalia,Macroscelidea,Macroscelididae,Rhynchocyon,cirnei,Chequered Sengi,77,126,0
+Mammalia,Carnivora,Mephitidae,Mephitis,,Mephitis Species,76,14,0
+Mammalia,Cingulata,,,,Cingulata Order,76,5,5
+Aves,Passeriformes,Passerellidae,Calamospiza,melanocorys,Lark Bunting,75,0,0
+Mammalia,Carnivora,Hyaenidae,Proteles,cristata,Aardwolf,75,0,0
+Aves,Passeriformes,Meliphagidae,Manorina,melanocephala,Noisy Miner,75,2,0
+Aves,Falconiformes,Falconidae,Phalcoboenus,chimango,Chimango Caracara,75,0,0
+Mammalia,Rodentia,Sciuridae,Xerus,rutilus,Unstriped Ground Squirrel,75,3,0
+Mammalia,Rodentia,Cricetidae,Euryoryzomys,nitidus,Elegant Rice Rat,74,0,0
+Aves,Passeriformes,Meliphagidae,Ptilotula,penicillata,White-plumed Honeyeater,74,0,0
+Mammalia,Cetartiodactyla,Bovidae,Cephalophus,weynsi,Weyns's Duiker,73,0,307
+Aves,Struthioniformes,Tinamidae,Crypturellus,obsoletus,Brown Tinamou,73,6,0
+Aves,Piciformes,Picidae,Dryobates,pubescens,Downy Woodpecker,73,5,8
+Aves,Passeriformes,Turdidae,Sialia,currucoides,Mountain Bluebird,73,10,0
+Aves,Passeriformes,Passerellidae,Arremonops,rufivirgatus,Olive Sparrow,72,0,0
+Aves,Passeriformes,Thamnophilidae,Taraba,major,Great Antshrike,72,17,0
+Mammalia,Primates,Lemuridae,Eulemur,rubriventer,Red-bellied Lemur,72,0,0
+Mammalia,Cetartiodactyla,Bovidae,Oreamnos,americanus,Mountain Goat,72,0,0
+Mammalia,Cetartiodactyla,Bovidae,Bubalus,arnee,Domestic Water Buffalo,71,42,99
+Aves,Accipitriformes,Accipitridae,Circaetus,pectoralis,Black-chested Snake-eagle,71,0,0
+Mammalia,Primates,Atelidae,Alouatta,seniculus,Colombian Red Howler Monkey,71,0,58
+Aves,Podicipediformes,Podicipedidae,Podilymbus,podiceps,Pied-billed Grebe,70,0,0
+Aves,Columbiformes,Columbidae,Macropygia,phasianella,Brown Cuckoo-dove,70,0,5
+Aves,Passeriformes,Corvidae,Corvus,ossifragus,Fish Crow,70,4,0
+Reptilia,Testudines,Testudinidae,Gopherus,polyphemus,Gopher Tortoise,70,0,0
+Mammalia,Primates,Galagidae,Galagoides,thomasi,Thomas's Dwarf Galago,70,0,0
+Reptilia,Squamata,Scincidae,Tiliqua,scincoides,Eastern Blue-Tongued Lizard,69,0,0
+Aves,Passeriformes,Tyrannidae,Sayornis,nigricans,Black Phoebe,69,5,0
+Aves,Passeriformes,Turdidae,Turdus,dissimilis,Black-breasted Thrush,69,0,0
+Mammalia,Rodentia,Dipodidae,Zapus,hudsonius,Meadow Jumping Mouse,69,4,0
+Mammalia,Rodentia,Erethizontidae,Coendou,prehensilis,Brazilian Porcupine,69,0,23
+Aves,Passeriformes,Motacillidae,Anthus,novaeseelandiae,Australasian Pipit,69,33,0
+Aves,Passeriformes,Artamidae,Cracticus,torquatus,Grey Butcherbird,68,6,33
+Mammalia,Cetartiodactyla,Bovidae,Raphicerus,sharpei,Sharpe's Grysbok,68,0,0
+Aves,Passeriformes,Oreoicidae,Oreoica,gutturalis,Crested Bellbird,68,0,0
+Aves,Accipitriformes,Accipitridae,Buteogallus,anthracinus,Common Black-Hawk,67,12,0
+Aves,Galliformes,Phasianidae,Pavo,muticus,Green Peafowl,67,0,0
+Aves,Falconiformes,Falconidae,Micrastur,semitorquatus,Collared Forest-falcon,67,0,0
+Aves,Accipitriformes,Accipitridae,Accipiter,cooperii,Cooper's Hawk,67,34,7
+Mammalia,Rodentia,Echimyidae,Mesomys,,Mesomys Species,67,0,0
+Aves,Piciformes,Picidae,Dryocopus,javensis,White-bellied Woodpecker,67,140,0
+Aves,Strigiformes,Strigidae,,,Strigidae Family,67,18,0
+Aves,Anseriformes,Anatidae,Anser,albifrons,Greater White-fronted Goose,67,0,0
+Mammalia,Rodentia,Thryonomyidae,Thryonomys,swinderianus,Greater Cane Rat,66,17,0
+Mammalia,Primates,Lemuridae,Hapalemur,griseus,Eastern Lesser Bamboo Lemur,66,0,0
+Aves,Passeriformes,Mimidae,Mimus,saturninus,Chalk-browed Mockingbird,66,0,0
+Aves,Piciformes,Picidae,,,Picidae Family,66,1,38
+Aves,Pelecaniformes,Ardeidae,Botaurus,lentiginosus,American Bittern,65,4,0
+Mammalia,Cetartiodactyla,Suidae,,,Suidae Family,65,3,2
+Mammalia,Rodentia,Muridae,Psammomys,obesus,Fat Sand Rat,65,3,0
+Aves,Struthioniformes,Struthionidae,Struthio,camelus,Common Ostrich,64,0,0
+Aves,Accipitriformes,Accipitridae,Spizaetus,ornatus,Ornate Hawk-eagle,64,9,118
+Aves,Piciformes,Picidae,Dendrocopos,major,Great Spotted Woodpecker,64,6,0
+Reptilia,Crocodilia,Alligatoridae,Caiman,,Caiman,64,0,0
+Insecta,Lepidoptera,,,,Butterflies and Moths,63,4,1
+Aves,Galliformes,Cracidae,Penelope,barbata,Bearded Guan,63,33,0
+Aves,Columbiformes,Columbidae,Patagioenas,fasciata,Northern Band-tailed Pigeon,63,54,3
+Aves,Accipitriformes,Accipitridae,Accipiter,fasciatus,Brown Goshawk,62,6,5
+Aves,Bucerotiformes,Phoeniculidae,Phoeniculus,bollei,White-headed Woodhoopoe,62,0,0
+Mammalia,Carnivora,Mustelidae,Ictonyx,striatus,Zorilla,62,0,0
+Aves,Otidiformes,Otididae,Eupodotis,senegalensis,White-bellied Bustard,62,3,0
+Mammalia,Primates,Indriidae,Propithecus,edwardsi,Milne-Edward's Sifaka,61,0,0
+Aves,Galliformes,Phasianidae,Arborophila,brunneopectus,Bar-backed Partridge,61,0,114
+Aves,Cuculiformes,Cuculidae,Crotophaga,,Crotophaga Species,60,5,9
+Aves,Passeriformes,Grallariidae,Grallaria,ruficapilla,Chestnut-crowned Antpitta,60,6,0
+Aves,Galliformes,Phasianidae,Arborophila,chloropus,Green-legged Partridge,60,2,0
+Aves,Passeriformes,Turdidae,Turdus,viscivorus,Mistle Thrush,60,121,0
+Aves,Passeriformes,Rhipiduridae,Rhipidura,rufifrons,Rufous Fantail,59,6,2
+Mammalia,Rodentia,Erethizontidae,Coendou,bicolor,Bicolor-spined Porcupine,59,0,0
+Mammalia,Carnivora,Eupleridae,Salanoia,concolor,Brown-tailed Vontsira,59,26,0
+Mammalia,Rodentia,Cricetidae,Peromyscus,gossypinus,Cotton Deermouse,59,0,0
+Aves,Caprimulgiformes,Podargidae,Podargus,strigoides,Tawny Frogmouth,59,8,21
+Aves,Passeriformes,Petroicidae,Melanodryas,cucullata,Hooded Robin,58,0,0
+Aves,Passeriformes,Rhipiduridae,Rhipidura,albiscapa,Grey Fantail,58,3,7
+Aves,Passeriformes,Turdidae,Turdus,serranus,Glossy-black Thrush,57,3,0
+Aves,Passeriformes,Tyrannidae,Xolmis,cinereus,Grey Monjita,57,2,0
+Aves,Coraciiformes,Momotidae,Baryphthengus,martii,Rufous Motmot,57,9,0
+Aves,Gruiformes,Rallidae,Dryolimnas,cuvieri,White-throated Rail,57,16,0
+Aves,Musophagiformes,Musophagidae,Musophaga,rossae,Ross's Turaco,57,0,0
+Mammalia,Primates,Galagidae,Otolemur,garnettii,Garnett's Greater Galago,56,3,0
+Aves,Galliformes,Phasianidae,Bonasa,bonasia,Hazel Grouse,56,16,3
+Mammalia,Rodentia,Sciuridae,Rhinosciurus,laticaudatus,Shrew-faced Squirrel,56,3,0
+Aves,Passeriformes,Troglodytidae,Cistothorus,palustris,Marsh Wren,55,0,0
+Mammalia,Rodentia,Sciuridae,Guerlinguetus,brasiliensis,Brazilian Squirrel,55,0,0
+Mammalia,Carnivora,Viverridae,Genetta,victoriae,Giant Genet,55,0,0
+Mammalia,Afrosoricida,Tenrecidae,Setifer,setosus,Greater Hedgehog Tenrec,54,3,0
+Mammalia,Diprotodontia,Petauridae,Petaurus,,Petaurus Species,54,6,0
+Mammalia,Cetartiodactyla,Bovidae,Procapra,gutturosa,Mongolian Gazelle,54,0,0
+Mammalia,Primates,Cercopithecidae,,,Cercopithecidae Family,54,14,12
+Aves,Passeriformes,Icteridae,Quiscalus,major,Boat-tailed Grackle,54,4,0
+Mammalia,Primates,Atelidae,Ateles,chamek,Black-faced Black Spider Monkey,54,0,0
+Mammalia,Carnivora,Mustelidae,Galictis,cuja,Lesser Grison,54,0,0
+Aves,Charadriiformes,Charadriidae,Charadrius,vociferus,Killdeer,53,5,0
+Mammalia,Dasyuromorphia,Dasyuridae,Sminthopsis,youngsoni,Lesser Hairy-footed Dunnart,53,0,0
+Mammalia,Primates,Lorisidae,Perodicticus,potto,West African Potto,53,0,75
+Mammalia,Carnivora,Felidae,Felis,chaus,Jungle Cat,53,10,0
+Mammalia,Rodentia,Heteromyidae,Dipodomys,californicus,California Kangaroo Rat,53,0,0
+Mammalia,Carnivora,Mustelidae,Galictis,vittata,Greater Grison,52,14,4
+Mammalia,Primates,Aotidae,Aotus,vociferans,Spix's Night Monkey,52,49,0
+Aves,Gruiformes,Rallidae,Rallus,madagascariensis,Madagascar Rail,52,0,0
+Mammalia,Carnivora,Mustelidae,Aonyx,cinereus,Asian Small-clawed Otter,52,5,5
+Aves,Cuculiformes,Cuculidae,Neomorphus,,Neomorphus Species,52,0,1
+Mammalia,Rodentia,Dipodidae,Jaculus,,Jaculus Species,51,0,0
+Mammalia,Primates,Cebidae,Cebus,,Cebus Species,51,57,20
+Aves,Galliformes,Cracidae,Pipile,cujubi,Red-throated Piping-guan,51,0,9
+Mammalia,Rodentia,Echimyidae,Proechimys,cuvieri,Cuvier's Spiny Rat,51,0,0
+Aves,Gruiformes,Rallidae,Rallina,eurizonoides,Slaty-legged Crake,51,0,0
+Aves,Falconiformes,Falconidae,Micrastur,mintoni,Cryptic Forest-falcon,51,0,0
+Mammalia,Rodentia,Sciuridae,Eutamias,sibiricus,Siberian Chipmunk,50,0,0
+Mammalia,Diprotodontia,Pseudocheiridae,,,Ringtail Possum Family,50,0,0
+Aves,Falconiformes,Falconidae,Daptrius,ater,Black Caracara,50,0,0
+Aves,Passeriformes,Furnariidae,Cinclodes,fuscus,Bar-winged Cinclodes,50,0,0
+Aves,Passeriformes,Pycnonotidae,Bleda,notatus,Yellow-lored Bristlebill,50,0,0
+Mammalia,Primates,Callitrichidae,Leontocebus,fuscicollis,Saddleback Tamarin,50,0,0
+Aves,Pelecaniformes,Threskiornithidae,Theristicus,caudatus,Buff-necked Ibis,49,0,26
+Mammalia,Rodentia,Nesomyidae,Eliurus,webbi,Webb's Tuft-tailed Rat,49,6,0
+Mammalia,Primates,Cebidae,Cebus,kaapori,Ka'apor Capuchin,49,3,0
+Aves,Galliformes,Phasianidae,Galloperdix,spadicea,Red Spurfowl,49,1,0
+Mammalia,Carnivora,Mustelidae,Mustela,nudipes,Malay Weasel,48,10,0
+Aves,Passeriformes,Turdidae,Turdus,fulviventris,Chestnut-bellied Thrush,48,0,0
+Mammalia,Rodentia,Caviidae,Cavia,tschudii,Montane Guinea Pig,48,0,0
+Aves,Passeriformes,Passerellidae,Zonotrichia,capensis,Rufous-collared Sparrow,48,0,0
+Aves,Passeriformes,Furnariidae,Furnarius,rufus,Rufous Hornero,48,0,0
+Aves,Bucerotiformes,Bucerotidae,Bycanistes,brevis,Silvery-cheeked Hornbill,48,0,0
+Aves,Passeriformes,Grallariidae,Grallaria,quitensis,Western Tawny Antpitta,48,0,0
+Aves,Galliformes,Cracidae,Mitu,,Mitu Species,48,0,0
+Mammalia,Rodentia,Heteromyidae,Dipodomys,ingens,Giant Kangaroo Rat,47,0,0
+Aves,Charadriiformes,Laridae,Larus,ridibundus,Black-headed Gull,47,0,0
+Aves,Passeriformes,Parulidae,Setophaga,coronata,Myrtle Warbler,47,0,0
+Aves,Struthioniformes,Tinamidae,Crypturellus,tataupa,Tataupa Tinamou,47,10,0
+Aves,Passeriformes,Turdidae,Turdus,pelios,African Thrush,46,0,0
+Aves,Columbiformes,Columbidae,Geotrygon,violacea,Violaceous Quail-dove,46,1,0
+Aves,Passeriformes,Corvidae,Pyrrhocorax,graculus,Yellow-billed Chough,46,0,0
+Aves,Passeriformes,Thraupidae,Islerothraupis,cristata,Flame-crested Tanager,45,2,0
+Aves,Struthioniformes,Tinamidae,Nothura,maculosa,Spotted Nothura,45,3,0
+Aves,Accipitriformes,,,,Accipitriformes Order,45,0,24
+Aves,Passeriformes,Tyrannidae,Xolmis,velatus,White-rumped Monjita,45,5,0
+Mammalia,Perissodactyla,Rhinocerotidae,Diceros,bicornis,Black Rhinoceros,45,0,0
+Mammalia,Diprotodontia,Burramyidae,Cercartetus,nanus,Eastern Pygmy Possum,45,0,1
+Aves,Piciformes,Ramphastidae,Ramphastos,,Ramphastos Species,45,0,0
+Aves,Passeriformes,Estrildidae,Taeniopygia,castanotis,Australian Zebra Finch,44,10,0
+Mammalia,Didelphimorphia,Didelphidae,Marmosa,demerarae,Woolly Mouse Opossum,44,6,0
+Mammalia,Rodentia,Sciuridae,Ratufa,affinis,Pale Giant Squirrel,44,14,0
+Aves,Passeriformes,Acanthizidae,Origma,solitaria,Rock Warbler,44,0,2
+Aves,Cuculiformes,Cuculidae,Carpococcyx,renauldi,Coral-billed Ground-cuckoo,44,6,0
+Mammalia,Dasyuromorphia,Dasyuridae,Antechinus,,Antechinus Species,43,3,77
+Mammalia,Rodentia,Sciuridae,Sciurus,variegatoides,Variegated Squirrel,43,0,0
+Aves,Columbiformes,Columbidae,Geopelia,placida,Peaceful Dove,42,0,0
+Aves,Psittaciformes,Cacatuidae,Zanda,funerea,Yellow-tailed Black-cockatoo,42,0,1
+Aves,Galliformes,Cracidae,Ortalis,superciliaris,Buff-browed Chachalaca,42,0,0
+Aves,Passeriformes,Passerellidae,Ammodramus,savannarum,Grasshopper Sparrow,42,0,0
+Aves,Cuculiformes,Cuculidae,Coua,caerulea,Blue Coua,41,6,0
+Aves,Columbiformes,Columbidae,Zenaida,asiatica,White-winged Dove,41,4,0
+Aves,Accipitriformes,Accipitridae,Leucopternis,kuhli,White-browed Hawk,41,0,0
+Mammalia,Primates,Atelidae,Ateles,belzebuth,White-bellied Spider Monkey,41,0,0
+Mammalia,Primates,Cercopithecidae,Pygathrix,nemaeus,Red-shanked Douc Langur,41,1,0
+Aves,Cuculiformes,Cuculidae,Coua,ruficeps,Coua à tête rousse,40,4,0
+Aves,Passeriformes,Pycnonotidae,Stelgidillas,gracilirostris,Slender-billed Greenbul,40,0,0
+Aves,Passeriformes,Muscicapidae,Pogonocichla,stellata,White-starred Robin,40,1,3
+Aves,Podicipediformes,Podicipedidae,Tachybaptus,novaehollandiae,Australasian Grebe,40,16,0
+Aves,Struthioniformes,Tinamidae,Crypturellus,duidae,Grey-legged Tinamou,40,0,30
+Mammalia,Carnivora,Felidae,Neofelis,nebulosa,Clouded Leopard,40,3,0
+Aves,Piciformes,Picidae,Melanerpes,aurifrons,Golden-fronted Woodpecker,39,7,0
+Aves,Passeriformes,Corvidae,Aphelocoma,woodhouseii,Woodhouse's Scrub-Jay,39,1,0
+Aves,Passeriformes,Turdidae,Turdus,olivaceus,Olive Thrush,39,0,69
+Aves,Passeriformes,Grallariidae,Myrmothera,campanisona,Thrush-like Antpitta,39,0,0
+Aves,Cathartiformes,Cathartidae,Vultur,gryphus,Andean Condor,39,0,0
+Mammalia,Carnivora,Canidae,Canis,mesomelas,Black-backed Jackal,38,27,0
+Aves,Piciformes,Bucconidae,Monasa,atra,Black Nunbird,38,0,0
+Aves,Piciformes,Indicatoridae,Indicator,minor,Lesser Honeyguide,38,0,0
+Reptilia,Crocodylia,Alligatoridae,Paleosuchus,,Alligator Species,38,0,122
+Mammalia,Didelphimorphia,Didelphidae,Caluromys,philander,Bare-tailed Woolly Opossum,38,0,0
+Aves,Passeriformes,Muscicapidae,Oenanthe,,Oenanthe Species,38,0,0
+Aves,Passeriformes,Passerellidae,Spizella,passerina,Chipping Sparrow,38,0,0
+Mammalia,Rodentia,Nesomyidae,Eliurus,penicillatus,White-tipped Tuft-tailed Rat,37,6,0
+Aves,Columbiformes,Columbidae,Spilopelia,senegalensis,Laughing Dove,37,0,0
+Mammalia,Dasyuromorphia,Dasyuridae,Sminthopsis,longicaudata,Long-tailed Dunnart,37,0,0
+Aves,Galliformes,Cracidae,Penelope,ortoni,Baudo Guan,37,0,0
+Aves,Passeriformes,Estrildidae,Poephila,acuticauda,Long-tailed Finch,37,0,0
+Mammalia,Cetartiodactyla,Tragulidae,Tragulus,javanicus,Javan Chevrotain,37,15,245
+Mammalia,Carnivora,Viverridae,Viverra,megaspila,Large-spotted Civet,37,0,0
+Mammalia,Pilosa,Megalonychidae,Choloepus,didactylus,Linné's Two-toed Sloth,37,8,0
+Aves,Passeriformes,Turdidae,Sialia,sialis,Eastern Bluebird,37,8,0
+Aves,Struthioniformes,Tinamidae,Rhynchotus,rufescens,Red-winged Tinamou,37,3,150
+Reptilia,Squamata,Agamidae,Pogona,minor,Western bearded dragon,36,0,0
+Mammalia,Cetartiodactyla,Bovidae,Capra,aegagrus,Wild Goat,36,0,0
+Aves,Passeriformes,Leiotrichidae,Garrulax,castanotis,Rufous-cheeked Laughingthrush,36,0,0
+Aves,Galliformes,Phasianidae,Chrysolophus,amherstiae,Lady Amherst's Pheasant,36,0,0
+Aves,Passeriformes,Parulidae,,,Parulidae Family,35,0,0
+Aves,Passeriformes,Icteridae,Quiscalus,mexicanus,Great-tailed Grackle,35,0,0
+Mammalia,Dasyuromorphia,Dasyuridae,Antechinus,flavipes,Yellow-footed Antechinus,35,0,0
+Aves,Passeriformes,Ptilonorhynchidae,Chlamydera,nuchalis,Great Bowerbird,35,0,0
+Aves,Charadriiformes,Scolopacidae,Bartramia,longicauda,Upland Sandpiper,35,0,0
+Mammalia,Cetartiodactyla,Bovidae,Tetracerus,quadricornis,Four-horned Antelope,35,0,0
+Aves,Accipitriformes,Accipitridae,Buteo,,Buteo Species,35,4,0
+Aves,Passeriformes,Troglodytidae,Troglodytes,troglodytes,Wren,35,8,0
+Aves,Passeriformes,Timaliidae,Stachyris,herberti,Sooty Babbler,35,0,0
+Aves,Passeriformes,Tyrannidae,Pitangus,sulphuratus,Great Kiskadee,35,28,0
+Aves,Passeriformes,Icteridae,Xanthocephalus,xanthocephalus,Yellow-headed Blackbird,35,0,0
+Aves,Passeriformes,Calcariidae,Calcarius,ornatus,Chestnut-collared Longspur,35,0,0
+Aves,Anseriformes,Anatidae,Neochen,jubata,Orinoco Goose,35,0,0
+Aves,Passeriformes,Artamidae,Artamus,cyanopterus,Dusky Woodswallow,34,0,0
+Mammalia,Carnivora,Viverridae,Genetta,tigrina,Cape Genet,34,3,0
+Aves,Charadriiformes,Laridae,Larus,,Larus Species,34,0,0
+Aves,Bucerotiformes,Bucerotidae,Ceratogymna,atrata,Black-casqued Hornbill,34,0,0
+Aves,Caprimulgiformes,Trochilidae,,,Trochilidae Family,34,0,0
+Aves,Passeriformes,Muscicapidae,Cyornis,lemprieri,Palawan Blue-flycatcher,34,16,0
+Mammalia,Rodentia,Sciuridae,Xerus,erythropus,Striped Ground Squirrel,34,6,0
+Aves,Passeriformes,Passerellidae,Arremon,taciturnus,Pectoral Sparrow,33,14,0
+Aves,Passeriformes,Turdidae,Zoothera,dauma,Scaly Thrush,33,0,0
+Aves,Passeriformes,Icteridae,Molothrus,bonariensis,Shiny Cowbird,33,0,0
+Mammalia,Rodentia,Aplodontiidae,Aplodontia,rufa,Mountain Beaver,33,13,0
+Aves,Cuculiformes,Cuculidae,Neomorphus,squamiger,Scaled Ground-Cuckoo,32,3,0
+Aves,Passeriformes,Alaudidae,Galerida,cristata,Crested Lark,32,8,0
+Mammalia,Didelphimorphia,Didelphidae,Chironectes,minimus,Water Opossum,32,9,0
+Aves,Passeriformes,Turdidae,Turdus,rubrocanus,Chestnut Thrush,32,3,0
+Aves,Charadriiformes,Laridae,,,Laridae Family,31,508,0
+Aves,Passeriformes,Acanthizidae,Pycnoptilus,floccosus,Pilotbird,31,19,0
+Mammalia,Carnivora,Mustelidae,Melogale,personata,Large-toothed Ferret Badger,31,0,0
+Aves,Pelecaniformes,Ardeidae,Gorsachius,melanolophus,Malay Night-heron,31,0,0
+Aves,Passeriformes,Tyrannidae,Fluvicola,albiventer,Black-backed Water-tyrant,31,0,0
+Mammalia,Carnivora,Felidae,Caracal,caracal,Caracal,31,0,0
+Aves,Gruiformes,Rallidae,Aramides,calopterus,Red-winged Wood-rail,31,0,0
+Aves,Galliformes,Cracidae,Aburria,,Aburria Species,31,0,45
+Aves,Anseriformes,Anatidae,Mareca,strepera,Gadwall,31,0,0
+Aves,Passeriformes,Muscicapidae,Phoenicurus,ochruros,Black Redstart,31,8,0
+Aves,Passeriformes,Climacteridae,Cormobates,leucophaea,White-throated Treecreeper,31,49,2
+Aves,Pelecaniformes,Pelecanidae,Pelecanus,erythrorhynchos,American White Pelican,31,1,0
+Aves,Galliformes,Odontophoridae,,,Odontophoridae Family,31,7,1
+Mammalia,Rodentia,Erethizontidae,Coendou,quichua,Coendou quichua,31,0,0
+Aves,Passeriformes,Thamnophilidae,Phlegopsis,nigromaculata,Black-spotted Bare-eye,30,0,0
+Mammalia,Rodentia,Heteromyidae,Dipodomys,deserti,Desert Kangaroo Rat,30,1,0
+Aves,Passeriformes,Grallariidae,Grallaria,rufula,Rufous Antpitta,30,0,0
+Aves,Cuculiformes,Cuculidae,Guira,guira,Guira Cuckoo,30,0,0
+Aves,Strigiformes,Strigidae,Megascops,asio,Eastern Screech-owl,30,12,0
+Aves,Passeriformes,Pellorneidae,Turdinus,brevicaudatus,Streaked Wren-babbler,30,0,0
+Aves,Pelecaniformes,Ardeidae,Ixobrychus,exilis,Least Bittern,30,0,0
+Aves,Passeriformes,Pittidae,Pitta,angolensis,Brève à poitrine fauve,30,0,0
+Aves,Passeriformes,Grallariidae,Grallaria,hypoleuca,White-bellied Antpitta,30,0,0
+Aves,Anseriformes,Anatidae,Cygnus,atratus,Black Swan,29,41,0
+Aves,Passeriformes,Icteridae,Icterus,bullockiorum,Bullock's Oriole,29,0,0
+Aves,Passeriformes,Maluridae,Malurus,,Malurus Species,29,2,0
+Aves,Anseriformes,Anatidae,Lophodytes,cucullatus,Hooded Merganser,29,10,0
+Aves,Psittaciformes,Psittacidae,Platycercus,eximius,Eastern Rosella,29,0,0
+Aves,Passeriformes,Corvidae,Pyrrhocorax,pyrrhocorax,Red-billed Chough,29,0,0
+Aves,Galliformes,Phasianidae,Lagopus,lagopus,Willow Grouse,29,0,0
+Aves,Accipitriformes,Accipitridae,Geranospiza,caerulescens,Crane Hawk,29,1,0
+Mammalia,Carnivora,Felidae,Leopardus,guigna,Guiña,29,0,0
+Mammalia,Primates,Cercopithecidae,Cercopithecus,denti,Dent's Monkey,29,0,0
+Mammalia,Rodentia,Sciuridae,Sciurillus,,Sciurillus Species,29,0,0
+Aves,Passeriformes,Artamidae,Artamus,cinereus,Black-faced Woodswallow,29,0,0
+Aves,Passeriformes,Corvidae,Cissa,chinensis,Common Green Magpie,29,0,0
+Mammalia,Diprotodontia,Petauridae,Petaurus,norfolcensis,Squirrel Glider,28,0,0
+Mammalia,Rodentia,Cuniculidae,,,Cuniculidae Family,28,1,0
+Aves,Caprimulgiformes,Caprimulgidae,Hydropsalis,,Hydropsalis Species,28,0,0
+Aves,Piciformes,Picidae,Colaptes,,Colaptes Species,28,0,0
+Aves,Piciformes,Picidae,Colaptes,campestris,Campo Flicker,28,0,0
+Aves,Passeriformes,Muscicapidae,Stiphrornis,erythrothorax,Orange-breasted Forest-robin,28,0,0
+Aves,Piciformes,Picidae,Celeus,elegans,Chestnut Woodpecker,27,0,27
+Aves,Columbiformes,Columbidae,Streptopelia,decipiens,Mourning Collared-dove,27,0,0
+Mammalia,Rodentia,Sciuridae,Funisciurus,lemniscatus,Ribboned Rope Squirrel,27,0,0
+Aves,Passeriformes,Passerellidae,Melozone,crissalis,California Towhee,27,0,0
+Aves,Passeriformes,Meliphagidae,Philemon,corniculatus,Noisy Friarbird,27,0,0
+Aves,Columbiformes,Columbidae,Patagioenas,cayennensis,Pale-vented Pigeon,27,0,0
+Mammalia,Carnivora,Hyaenidae,,,Hyaenidae Family,27,9,0
+Aves,Cuculiformes,Cuculidae,Crotophaga,ani,Smooth-billed Ani,27,0,0
+Aves,Columbiformes,Columbidae,Columba,livia,Rock Dove,27,0,0
+Reptilia,Testudines,Testudinidae,,,Tortoise Family,27,0,0
+Aves,Piciformes,Picidae,Campephilus,rubricollis,Red-necked Woodpecker,27,0,0
+Aves,Charadriiformes,Scolopacidae,Numenius,americanus,Long-billed Curlew,27,0,0
+Aves,Passeriformes,Icteridae,Agelaius,,Agelaius Species,26,1,0
+Aves,Passeriformes,Maluridae,Malurus,assimilis,Purple-backed Fairy-wren,26,0,0
+Aves,Passeriformes,Tyrannidae,Sayornis,phoebe,Eastern Phoebe,26,0,0
+Aves,Galliformes,Cracidae,Ortalis,,Ortalis Species,26,0,0
+Mammalia,Rodentia,Spalacidae,Rhizomys,sinensis,Chinese Bamboo Rat,26,0,0
+Aves,Galliformes,Phasianidae,Alectoris,,Alectoris Species,26,6,0
+Aves,Galliformes,Phasianidae,Arborophila,rufipectus,Sichuan Partridge,26,0,0
+Aves,Columbiformes,Columbidae,Patagioenas,plumbea,Plumbeous Pigeon,26,6,7
+Aves,Galliformes,Cracidae,Ortalis,motmot,Little Chachalaca,26,0,0
+Aves,Strigiformes,Strigidae,Megascops,kennicottii,Western Screech-owl,26,0,1
+Aves,Passeriformes,Corvidae,Urocissa,erythroryncha,Red-billed Blue Magpie,26,0,0
+Aves,Passeriformes,Locustellidae,Cincloramphus,mathewsi,Rufous Songlark,25,0,0
+Mammalia,Pilosa,Megalonychidae,Choloepus,hoffmanni,Hoffmann's Two-toed Sloth,25,0,0
+Aves,Passeriformes,Pellorneidae,Pellorneum,capistratum,Rufous-browed Babbler,25,6,3
+Aves,Passeriformes,Mimidae,Toxostoma,curvirostre,Curve-billed Thrasher,25,2,0
+Aves,Anseriformes,Anatidae,Anas,acuta,Northern Pintail,25,0,0
+Aves,Passeriformes,Artamidae,Artamus,personatus,Masked Woodswallow,25,0,0
+Aves,Passeriformes,Meliphagidae,Ptilotula,keartlandi,Grey-headed Honeyeater,25,0,0
+Mammalia,Rodentia,Sciuridae,Sciurus,nayaritensis,Mexican Fox Squirrel,25,0,0
+Mammalia,Primates,Tarsiidae,Tarsius,bancanus,Horsfield's Tarsier,25,1,0
+Aves,Passeriformes,Turdidae,Turdus,falcklandii,Austral Thrush,25,0,0
+Mammalia,Diprotodontia,Macropodidae,Wallabia,,Wallabia Species,25,51,0
+Mammalia,Cetartiodactyla,Bovidae,Redunca,redunca,Bohor Reedbuck,25,0,0
+Aves,Anseriformes,Anatidae,Anser,anser domesticus,Domestic Goose,24,0,0
+Aves,Columbiformes,Columbidae,Geotrygon,saphirina,Sapphire Quail-Dove,24,0,0
+Mammalia,Rodentia,Heteromyidae,Chaetodipus,hispidus,Hispid Pocket Mouse,24,0,0
+Aves,Galliformes,Phasianidae,Bonasa,sewerzowi,Chinese Grouse,24,0,0
+Reptilia,Squamata,Teiidae,Holcosus,festivus,Middle American Ameiva,24,2,0
+Mammalia,Rodentia,Muridae,Leopoldamys,edwardsi,Edward's Rat,24,3,0
+Mammalia,Rodentia,Sciuridae,Neotamias,amoenus,Yellow-pine Chipmunk,24,6,0
+Aves,Pelecaniformes,Threskiornithidae,Threskiornis,moluccus,Australian Ibis,24,2,0
+Aves,Passeriformes,Grallariidae,Grallaria,nuchalis,Chestnut-naped Antpitta,24,22,0
+Aves,Passeriformes,Muscicapidae,Larvivora,sibilans,Rufous-tailed Robin,24,0,0
+Aves,Falconiformes,Falconidae,Caracara,cheriway,Crested Caracara,24,4,0
+Aves,Passeriformes,Icteridae,Psarocolius,decumanus,Crested Oropendola,24,0,3
+Aves,Pelecaniformes,Threskiornithidae,Phimosus,infuscatus,Bare-faced Ibis,23,0,13
+Mammalia,Carnivora,Ursidae,Melursus,ursinus,Sloth Bear,23,0,0
+Aves,Charadriiformes,Scolopacidae,Limosa,fedoa,Marbled Godwit,23,5,0
+Reptilia,Squamata,Iguanidae,Sauromalus,ater,Common Chuckwalla,23,0,0
+Aves,Galliformes,Odontophoridae,Odontophorus,balliviani,Stripe-faced Wood-quail,23,0,0
+Aves,Accipitriformes,Accipitridae,Buteo,regalis,Ferruginous Hawk,23,0,0
+Aves,Falconiformes,Falconidae,Micrastur,mirandollei,Slaty-backed Forest-falcon,23,0,0
+Aves,Accipitriformes,Accipitridae,Buteo,swainsoni,Swainson's Hawk,23,0,0
+Aves,Passeriformes,Leiotrichidae,Argya,squamiceps,Arabian Babbler,23,3,0
+Aves,Accipitriformes,Accipitridae,Accipiter,tachiro,African Goshawk,23,0,0
+Aves,Cuculiformes,Cuculidae,Dromococcyx,pavoninus,Pavonine Cuckoo,23,0,0
+Aves,Accipitriformes,Accipitridae,Polyboroides,typus,African Harrier-hawk,22,0,9
+Aves,Passeriformes,Ptilonorhynchidae,Chlamydera,guttata,Western Bowerbird,22,0,0
+Mammalia,Diprotodontia,Pseudocheiridae,Petauroides,volans,Greater Glider,22,0,0
+Mammalia,Primates,Atelidae,Alouatta,arctoidea,Ursine Howler Monkey,22,0,0
+Aves,Passeriformes,Turdidae,Turdus,fuscater,Great Thrush,22,0,0
+Mammalia,Dasyuromorphia,Dasyuridae,Sminthopsis,,Sminthopsis Species,22,0,0
+Mammalia,Rodentia,Erethizontidae,Coendou,spinosus,Paraguay Hairy Dwarf Porcupine,22,2,0
+Aves,Passeriformes,Passerellidae,Melozone,,Melozone Species,22,0,0
+Aves,Charadriiformes,Burhinidae,Burhinus,oedicnemus,Eurasian Stone-curlew,22,0,0
+Mammalia,Rodentia,Nesomyidae,Eliurus,petteri,Petter's Tuft-tailed Rat,22,2,0
+Aves,Anseriformes,Anatidae,Mergus,merganser,Goosander,21,0,0
+Aves,Passeriformes,Artamidae,Strepera,,Strepera Species,21,5,0
+Aves,Passeriformes,Turdidae,Catharus,dryas,Spotted Nightingale-thrush,21,0,0
+Mammalia,Rodentia,Sciuridae,Neotamias,dorsalis,Cliff Chipmunk,21,0,0
+Aves,Passeriformes,Dicaeidae,Prionochilus,plateni,Palawan Flowerpecker,21,0,0
+Aves,Galliformes,Phasianidae,Lagopus,,Lagopus Species,21,0,0
+Aves,Passeriformes,Passerellidae,,,Passerellidae Family,21,0,0
+Aves,Galliformes,Phasianidae,Dendroperdix,sephaena,Crested Francolin,21,5,0
+Aves,Charadriiformes,Scolopacidae,Gallinago,,Gallinago Species,21,0,0
+Mammalia,Rodentia,Hystricidae,,,Old World Porcupine Family,21,0,3
+Mammalia,Rodentia,Muridae,Rattus,lutreolus,Australian Swamp Rat,20,0,5
+Mammalia,Rodentia,Muridae,Lophuromys,woosnami,Woosnam's Brush-furred Rat,20,0,0
+Aves,Passeriformes,Tyrannidae,Corythopis,torquatus,Ringed Antpipit,20,0,0
+Mammalia,Cetartiodactyla,Bovidae,Cephalophus,,Cephalophus Species,20,6,48
+Aves,Galliformes,Cracidae,Penelope,montagnii,Andean Guan,20,0,0
+Mammalia,Rodentia,Sciuridae,Callosciurus,caniceps,Grey-bellied Squirrel,20,0,0
+Mammalia,Carnivora,Felidae,Prionailurus,planiceps,Flat-headed Cat,20,0,0
+Mammalia,Cingulata,Dasypodidae,Dasypus,hybridus,Southern Long-Nosed Armadillo,20,0,0
+Aves,Psittaciformes,Psittacidae,Amazona,oratrix,Yellow-headed Amazon,20,0,0
+Aves,Passeriformes,Grallariidae,Grallaria,guatimalensis,Scaled Antpitta,20,0,0
+Mammalia,Pilosa,Cyclopedidae,Cyclopes,didactylus,Silky Anteater,20,0,0
+Aves,Passeriformes,Sittidae,Sitta,carolinensis,White-breasted Nuthatch,20,1,0
+Aves,Passeriformes,Dasyornithidae,Dasyornis,brachypterus,Eastern Bristlebird,20,0,0
+Aves,Columbiformes,Columbidae,Columba,,Columba Species,19,1,0
+Aves,Passeriformes,Corvidae,Corvus,cryptoleucus,Chihuahuan Raven,19,262,0
+Mammalia,Carnivora,Mustelidae,Mustela,nivalis,Least Weasel,19,0,7
+Aves,Accipitriformes,Accipitridae,Buteo,lagopus,Rough-legged Buzzard,19,0,12
+Aves,Passeriformes,Corvidae,Gymnorhinus,cyanocephalus,Pinyon Jay,19,0,0
+Reptilia,Squamata,Elapidae,Pseudechis,porphyriacus,Red-bellied Black Snake,19,0,0
+Aves,Passeriformes,Passerellidae,Zonotrichia,atricapilla,Golden-crowned Sparrow,19,0,0
+Aves,Passeriformes,Cardinalidae,,,Cardinalidae Family,19,0,0
+Aves,Passeriformes,Passerellidae,Chondestes,grammacus,Lark Sparrow,19,0,0
+Mammalia,Rodentia,Sciuridae,Sciurotamias,davidianus,Pére David's Rock Squirrel,19,0,0
+Mammalia,Rodentia,Sciuridae,Neotamias,merriami,Merriam's Chipmunk,19,0,0
+Aves,Accipitriformes,Accipitridae,Nisaetus,alboniger,Blyth's Hawk-eagle,19,0,0
+Aves,Columbiformes,Columbidae,Lopholaimus,antarcticus,Topknot Pigeon,19,5,0
+Aves,Passeriformes,Corvidae,Corvus,macrorhynchos,Jungle Crow,19,45,0
+Aves,Anseriformes,Anatidae,Spatula,cyanoptera,Cinnamon Teal,19,0,0
+Aves,Galliformes,Cracidae,Aburria,aburri,Wattled Guan,19,0,6
+Aves,Passeriformes,Corvidae,Pica,nutalli,Yellow-billed Magpie,19,0,0
+Aves,Pelecaniformes,Ardeidae,Pilherodius,pileatus,Capped Heron,19,13,155
+Reptilia,Squamata,Colubridae,,,Colubridae Family,18,0,1
+Mammalia,Diprotodontia,Burramyidae,Cercartetus,,Cercartetus Species,18,19,0
+Mammalia,Lagomorpha,Leporidae,Lepus,oiostolus,Woolly Hare,18,0,0
+Aves,Cathartiformes,Cathartidae,Sarcoramphus,papa,King Vulture,18,0,16
+Mammalia,Rodentia,Cricetidae,Neotoma,micropus,Southern Plains Woodrat,18,39,0
+Aves,Cuculiformes,Cuculidae,Coua,,Coua Species,18,1,0
+Aves,Gruiformes,Rallidae,Lewinia,pectoralis,Lewin's Rail,18,0,0
+Aves,Accipitriformes,Accipitridae,Geranoaetus,albicaudatus,White-tailed Hawk,18,0,0
+Mammalia,Cingulata,Chlamyphoridae,Cabassous,centralis,Northern Naked-tailed Armadillo,18,15,0
+Aves,Accipitriformes,Accipitridae,Accipiter,nisus,Eurasian Sparrowhawk,18,0,0
+Aves,Pelecaniformes,Ardeidae,Ardea,alba,Great White Egret,18,43,13
+Aves,Passeriformes,Corvidae,Cyanocorax,violaceus,Violaceous Jay,18,0,7
+Aves,Passeriformes,Grallariidae,Grallaria,,Grallaria Species,18,0,0
+Mammalia,Cetartiodactyla,Cervidae,Pudu,mephistophiles,Northern Pudu,18,23,0
+Aves,Galliformes,Cracidae,Ortalis,araucuan,East Brazilian Chachalaca,18,0,0
+Mammalia,Cetartiodactyla,Cervidae,Mazama,pandora,Yucatan Brown Brocket,18,0,0
+Aves,Passeriformes,Furnariidae,Dendroplex,picus,Straight-billed Woodcreeper,18,0,0
+Aves,Columbiformes,Columbidae,Claravis,pretiosa,Blue Ground-dove,18,0,0
+Aves,Passeriformes,Furnariidae,Cinclodes,atacamensis,White-winged Cinclodes,18,0,0
+Aves,Galliformes,Phasianidae,Coturnix,delegorguei,Harlequin Quail,18,0,0
+Aves,Columbiformes,Columbidae,Columba,oenas,Stock Dove,17,6,0
+Mammalia,Diprotodontia,Petauridae,Petaurus,breviceps,Sugar Glider,17,0,0
+Aves,Anseriformes,Anatidae,Anas,,Anas Species,17,0,0
+Mammalia,Primates,Cebidae,Saimiri,,Saimiri Species,17,1,5
+Aves,Passeriformes,Paridae,Poecile,atricapillus,Black-capped Chickadee,17,2,4
+Aves,Passeriformes,Paridae,Poecile,gambeli,Mountain Chickadee,17,5,0
+Aves,Sphenisciformes,Spheniscidae,Eudyptula,minor,Little Penguin,17,0,0
+Aves,Passeriformes,Motacillidae,Motacilla,cinerea,Grey Wagtail,17,0,0
+Aves,Anseriformes,Anatidae,Dendrocygna,autumnalis,Black-bellied Whistling-duck,17,0,0
+Aves,Passeriformes,Furnariidae,,,Furnariidae Family,17,3,1
+Aves,Passeriformes,Meliphagidae,Phylidonyris,novaehollandiae,New Holland Honeyeater,17,0,0
+Mammalia,Scandentia,Tupaiidae,Tupaia,tana,Large Treeshrew,17,0,68
+Aves,Passeriformes,Turdidae,Turdus,leucomelas,Pale-breasted Thrush,16,0,0
+Mammalia,Primates,Atelidae,Alouatta,palliata,Mantled Howler Monkey,16,0,0
+Aves,Caprimulgiformes,Caprimulgidae,Chordeiles,minor,Common Nighthawk,16,12,0
+Aves,Columbiformes,Columbidae,Geotrygon,,Geotrygon Species,16,0,0
+Aves,Accipitriformes,Accipitridae,Buteo,brachypterus,Madagascar Buzzard,16,0,0
+Aves,Charadriiformes,Recurvirostridae,Himantopus,mexicanus,Black-necked Stilt,16,0,0
+Aves,Passeriformes,Timaliidae,Mixornis,gularis,Pin-striped Tit-babbler,16,0,0
+Mammalia,Eulipotyphla,Erinaceidae,Atelerix,albiventris,Four-toed Hedgehog,16,0,0
+Aves,Passeriformes,Corcoracidae,Struthidea,cinerea,Apostlebird,16,3,0
+Aves,Passeriformes,Muscicapidae,Cossypha,niveicapilla,Snowy-crowned Robin-chat,16,0,0
+Aves,Passeriformes,Icteridae,Cacicus,cela,Yellow-rumped Cacique,16,0,3
+Mammalia,Carnivora,Ursidae,Ursus,,Ursus Species,16,0,17
+Mammalia,Cetartiodactyla,Tayassuidae,Pecari,,Pecari Species,16,0,301
+Aves,Passeriformes,Motacillidae,Anthus,gustavi,Pechora Pipit,16,0,0
+Aves,Passeriformes,Tyrannidae,Knipolegus,lophotes,Crested Black-tyrant,16,0,0
+Aves,Passeriformes,Furnariidae,Campylorhamphus,trochilirostris,Red-billed Scythebill,16,0,0
+Aves,Struthioniformes,Tinamidae,Crypturellus,atrocapillus,Black-capped Tinamou,16,0,0
+Mammalia,Carnivora,Mustelidae,Lutrogale,perspicillata,Smooth-coated Otter,15,0,0
+Aves,Passeriformes,Muscicapidae,Chamaetylas,fuelleborni,White-chested Alethe,15,0,0
+Aves,Passeriformes,Paridae,,,Paridae Family,15,5,0
+Mammalia,Eulipotyphla,Soricidae,,,Soricidae Family,15,13,0
+Aves,Galliformes,Phasianidae,Pternistis,leucoscepus,Yellow-necked Francolin,15,0,0
+Reptilia,Squamata,Teiidae,,,Teiidae Family,15,3,2
+Aves,Piciformes,Picidae,Sphyrapicus,nuchalis,Red-naped Sapsucker,15,0,0
+Aves,Passeriformes,Turdidae,Sialia,mexicana,Western Bluebird,15,0,1
+Aves,Passeriformes,Turdidae,Turdus,iliacus,Redwing,15,0,0
+Reptilia,Squamata,Elapidae,Pseudechis,australis,King Brown Snake,15,0,0
+Aves,Columbiformes,Columbidae,Ducula,badia,Mountain Imperial-Pigeon,15,0,0
+Aves,Passeriformes,Corvidae,Cyanopica,cyanus,Asian Azure-winged Magpie,15,6,0
+Mammalia,Rodentia,Sciuridae,Microsciurus,flaviventer,Amazon Dwarf Squirrel,15,2,0
+Aves,Falconiformes,Falconidae,Falco,mexicanus,Prairie Falcon,15,0,0
+Aves,Passeriformes,Zosteropidae,Zosterops,lateralis,Silvereye,15,3,0
+Aves,Coraciiformes,Momotidae,Momotus,aequatorialis,Highland Motmot,15,0,0
+Aves,Passeriformes,Acanthizidae,Acanthiza,reguloides,Buff-rumped Thornbill,15,0,0
+Aves,Passeriformes,Meliphagidae,Nesoptilotis,leucotis,White-eared Honeyeater,15,0,9
+Mammalia,Carnivora,Mustelidae,Melogale,everetti,Bornean Ferret Badger,15,0,0
+Aves,Passeriformes,Nectariniidae,Arachnothera,dilutior,Palawan Spiderhunter,15,0,0
+Aves,Passeriformes,Meliphagidae,Anthochaera,carunculata,Red Wattlebird,15,3,32
+Aves,Columbiformes,Columbidae,Spilopelia,suratensis,Western Spotted Dove,15,0,0
+Aves,Passeriformes,Furnariidae,Pseudocolaptes,boissonneauii,Streaked Tuftedcheek,15,0,0
+Aves,Passeriformes,Meliphagidae,Anthochaera,chrysoptera,Little Wattlebird,15,0,0
+Aves,Galliformes,Phasianidae,Arborophila,hyperythra,Bornean Partridge,15,47,0
+Mammalia,Rodentia,Dinomyidae,Dinomys,branickii,Pacarana,15,0,0
+Mammalia,Primates,Atelidae,Alouatta,sara,Bolivian Red Howler Monkey,15,0,0
+Aves,Charadriiformes,Scolopacidae,Gallinago,andina,Puna Snipe,14,0,0
+Mammalia,Didelphimorphia,Didelphidae,Marmosops,noctivagus,White-bellied Slender Mouse Opossum,14,7,0
+Mammalia,Carnivora,Felidae,Panthera,leo,Lion,14,13,0
+Aves,Procellariiformes,Procellariidae,Ardenna,tenuirostris,Short-tailed Shearwater,14,0,0
+Aves,Caprimulgiformes,Caprimulgidae,Caprimulgus,,Caprimulgus Species,14,0,0
+Aves,Piciformes,Picidae,Picus,rabieri,Red-collared Woodpecker,14,10,0
+Aves,Galliformes,Cracidae,Crax,,Crax Species,14,0,0
+Reptilia,Squamata,Scincidae,Ctenotus,inornatus,Bar-shouldered Ctenotus,14,0,0
+Mammalia,Monotremata,Tachyglossidae,,,Echidna Family,14,0,0
+Aves,Passeriformes,Pellorneidae,Pellorneum,ruficeps,Puff-throated Babbler,14,2,0
+Aves,Pelecaniformes,Ardeidae,Botaurus,poiciloptilus,Australasian Bittern,14,0,0
+Mammalia,Carnivora,Phocidae,,,Phocidae Family,14,0,0
+Aves,Piciformes,Picidae,Melanerpes,erythrocephalus,Red-headed Woodpecker,14,1,0
+Mammalia,Cingulata,Chlamyphoridae,Cabassous,,Cabassous Species,14,1,0
+Aves,Passeriformes,Sturnidae,Acridotheres,tristis,Common Myna,14,0,0
+Aves,Coraciiformes,Meropidae,Merops,ornatus,Rainbow Bee-eater,13,0,0
+Mammalia,Primates,Lemuridae,Lemur,,Lemur Species,13,0,0
+Aves,Cuculiformes,Cuculidae,Chalcites,basalis,Horsfield's Bronze-cuckoo,13,29,0
+Mammalia,Carnivora,Herpestidae,Bdeogale,jacksoni,Jackson's Mongoose,13,13,0
+Aves,Galliformes,Numididae,,,Guineafowl Family,13,10,1
+Aves,Passeriformes,Cisticolidae,Cisticola,cherina,Madagascar Cisticola,13,0,0
+Aves,Gruiformes,Rallidae,Porphyrio,porphyrio,Purple Swamphen,13,0,0
+Aves,Passeriformes,Icteridae,Molothrus,oryzivorus,Giant Cowbird,13,0,0
+Mammalia,Rodentia,Sciuridae,Funambulus,palmarum,Common Palm Squirrel,13,0,0
+Aves,Galliformes,Phasianidae,Lyrurus,tetrix,Black Grouse,13,31,0
+Mammalia,Rodentia,Erethizontidae,Coendou,rufescens,Stump-tailed Porcupine,13,0,0
+Aves,Anseriformes,Anatidae,Aythya,collaris,Ring-necked Duck,13,0,0
+Reptilia,Squamata,Teiidae,Tupinambis,teguixin,Black Tegu,13,1,0
+Aves,Piciformes,Picidae,Campephilus,,Campephilus Species,13,0,2
+Aves,Passeriformes,Turdidae,Turdus,boulboul,Grey-winged Blackbird,13,0,0
+Aves,Passeriformes,Pachycephalidae,Pachycephala,rufiventris,Rufous Whistler,13,0,0
+Aves,Passeriformes,Cotingidae,Porphyrolaema,porphyrolaema,Purple-throated Cotinga,13,0,0
+Mammalia,Rodentia,Erethizontidae,Coendou,,Coendou Species,13,0,7
+Mammalia,Rodentia,Dipodidae,Napaeozapus,insignis,Woodland Jumping Mouse,13,0,0
+Aves,Passeriformes,Pardalotidae,Pardalotus,punctatus,Spotted Pardalote,13,0,0
+Mammalia,Rodentia,Cricetidae,Peromyscus,californicus,California Mouse,12,0,0
+Aves,Charadriiformes,Scolopacidae,Tringa,solitaria,Solitary Sandpiper,12,9,0
+Aves,Columbiformes,Columbidae,Streptopelia,,Streptopelia Species,12,0,0
+Aves,Columbiformes,Columbidae,Leptotila,plumbeiceps,Grey-headed Dove,12,3,0
+Mammalia,Rodentia,Muridae,Apodemus,agrarius,Striped Field Mouse,12,0,0
+Mammalia,Primates,Cercopithecidae,Presbytis,hosei,Hose's Langur,12,6,0
+Aves,Sphenisciformes,Spheniscidae,Aptenodytes,forsteri,Emperor Penguin,12,0,0
+Aves,Anseriformes,Anatidae,Anas,fulvigula,Mottled Duck,12,0,0
+Aves,Passeriformes,Muscicapidae,Ficedula,zanthopygia,Yellow-rumped Flycatcher,12,0,0
+Reptilia,Squamata,Iguania,Intellagama,lesueurii,Eastern Water Dragon,12,10,5
+Aves,Piciformes,Lybiidae,Gymnobucco,bonapartei,Barbican à gorge grise,12,0,0
+Aves,Gruiformes,Rallidae,Gallinula,tenebrosa,Dusky Moorhen,12,6,0
+Aves,Procellariiformes,Oceanitidae,Fregetta,grallaria,White-bellied Storm-petrel,12,0,0
+Aves,Pelecaniformes,Ardeidae,Cochlearius,,Cochlearius Species,12,0,0
+Aves,Passeriformes,Paridae,Poecile,carolinensis,Carolina Chickadee,12,7,0
+Mammalia,Chiroptera,Pteropodidae,Cynopterus,brachyotis,Lesser Dog-faced Fruit Bat,12,0,0
+Aves,Anseriformes,Anatidae,Anas,rubripes,American Black Duck,12,0,0
+Aves,Pelecaniformes,Threskiornithidae,Theristicus,caerulescens,Plumbeous Ibis,12,0,0
+Aves,Passeriformes,Corvidae,Corvus,albicollis,White-necked Raven,12,0,0
+Aves,Passeriformes,Grallariidae,Hylopezus,,Hylopezus Species,12,0,0
+Mammalia,Primates,Cercopithecidae,Trachypithecus,phayrei,Phayre's Leaf-monkey,12,0,0
+Aves,Cathartiformes,Cathartidae,Cathartes,melambrotus,Greater Yellow-headed Vulture,11,0,0
+Mammalia,Pilosa,,,,Pilosa Order,11,0,0
+Aves,Columbiformes,Columbidae,Columbina,squammata,Scaled Dove,11,0,0
+Aves,Anseriformes,Anatidae,Anas,carolinensis,Green-winged Teal,11,0,0
+Aves,Charadriiformes,Haematopodidae,Haematopus,longirostris,Pied Oystercatcher,11,0,0
+Mammalia,Didelphimorphia,Didelphidae,Didelphis,imperfecta,Guianan White-eared Opossum,11,0,0
+Aves,Galliformes,Phasianidae,Meleagris,,Meleagris Species,11,0,5
+Mammalia,Rodentia,Castoridae,Castor,fiber,Eurasian Beaver,11,0,0
+Mammalia,Eulipotyphla,Soricidae,Suncus,murinus,House Shrew,11,2,0
+Mammalia,Rodentia,Sciuridae,Tamiasciurus,,Tamiasciurus Species,11,0,1
+Aves,Passeriformes,Meliphagidae,Caligavis,chrysops,Yellow-faced Honeyeater,11,0,18
+Aves,Caprimulgiformes,Trochilidae,Phaethornis,,Phaethornis Species,11,0,1
+Aves,Psittaciformes,Psittacidae,Melopsittacus,undulatus,Budgerigar,11,2,0
+Aves,Caprimulgiformes,Apodidae,,,Apodidae Family,11,0,0
+Aves,Falconiformes,Falconidae,Micrastur,buckleyi,Buckley's Forest-falcon,11,0,0
+Aves,Falconiformes,Falconidae,Falco,tinnunculus,Common Kestrel,11,0,0
+Aves,Passeriformes,Furnariidae,Cinclodes,,Cinclodes Species,11,0,0
+Aves,Caprimulgiformes,Trochilidae,Calypte,anna,Anna's Hummingbird,11,0,0
+Aves,Passeriformes,Turdidae,Myadestes,townsendi,Townsend's Solitaire,11,0,0
+Aves,Passeriformes,Paridae,Poecile,,Poecile Species,11,0,0
+Mammalia,Rodentia,Caviidae,,,Cavy Family,11,6,0
+Aves,Passeriformes,Turdidae,Turdus,amaurochalinus,Creamy-bellied Thrush,10,0,0
+Aves,Passeriformes,Phylloscopidae,Phylloscopus,trivirgatus,Mountain Warbler,10,0,0
+Aves,Passeriformes,Icteridae,Sturnella,,Sturnella Species,10,0,0
+Aves,Passeriformes,Tyrannidae,Tyrannus,forficatus,Scissor-tailed Flycatcher,10,0,0
+Aves,Gruiformes,Psophiidae,,,Psophiidae Family,10,0,0
+Aves,Piciformes,Picidae,Leuconotopicus,borealis,Red-cockaded Woodpecker,10,0,0
+Reptilia,Testudines,Testudinidae,Chelonoidis,denticulatus,Yellow-footed Tortoise,10,27,0
+Aves,Accipitriformes,Accipitridae,Leucopternis,melanops,Black-faced Hawk,10,0,0
+Aves,Passeriformes,Turdidae,Geokichla,camaronensis,Black-eared Ground-thrush,10,0,0
+Aves,Passeriformes,Tyrannidae,Myiarchus,cinerascens,Ash-throated Flycatcher,10,0,0
+Mammalia,Cetartiodactyla,Bovidae,Gazella,,Gazella Species,10,20,0
+Aves,Passeriformes,Muscicapidae,Sheppardia,cyornithopsis,Lowland Akalat,10,0,0
+Aves,Passeriformes,Leiotrichidae,Garrulax,maesi,Grey Laughingthrush,10,0,0
+Aves,Passeriformes,Thraupidae,Saltator,cinctus,Masked Saltator,10,0,0
+Aves,Bucerotiformes,Bucerotidae,Bycanistes,fistulator,White-tailed Hornbill,10,0,0
+Aves,Passeriformes,Tyrannidae,Sayornis,saya,Say's Phoebe,10,42,0
+Aves,Passeriformes,Turdidae,Catharus,minimus,Gray-cheeked Thrush,10,0,0
+Mammalia,Rodentia,Caviidae,Cavia,,Cavia Species,10,0,0
+Aves,Passeriformes,Muscicapidae,Alethe,castanea,Fire-crested Alethe,10,0,0
+Aves,Charadriiformes,Charadriidae,Hoploxypterus,cayanus,Pied Lapwing,10,0,0
+Aves,Passeriformes,Paridae,Parus,minor,Eastern Great Tit,10,10,0
+Mammalia,Rodentia,Sciuridae,Notocitellus,adocetus,Lesser Tropical Ground Squirel,10,0,0
+Mammalia,Primates,Galagidae,Euoticus,pallidus,Northern Needle-clawed Galago,10,0,0
+Mammalia,Primates,Callitrichidae,Mico,rondoni,Rondon's Marmoset,10,3,0
+Mammalia,Primates,Cercopithecidae,Colobus,guereza,Guereza,10,0,61
+Mammalia,Primates,Cercopithecidae,Cercopithecus,mona,Mona Monkey,10,0,0
+Aves,Bucerotiformes,Bucerotidae,Lophoceros,camurus,Dwarf Hornbill,10,0,0
+Aves,Falconiformes,Falconidae,Micrastur,gilvicollis,Lined Forest-falcon,10,0,0
+Mammalia,Primates,Cercopithecidae,Trachypithecus,cristatus,Silvery Lutung,10,0,0
+Aves,Passeriformes,Sturnidae,,,Sturnidae Family,10,0,0
+Aves,Passeriformes,Passerellidae,Melospiza,georgiana,Swamp Sparrow,10,0,0
+Aves,Cuculiformes,Cuculidae,Piaya,cayana,Common Squirrel-cuckoo,10,0,0
+Aves,Galliformes,Phasianidae,Arborophila,charltonii,Arborófila Pechicastaña,10,0,0
+Aves,Passeriformes,Climacteridae,Climacteris,erythrops,Red-browed Treecreeper,10,0,0
+Aves,Accipitriformes,Accipitridae,Nisaetus,cirrhatus,Changeable Hawk-Eagle,10,0,3
+Mammalia,Didelphimorphia,Didelphidae,Monodelphis,,Monodelphis Species,10,0,0
+Aves,Psittaciformes,Psittacidae,Platycercus,adscitus,Pale-headed Rosella,10,0,0
+Aves,Passeriformes,Troglodytidae,,,Troglodytidae Family,10,2,0
+Aves,Columbiformes,Columbidae,Caloenas,nicobarica,Nicobar Pigeon,10,0,0
+Mammalia,Afrosoricida,Tenrecidae,Hemicentetes,nigriceps,Highland Streaked Tenrec,10,0,0
+Mammalia,Rodentia,Cricetidae,Lophiomys,imhausi,Crested Rat,10,0,0
+Aves,Passeriformes,Furnariidae,Sclerurus,mexicanus,Tawny-throated Leaftosser,10,0,0
+Aves,Passeriformes,Thamnophilidae,Hafferia,fortis,Sooty Antbird,9,0,0
+Aves,Passeriformes,Cardinalidae,Pheucticus,melanocephalus,Black-headed Grosbeak,9,1,0
+Aves,Psittaciformes,Psittacidae,Barnardius,zonarius,Australian Ringneck,9,0,0
+Mammalia,Rodentia,Sciuridae,Callosciurus,finlaysonii,Variable Squirrel,9,21,1
+Aves,Passeriformes,Turdidae,Geokichla,gurneyi,Orange Ground-thrush,9,0,0
+Aves,Passeriformes,Turdidae,Turdus,hauxwelli,Hauxwell's Thrush,9,0,0
+Aves,Accipitriformes,Accipitridae,Accipiter,madagascariensis,Madagascar Sparrowhawk,9,0,0
+Mammalia,Rodentia,Nesomyidae,Cricetomys,,Cricetomys Species,9,0,0
+Aves,Passeriformes,Formicariidae,Formicarius,rufipectus,Rufous-breasted Antthrush,9,0,0
+Aves,Passeriformes,Malaconotidae,Laniarius,luehderi,Gonolek de Lühder,9,0,0
+Aves,Passeriformes,Pycnonotidae,Eurillas,latirostris,Yellow-whiskered Greenbul,9,0,0
+Aves,Piciformes,Ramphastidae,Pteroglossus,beauharnaisii,Curl-crested Araçari,9,0,0
+Aves,Accipitriformes,Accipitridae,Helicolestes,hamatus,Slender-billed Kite,9,0,0
+Aves,Strigiformes,Strigidae,Otus,fuliginosus,Palawan Scops-owl,9,0,0
+Reptilia,Testudines,Testudinidae,Gopherus,berlandieri,Berlandier's Tortoise,9,0,0
+Aves,Galliformes,Phasianidae,Haematortyx,sanguiniceps,Crimson-headed Partridge,9,6,0
+Aves,Passeriformes,Tyrannidae,Empidonax,oberholseri,American Dusky Flycatcher,9,0,0
+Mammalia,Lagomorpha,Leporidae,Lepus,alleni,Antelope Jackrabbit,9,0,0
+Aves,Passeriformes,Acanthizidae,Pyrrholaemus,sagittatus,Speckled Warbler,9,0,0
+Aves,Galliformes,Phasianidae,Scleroptila,afra,Grey-winged Francolin,9,0,0
+Aves,Piciformes,Picidae,Colaptes,punctigula,Spot-breasted Woodpecker,9,0,0
+Reptilia,Squamata,Agamidae,Pogona,vitticeps,Central Bearded Dragon,9,5,0
+Mammalia,Rodentia,Sciuridae,Microsciurus,,Microsciurus Species,9,0,0
+Aves,Passeriformes,Parulidae,Myiothlypis,coronata,Russet-crowned Warbler,9,0,0
+Aves,Passeriformes,Tyrannidae,Tyrannus,melancholicus,Tropical Kingbird,9,0,0
+Aves,Passeriformes,Sittidae,Sitta,europaea,Nuthatch,9,0,2
+Mammalia,Cetartiodactyla,Bovidae,Tragelaphus,eurycerus,Bongo,9,5,0
+Aves,Piciformes,Picidae,Melanerpes,uropygialis,Gila Woodpecker,9,0,0
+Mammalia,Primates,Galagidae,Galagoides,demidoff,Demidoff's Dwarf Galago,9,0,0
+Aves,Caprimulgiformes,Nyctibiidae,Nyctibius,,Nyctibius Species,9,0,0
+Aves,Pelecaniformes,Ardeidae,Botaurus,pinnatus,Pinnated Bittern,9,0,0
+Aves,Ciconiiformes,Ciconiidae,Ciconia,nigra,Black Stork,9,0,0
+Mammalia,Didelphimorphia,Didelphidae,Caluromys,,Caluromys Species,9,0,0
+Aves,Cuculiformes,Cuculidae,Tapera,naevia,Striped Cuckoo,9,0,0
+Mammalia,Rodentia,Sciuridae,Urocitellus,undulatus,Long-tailed Ground Squirrel,9,0,0
+Aves,Galliformes,Cracidae,Penelopina,,Penelopina Species,9,0,0
+Mammalia,Afrosoricida,Tenrecidae,Hemicentetes,semispinosus,Lowland Streaked Tenrec,9,0,0
+Mammalia,Carnivora,Mustelidae,Mustela,kathiah,Yellow-bellied Weasel,9,0,5
+Mammalia,Pholidota,Manidae,Manis,crassicaudata,Indian Pangolin,9,0,0
+Aves,Passeriformes,Corvidae,Cyanocorax,chrysops,Plush-crested Jay,9,1,0
+Aves,Columbiformes,Columbidae,Treron,calvus,African Green Pigeon,9,0,0
+Aves,Passeriformes,Petroicidae,Petroica,phoenicea,Flame Robin,9,11,0
+Aves,Gruiformes,Rallidae,Porphyrio,melanotus,Australian Swamphen,9,0,0
+Aves,Galliformes,Phasianidae,Francolinus,,Francolinus Species,9,3,0
+Aves,Passeriformes,Formicariidae,Chamaeza,campanisona,Short-tailed Antthrush,8,0,0
+Aves,Passeriformes,Campephagidae,Coracina,novaehollandiae,Black-faced Cuckooshrike,8,3,0
+Aves,Piciformes,Bucconidae,Monasa,,Monasa Species,8,0,3
+Aves,Passeriformes,Troglodytidae,Troglodytes,aedon,House Wren,8,0,0
+Aves,Musophagiformes,Musophagidae,Tauraco,schalowi,Schalow's Turaco,8,0,0
+Aves,Charadriiformes,Scolopacidae,Gallinago,imperialis,Imperial Snipe,8,0,0
+Mammalia,Carnivora,Procyonidae,Procyon,,Procyon Species,8,0,54
+Aves,Passeriformes,Muscicapidae,Ficedula,platenae,Palawan Flycatcher,8,0,0
+Mammalia,Rodentia,Sciuridae,Neotamias,speciosus,Lodgepole Chipmunk,8,0,0
+Aves,Strigiformes,Strigidae,Asio,otus,Long-eared Owl,8,0,0
+Aves,Passeriformes,Troglodytidae,Thryomanes,bewickii,Bewick's Wren,8,0,0
+Aves,Ciconiiformes,Ciconiidae,Mycteria,americana,Wood Stork,8,0,0
+Mammalia,Didelphimorphia,Didelphidae,Caluromys,derbianus,Central American Woolly Opossum,8,0,0
+Mammalia,Rodentia,Sciuridae,Neotamias,umbrinus,Uinta Chipmunk,8,0,0
+Aves,Passeriformes,Petroicidae,Petroica,boodang,Scarlet Robin,8,0,5
+Aves,Passeriformes,Turdidae,Turdus,torquatus,Ring Ouzel,8,0,0
+Aves,Passeriformes,Tyrannidae,Alectrurus,tricolor,Cock-tailed Tyrant,8,0,0
+Aves,Piciformes,Picidae,Melanerpes,formicivorus,Acorn Woodpecker,8,0,7
+Mammalia,Macroscelidea,Macroscelididae,Petrodromus,,Petrodromus Species,8,0,0
+Mammalia,Primates,Atelidae,Lagothrix,cana,Peruvian Woolly Monkey,8,3,0
+Aves,Passeriformes,Maluridae,Malurus,melanocephalus,Red-backed Fairy-wren,8,0,0
+Mammalia,Carnivora,Mephitidae,Spilogale,angustifrons,Southern Spotted Skunk,8,0,7
+Aves,Passeriformes,Corvidae,Corvus,coronoides,Australian Raven,8,0,14
+Aves,Pelecaniformes,Ardeidae,Egretta,caerulea,Little Blue Heron,8,0,0
+Aves,Bucerotiformes,Upupidae,Upupa,epops,Eurasian Hoopoe,8,0,0
+Aves,Passeriformes,Muscicapidae,Ficedula,hypoleuca,European Pied Flycatcher,8,0,0
+Aves,Passeriformes,Passeridae,Passer,,Passer Species,8,0,0
+Aves,Gruiformes,Rallidae,Rallus,limicola,Virginia Rail,8,0,0
+Aves,Passeriformes,Muscicapidae,Phoenicurus,schisticeps,White-throated Redstart,8,0,0
+Aves,Suliformes,Phalacrocoracidae,Phalacrocorax,auritus,Double-crested Cormorant,8,12,0
+Aves,Passeriformes,Bernieridae,Oxylabes,madagascariensis,White-throated Oxylabes,7,0,0
+Aves,Passeriformes,Tyrannidae,Contopus,virens,Eastern Wood-pewee,7,5,0
+Mammalia,Primates,Callitrichidae,Callithrix,jacchus,Common Marmoset,7,0,0
+Aves,Passeriformes,Turdidae,Turdus,chiguanco,Chiguanco Thrush,7,0,0
+Aves,Charadriiformes,Turnicidae,,,Turnicidae Family,7,0,0
+Aves,Charadriiformes,Laridae,Larus,marinus,Great Black-backed Gull,7,0,0
+Aves,Passeriformes,Meliphagidae,Sugomel,nigrum,Black Honeyeater,7,0,0
+Aves,Passeriformes,Turdidae,Sialia,,Sialia Species,7,0,0
+Aves,Strigiformes,Strigidae,Strix,,Strix Species,7,0,0
+Aves,Passeriformes,Locustellidae,Poodytes,carteri,Spinifexbird,7,0,0
+Aves,Columbiformes,Columbidae,Columbina,passerina,Common Ground-dove,7,0,0
+Aves,Passeriformes,Tyrannidae,Lessonia,rufa,Austral Negrito,7,0,0
+Mammalia,Primates,Lepilemuridae,Lepilemur,microdon,Small-toothed Sportive Lemur,7,0,0
+Mammalia,Primates,Pitheciidae,Pithecia,aequatorialis,Equatorial Saki,7,0,0
+Mammalia,Lagomorpha,Leporidae,Brachylagus,idahoensis,Pygmy Rabbit,7,0,0
+Mammalia,Primates,Cebidae,Cebus,yuracus,Andean White-fronted Capuchin,7,3,0
+Aves,Charadriiformes,Scolopacidae,Tringa,semipalmata,Willet,7,0,0
+Mammalia,Didelphimorphia,Didelphidae,Philander,mondolfii,Mondolfi's Four-eyed Opossum,7,0,0
+Aves,Pelecaniformes,Ardeidae,Agamia,agami,Agami Heron,7,0,0
+Mammalia,Rodentia,Caviidae,Kerodon,rupestris,Rock Cavy,7,0,0
+Aves,Passeriformes,Cisticolidae,Orthotomus,sericeus,Rufous-tailed Tailorbird,7,0,0
+Mammalia,Didelphimorphia,Didelphidae,Lutreolina,crassicaudata,Little Water Opossum,7,0,0
+Aves,Gruiformes,Rallidae,Lewinia,striata,Slaty-breasted Rail,7,0,0
+Mammalia,Primates,Lemuridae,Prolemur,simus,Greater Bamboo Lemur,7,5,0
+Mammalia,Rodentia,Erethizontidae,,,New World Porcupine Family,7,0,0
+Mammalia,Eulipotyphla,Erinaceidae,,,Hedgehog Family,7,0,0
+Aves,Passeriformes,Parulidae,Setophaga,palmarum,Palm Warbler,7,2,0
+Aves,Bucerotiformes,Phoeniculidae,Phoeniculus,purpureus,Green Woodhoopoe,6,0,0
+Aves,Gruiformes,Rallidae,Zapornia,tabuensis,Spotless Crake,6,0,0
+Mammalia,Primates,Indriidae,Propithecus,candidus,Silky Sifaka,6,0,0
+Aves,Accipitriformes,Accipitridae,Eutriorchis,astur,Madagascar Serpent-eagle,6,0,0
+Aves,Bucerotiformes,Bucerotidae,Bycanistes,subcylindricus,Grey-cheeked Hornbill,6,0,0
+Arachnida,,,,,arachnids,6,0,0
+Aves,Passeriformes,Muscicapidae,Dessonornis,caffer,Cape Robin-chat,6,0,0
+Aves,Accipitriformes,Accipitridae,Rostrhamus,sociabilis,Snail Kite,6,0,0
+Aves,Passeriformes,Thamnophilidae,Myrmelastes,hyperythrus,Plumbeous Antbird,6,0,0
+Aves,Anseriformes,Anatidae,Spatula,discors,Blue-winged Teal,6,0,0
+Aves,Cuculiformes,Cuculidae,Crotophaga,sulcirostris,Groove-billed Ani,6,0,0
+Mammalia,Primates,Cebidae,,,Cebidae Family,6,0,0
+Mammalia,Carnivora,Felidae,Puma,,Puma Species,6,0,36
+Aves,Galliformes,Phasianidae,Bambusicola,thoracicus,Chinese Bamboo Partridge,6,0,0
+Aves,Passeriformes,Muscicapidae,Kittacincla,malabarica,White-rumped Shama,6,5,0
+Aves,Passeriformes,Turdidae,Turdus,pilaris,Fieldfare,6,0,0
+Mammalia,Afrosoricida,Tenrecidae,,,Tenrecidae Family,6,0,0
+Aves,Accipitriformes,Accipitridae,Accipiter,melanoleucus,Black Sparrowhawk,6,0,0
+Mammalia,Cetartiodactyla,Bovidae,Tragelaphus,imberbis,Lesser Kudu,6,0,0
+Aves,Passeriformes,Turdidae,Catharus,fuscescens,Veery,6,0,0
+Aves,Accipitriformes,Accipitridae,Buteo,nitidus,Gray-Lined Hawk,6,0,4
+Aves,Passeriformes,Sylviidae,Sylvia,melanocephala,Sardinian Warbler,6,0,0
+Aves,Passeriformes,Pycnonotidae,Pycnonotus,,Pycnonotus Species,6,1,1
+Aves,Passeriformes,Pellorneidae,Trichastoma,malaccense,Short-tailed Babbler,6,0,1
+Mammalia,Cetartiodactyla,Moschidae,Moschus,chrysogaster,Alpine Musk Deer,6,0,0
+Aves,Passeriformes,Mimidae,,,Mimidae Family,6,0,0
+Aves,Accipitriformes,Accipitridae,Spizaetus,isidori,Black-and-chestnut Eagle,6,0,0
+Aves,Passeriformes,Thamnophilidae,Dichrozona,cincta,Banded Antbird,6,0,0
+Aves,Galliformes,Phasianidae,Alectoris,graeca,Rock Partridge,6,0,0
+Aves,Piciformes,Picidae,Campephilus,pollens,Powerful Woodpecker,6,0,0
+Aves,Accipitriformes,Accipitridae,Ictinia,plumbea,Plumbeous Kite,6,0,0
+Aves,Falconiformes,Falconidae,Falco,,Falco Species,6,0,0
+Aves,Galliformes,Megapodiidae,,,Megapodiidae Family,6,2,7
+Aves,Passeriformes,Formicariidae,Formicarius,rufifrons,Rufous-fronted Antthrush,6,0,0
+Aves,Passeriformes,Passerellidae,Arremon,,Arremon Species,6,0,0
+Aves,Pelecaniformes,Ardeidae,Butorides,,Butorides Species,6,0,0
+Aves,Accipitriformes,Accipitridae,Accipiter,henstii,Henst's Goshawk,6,0,0
+Aves,Accipitriformes,Accipitridae,Aquila,africana,Cassin's Hawk-eagle,6,3,0
+Aves,Columbiformes,Columbidae,Streptopelia,turtur,European Turtle-dove,6,0,0
+Aves,Struthioniformes,Tinamidae,Nothura,,Nothura Species,6,0,0
+Aves,Galliformes,Phasianidae,Francolinus,pintadeanus,Chinese Francolin,6,0,0
+Aves,Piciformes,Picidae,Picoides,,Picoides Species,6,0,0
+Mammalia,Carnivora,Canidae,Urocyon,,Urocyon Species,6,0,0
+Mammalia,Rodentia,Sciuridae,Ratufa,bicolor,Black Giant Squirrel,6,0,0
+Aves,Accipitriformes,Accipitridae,Accipiter,cirrocephalus,Collared Sparrowhawk,6,0,5
+Aves,Passeriformes,Vangidae,Mystacornis,crossleyi,Crossley's Vanga,6,0,0
+Mammalia,Rodentia,Sciuridae,Neotamias,siskiyou,Siskiyou Chipmunk,6,0,0
+Aves,Passeriformes,Malaconotidae,Laniarius,aethiopicus,Gonolek à ventre blanc,6,1,0
+Aves,Accipitriformes,Accipitridae,Accipiter,minullus,Little Sparrowhawk,6,0,0
+Aves,Accipitriformes,Accipitridae,Buteogallus,,Buteogallus Species,6,0,0
+Aves,Passeriformes,Meliphagidae,Lichenostomus,melanops,Yellow-tufted Honeyeater,6,0,0
+Mammalia,Rodentia,Caviidae,Hydrochoerus,,Hydrochoerus Species,6,0,0
+Diplopoda,,,,,Millipede,6,0,0
+Aves,Passeriformes,Monarchidae,Terpsiphone,cyanescens,Blue Paradise-flycatcher,6,2,0
+Aves,Galliformes,Phasianidae,Perdix,hodgsoniae,Tibetan Partridge,6,0,0
+Mammalia,Rodentia,Gliridae,Dryomys,nitedula,Forest Dormouse,6,0,0
+Aves,Psittaciformes,Psittacidae,Neophema,pulchella,Turquoise Parrot,6,0,0
+Mammalia,Primates,Lemuridae,Hapalemur,aureus,Golden Bamboo Lemur,6,0,0
+Mammalia,Rodentia,Sciuridae,Sciurus,anomalus,Caucasian Squirrel,6,0,0
+Mammalia,Perissodactyla,Tapiridae,,,Tapiridae Family,6,0,0
+Aves,Passeriformes,Acanthizidae,Calamanthus,pyrrhopygius,Chestnut-rumped Heathwren,6,0,0
+Mammalia,Eulipotyphla,Erinaceidae,Hemiechinus,auritus,Long-eared Hedgehog,5,0,0
+Aves,Strigiformes,Strigidae,Otus,,Otus Species,5,0,0
+Aves,Passeriformes,Muscicapidae,Cyornis,hainanus,Hainan Blue-flycatcher,5,0,0
+Aves,Passeriformes,Tyrannidae,Muscisaxicola,maclovianus,Dark-faced Ground-tyrant,5,0,0
+Arachnida,Araneae,,,,Spider,5,37,1
+Aves,Passeriformes,Cardinalidae,Piranga,ludoviciana,Western Tanager,5,0,2
+Mammalia,Rodentia,Caviidae,Cavia,aperea,Brazilian Guinea Pig,5,0,0
+Aves,Otidiformes,Otididae,Ardeotis,kori,Kori Bustard,5,0,0
+Mammalia,Rodentia,Sciuridae,Dremomys,pernyi,Perny's Long-nosed Squirrel,5,0,0
+Aves,Passeriformes,Parulidae,Geothlypis,trichas,Common Yellowthroat,5,0,0
+Aves,Accipitriformes,Accipitridae,Haliastur,sphenurus,Whistling Kite,5,0,0
+Aves,Piciformes,Picidae,Dendrocopos,,Dendrocopos Species,5,0,0
+Aves,Galliformes,Phasianidae,Scleroptila,psilolaema,Moorland Francolin,5,0,0
+Aves,Passeriformes,Ptilonorhynchidae,,,Ptilonorhynchidae Family,5,0,0
+Aves,Passeriformes,Passerellidae,Arremon,flavirostris,Saffron-billed Sparrow,5,0,0
+Aves,Passeriformes,Pycnonotidae,Pycnonotus,erythropthalmos,Spectacled Bulbul,5,0,0
+Reptilia,Squamata,Colubridae,Pituophis,catenifer catenifer,Pacific Gophersnake,5,0,0
+Aves,Passeriformes,Campephagidae,Lalage,tricolor,White-winged Triller,5,0,0
+Mammalia,Carnivora,Canidae,Lycaon,pictus,African Wild Dog,5,0,0
+Aves,Passeriformes,Paridae,Poecile,rufescens,Chestnut-backed Chickadee,5,0,0
+Mammalia,Didelphimorphia,Didelphidae,Marmosa,murina,Linnaeus's Mouse Opossum,5,0,0
+Aves,Passeriformes,Turdidae,Geokichla,sibirica,Siberian Thrush,5,0,0
+Mammalia,Didelphimorphia,Didelphidae,Monodelphis,scalops,Long-nosed Short-tailed Opossum,5,0,0
+Aves,Galliformes,Odontophoridae,Dendrortyx,barbatus,Bearded Wood-partridge,5,0,0
+Aves,Galliformes,Odontophoridae,Callipepla,,Callipepla Species,5,0,0
+Reptilia,Squamata,Colubridae,Coluber,constrictor,Eastern Racer,5,0,0
+Aves,Passeriformes,Thamnophilidae,Sakesphorus,luctuosus,Glossy Antshrike,5,0,0
+Aves,Passeriformes,Ploceidae,Ploceus,insignis,Brown-capped Weaver,5,0,0
+Aves,Passeriformes,Thraupidae,Coereba,flaveola,Bananaquit,5,0,0
+Aves,Passeriformes,Tyrannidae,Tyrannus,,Tyrannus Species,5,0,0
+Aves,Charadriiformes,Laridae,Larus,smithsonianus,American Herring Gull,5,0,0
+Aves,Passeriformes,Muscicapidae,Saxicola,rubicola,European Stonechat,5,0,0
+Mammalia,Rodentia,Muridae,Lophuromys,flavopunctatus,Yellow-spotted Brush-furred Rat,5,0,0
+Aves,Passeriformes,Laniidae,Lanius,,Lanius Species,5,0,0
+Mammalia,Cetartiodactyla,Bovidae,Capra,nubiana,Nubian Ibex,5,5,0
+Aves,Pelecaniformes,Threskiornithidae,Plegadis,chihi,White-faced Ibis,5,0,0
+Aves,Charadriiformes,Recurvirostridae,Recurvirostra,americana,American Avocet,5,0,0
+Mammalia,Rodentia,Heteromyidae,,,Heteromyidae Family,5,0,0
+Aves,Pelecaniformes,Ardeidae,Egretta,tricolor,Tricolored Heron,5,0,0
+Mammalia,Rodentia,Sciuridae,Neotamias,quadrivittatus,Colorado Chipmunk,5,0,0
+Aves,Passeriformes,Icteridae,Cacicus,solitarius,Solitary Cacique,5,9,4
+Aves,Passeriformes,Pardalotidae,Pardalotus,striatus,Striated Pardalote,4,0,0
+Aves,Passeriformes,Regulidae,Regulus,ignicapilla,Common Firecrest,4,0,0
+Aves,Passeriformes,Corvidae,Cyanocorax,cristatellus,Curl-crested Jay,4,0,0
+Aves,Passeriformes,Nectariniidae,Cinnyris,osea,Palestine Sunbird,4,0,0
+Aves,Passeriformes,Thamnophilidae,Myrmoborus,myotherinus,Black-faced Antbird,4,0,0
+Aves,Piciformes,Picidae,Dendropicos,griseocephalus,Olive Woodpecker,4,0,5
+Aves,Columbiformes,Columbidae,Columbina,,Columbina Species,4,0,0
+Aves,Musophagiformes,Musophagidae,Tauraco,schuettii,Black-billed Turaco,4,0,10
+Mammalia,Carnivora,Mustelidae,Meles,,Meles Species,4,0,0
+Mammalia,Carnivora,Mephitidae,Conepatus,,Conepatus Species,4,0,0
+Aves,Passeriformes,Acrocephalidae,Nesillas,typica,Fauvette malgache,4,0,0
+Aves,Piciformes,Ramphastidae,Ramphastos,toco,Toco Toucan,4,0,0
+Aves,Passeriformes,Parulidae,Setophaga,ruticilla,American Redstart,4,0,0
+Aves,Passeriformes,Motacillidae,Motacilla,,Motacilla Species,4,0,0
+Mammalia,Rodentia,Muridae,Notomys,alexis,Spinifex Hopping Mouse,4,0,0
+Aves,Passeriformes,Prunellidae,Prunella,collaris,Alpine Accentor,4,0,0
+Aves,Passeriformes,Rhinocryptidae,Scytalopus,latrans,Blackish Tapaculo,4,0,0
+Reptilia,Squamata,Dactyloidae,Anolis,sagrei,Cuban Brown Anole,4,1,0
+Mammalia,Cetartiodactyla,Bovidae,Bubalus,,Bubalus Species,4,0,0
+Mammalia,Primates,Callitrichidae,Saguinus,niger,Black-handed Tamarin,4,0,0
+Mammalia,Afrosoricida,Tenrecidae,Microgale,,Microgale Species,4,0,0
+Mammalia,Didelphimorphia,Didelphidae,Glironia,venusta,Bushy-tailed Opossum,4,45,0
+Aves,Falconiformes,Falconidae,Falco,berigora,Brown Falcon,4,0,0
+Mammalia,Rodentia,Cricetidae,Sigmodon,hispidus,Hispid Cotton Rat,4,0,0
+Mammalia,Scandentia,Tupaiidae,Anathana,ellioti,Madras Treeshrew,4,0,0
+Aves,Accipitriformes,Accipitridae,Gyps,himalayensis,Himalayan Griffon,4,0,0
+Aves,Passeriformes,Muscicapidae,Phoenicurus,phoenicurus,Common Redstart,4,0,0
+Aves,Accipitriformes,Accipitridae,Parabuteo,unicinctus,Harris's Hawk,4,0,0
+Aves,Falconiformes,Falconidae,,,Falconidae Family,4,3,0
+Aves,Cuculiformes,Cuculidae,Cuculus,rochii,Madagascar Cuckoo,4,0,0
+Aves,Galliformes,Phasianidae,Xenoperdix,udzungwensis,Udzungwa Forest-partridge,4,5,0
+Aves,Passeriformes,Furnariidae,Dendrocincla,fuliginosa,Plain-brown Woodcreeper,4,0,46
+Aves,Passeriformes,Corvidae,Garrulus,,Garrulus Species,4,0,0
+Aves,Passeriformes,Pycnonotidae,Bleda,syndactylus,Red-tailed Bristlebill,4,0,0
+Mammalia,Cetartiodactyla,Bovidae,Capricornis,,Capricornis Species,4,0,0
+Mammalia,Cetartiodactyla,Suidae,Phacochoerus,aethiopicus,Desert Warthog,4,49,0
+Aves,Gruiformes,Rallidae,Sarothrura,pulchra,White-spotted Flufftail,4,0,0
+Aves,Passeriformes,Corvidae,Perisoreus,infaustus,Siberian Jay,4,1,0
+Aves,Gruiformes,Rallidae,Sarothrura,watersi,Slender-billed Flufftail,4,0,0
+Mammalia,Didelphimorphia,Didelphidae,Marmosa,mexicana,Mexican Mouse Opossum,4,0,0
+Aves,Passeriformes,Fringillidae,Pyrrhula,pyrrhula,Bullfinch,4,0,0
+Aves,Passeriformes,Corvidae,Cyanocorax,cyanomelas,Purplish Jay,4,3,0
+Aves,Passeriformes,Meliphagidae,,,Honeyeater Family,4,0,0
+Mammalia,Cingulata,Chlamyphoridae,,,Chlamyphoridae Family,3,0,0
+Mammalia,Rodentia,Sciuridae,Sundasciurus,tenuis,Slender Squirrel,3,0,0
+Mammalia,Rodentia,Sciuridae,Aeromys,tephromelas,Black Flying Squirrel,3,0,0
+Aves,Passeriformes,Grallariidae,Grallaricula,nana,Slaty-crowned Antpitta,3,0,0
+Aves,Strigiformes,Tytonidae,Tyto,,Tyto Species,3,0,0
+Aves,Passeriformes,Meliphagidae,Acanthorhynchus,superciliosus,Western Spinebill,3,0,0
+Aves,Passeriformes,Thraupidae,Volatinia,jacarina,Blue-black Grassquit,3,0,0
+Aves,Passeriformes,Cotingidae,Pipreola,riefferii,Green-and-black Fruiteater,3,0,0
+Aves,Passeriformes,Thraupidae,Tachyphonus,,Tachyphonus Species,3,0,0
+Aves,Caprimulgiformes,Trochilidae,Colibri,serrirostris,White-vented Violet-ear,3,0,0
+Aves,Strigiformes,Strigidae,Bubo,,Bubo Species,3,0,0
+Aves,Strigiformes,Strigidae,Strix,woodfordii,African Wood-owl,3,0,0
+Aves,Passeriformes,Passerellidae,Junco,,Junco Species,3,0,0
+Aves,Passeriformes,Tyrannidae,Sublegatus,obscurior,Amazonian Scrub-flycatcher,3,0,0
+Aves,Passeriformes,Muscicapidae,Monticola,sharpei,Forest Rock Thrush,3,0,0
+Aves,Struthioniformes,Tinamidae,Tinamus,solitarius,Solitary Tinamou,3,0,0
+Mammalia,Rodentia,Sciuridae,Cynomys,,Cynomys Species,3,0,0
+Mammalia,Rodentia,Spalacidae,Rhizomys,sumatrensis,Indomalayan Bamboo Rat,3,0,0
+Mammalia,Cetartiodactyla,Antilocapridae,,,Antilocapridae Family,3,0,0
+Mammalia,Rodentia,Thryonomyidae,Thryonomys,gregorianus,Lesser Cane Rat,3,0,0
+Mammalia,Carnivora,Viverridae,Poiana,richardsonii,Central African Oyan,3,0,10
+Mammalia,Carnivora,Mustelidae,Eira,,Eira Species,3,0,14
+Aves,Passeriformes,Oriolidae,Oriolus,sagittatus,Olive-backed Oriole,3,0,0
+Aves,Charadriiformes,Scolopacidae,Actitis,macularius,Spotted Sandpiper,3,0,0
+Aves,Psittaciformes,Psittacidae,Alisterus,scapularis,Australian King-parrot,3,0,0
+Aves,Accipitriformes,Accipitridae,Accipiter,gentilis,Northern Goshawk,3,14,0
+Reptilia,Testudines,Chelidae,Chelodina,longicollis,Eastern Snake-necked Turtle,3,0,0
+Aves,Passeriformes,Furnariidae,Cranioleuca,,Cranioleuca Species,3,0,0
+Aves,Passeriformes,Tyrannidae,Pseudotriccus,ruficeps,Rufous-headed Pygmy-tyrant,3,0,0
+Aves,Passeriformes,Meliphagidae,Trichodere,,Trichodere Species,3,0,0
+Aves,Passeriformes,Tyrannidae,Contopus,sordidulus,Western Wood-pewee,3,0,0
+Aves,Galliformes,Odontophoridae,Odontophorus,leucolaemus,Black-breasted Wood-quail,3,0,0
+Mammalia,Dasyuromorphia,Dasyuridae,Sminthopsis,fuliginosus,Sooty Dunnart,3,0,0
+Aves,Passeriformes,Furnariidae,Dendrocolaptes,,Dendrocolaptes Species,3,0,0
+Mammalia,Primates,Cheirogaleidae,Microcebus,murinus,Grey Mouse Lemur,3,0,0
+Aves,Passeriformes,Thraupidae,Tangara,vassorii,Blue-and-black Tanager,3,0,0
+Mammalia,Primates,Cebidae,Cebus,imitator,Panamanian White-faced Capuchin,3,0,0
+Aves,Passeriformes,Monarchidae,Myiagra,rubecula,Leaden Flycatcher,3,0,0
+Aves,Falconiformes,Falconidae,Micrastur,ruficollis,Barred Forest-falcon,3,0,0
+Aves,Passeriformes,Turdidae,Myadestes,ralloides,Andean Solitaire,3,0,0
+Aves,Strigiformes,Strigidae,Bubo,bubo,Eagle Owl,3,0,0
+Mammalia,Primates,Cheirogaleidae,Cheirogaleus,major,Geoffroy's Dwarf Lemur,3,0,0
+Aves,Passeriformes,Monarchidae,Terpsiphone,mutata,Madagascar Paradise-flycatcher,3,0,0
+Aves,Passeriformes,Climacteridae,Climacteris,picumnus,Brown Treecreeper,3,0,0
+Aves,Galliformes,Phasianidae,Polyplectron,schleiermacheri,Bornean Peacock-pheasant,3,0,0
+Aves,Passeriformes,Formicariidae,Chamaeza,,Chamaeza Species,3,0,0
+Aves,Piciformes,Bucconidae,Malacoptila,fulvogularis,Black-streaked Puffbird,3,0,0
+Aves,Accipitriformes,Accipitridae,Gyps,fulvus,Griffon Vulture,3,0,0
+Aves,Passeriformes,Vangidae,Euryceros,prevostii,Helmet Vanga,3,0,0
+Aves,Galliformes,Cracidae,Pipile,,Pipile Species,3,0,27
+Aves,Passeriformes,Passerellidae,Aimophila,ruficeps,Rufous-crowned Sparrow,3,0,0
+Aves,Strigiformes,Strigidae,Psiloscops,flammeolus,Flammulated Owl,3,3,0
+Aves,Coraciiformes,Brachypteraciidae,Atelornis,crossleyi,Rufous-headed Ground-roller,3,3,0
+Aves,Accipitriformes,Accipitridae,Chondrohierax,uncinatus,Hook-billed Kite,3,0,9
+Aves,Piciformes,Picidae,Campephilus,haematogaster,Crimson-bellied Woodpecker,3,0,0
+Aves,Passeriformes,Icteridae,Icterus,croconotus,Orange-backed Troupial,3,0,0
+Aves,Strigiformes,Strigidae,Asio,madagascariensis,Madagascar Long-eared Owl,3,0,0
+Aves,Coraciiformes,Alcedinidae,Megaceryle,alcyon,Belted Kingfisher,3,0,0
+Mammalia,Primates,Pitheciidae,Pithecia,pithecia,White-faced Saki,3,0,0
+Aves,Columbiformes,Columbidae,Geopelia,,Geopelia Species,3,0,0
+Aves,Columbiformes,Columbidae,Turtur,chalcospilos,Emerald-spotted Wood-dove,3,3,0
+Aves,Passeriformes,Oriolidae,Sphecotheres,vieilloti,Australasian Figbird,3,0,0
+Mammalia,Didelphimorphia,Didelphidae,Monodelphis,brevicaudata,Northern Red-sided Opossum,3,0,9
+Aves,Passeriformes,Artamidae,Strepera,fuliginosa,Black Currawong,3,0,0
+Aves,Passeriformes,Thraupidae,Paroaria,,Paroaria Species,3,0,0
+Mammalia,Carnivora,Procyonidae,Bassariscus,sumichrasti,Cacomistle,3,0,0
+Aves,Passeriformes,Certhiidae,Certhia,brachydactyla,Short-toed Treecreeper,3,0,0
+Aves,Passeriformes,Pycnonotidae,Phyllastrephus,,Phyllastrephus Species,3,0,0
+Aves,Passeriformes,Menuridae,,,Menuridae Family,3,0,3
+Mammalia,Cetartiodactyla,Bovidae,Cephalophus,adersi,Aders' Duiker,3,0,0
+Aves,Columbiformes,Columbidae,Macropygia,ruficeps,Little Cuckoo-dove,3,0,0
+Aves,Passeriformes,Campephagidae,Coracina,cinerea,Ashy Cuckooshrike,3,0,0
+Aves,Charadriiformes,Turnicidae,Turnix,maculosus,Red-backed Buttonquail,3,0,0
+Aves,Passeriformes,Thraupidae,Porphyrospiza,caerulescens,Blue Finch,3,0,0
+Mammalia,Primates,Callitrichidae,Saguinus,nigricollis,Black Mantle Tamarin,3,0,0
+Aves,Passeriformes,Thamnophilidae,Neoctantes,niger,Black Bushbird,3,0,0
+Aves,Strigiformes,Strigidae,Athene,noctua,Little Owl,3,0,0
+Aves,Accipitriformes,Accipitridae,Buteo,platypterus,Broad-winged Hawk,3,0,0
+Aves,Passeriformes,Fringillidae,Spinus,psaltria,Lesser Goldfinch,3,0,0
+Aves,Passeriformes,Thraupidae,Sporophila,,Sporophila Species,3,0,0
+Aves,Passeriformes,Corvidae,Cyanocorax,colliei,Black-throated Magpie-jay,3,0,0
+Aves,Psittaciformes,Psittacidae,,,Psittacidae Family,3,0,1
+Aves,Columbiformes,Columbidae,Stigmatopelia,chinensis,Spotted Turtle-Dove,3,3,0
+Aves,Passeriformes,Cardinalidae,Passerina,,Passerina Species,3,0,0
+Mammalia,Rodentia,Cricetidae,Neotoma,albigula,White-throated Woodrat,3,0,0
+Aves,Passeriformes,Thraupidae,Ramphocelus,carbo,Silver-beaked Tanager,3,0,0
+Aves,Passeriformes,Thamnophilidae,Schistocichla,leucostigma,Spot-winged Antbird,3,0,0
+Aves,Charadriiformes,Charadriidae,,,Charadriidae Family,3,0,0
+Aves,Psittaciformes,Cacatuidae,Cacatua,alba,White Cockatoo,3,0,0
+Reptilia,Crocodylia,Alligatoridae,Caiman,crocodilus,Spectacled Caiman,3,0,0
+Aves,Passeriformes,Tyrannidae,Empidonax,,Empidonax Species,3,0,0
+Aves,Passeriformes,Parulidae,Cardellina,pusilla,Wilson's Warbler,3,0,0
+Mammalia,Rodentia,Sciuridae,Heliosciurus,rufobrachium,Red-legged Sun Squirrel,3,0,0
+Aves,Passeriformes,Rhinocryptidae,Liosceles,thoracicus,Rusty-belted Tapaculo,3,0,0
+Aves,Passeriformes,Pachycephalidae,Pachycephala,pectoralis,Australian Golden Whistler,3,0,0
+Mammalia,Eulipotyphla,Erinaceidae,Paraechinus,aethiopicus,Desert Hedgehog,3,0,0
+Mammalia,Rodentia,Muridae,Deomys,ferrugineus,Congo Forest Mouse,3,0,0
+Mammalia,Diprotodontia,Pseudocheiridae,Pseudocheirus,occidentalis,Western Ringtail Possum,3,0,0
+Aves,Passeriformes,Thamnophilidae,Myrmoderus,ferrugineus,Ferruginous-backed Antbird,3,0,0
+Aves,Pelecaniformes,Ardeidae,Tigrisoma,,Tigrisoma Species,3,0,0
+Aves,Passeriformes,Thamnophilidae,Myrmornis,torquata,Southern Wing-banded Antbird,3,0,0
+Aves,Passeriformes,Meliphagidae,Meliphaga,lewinii,Lewin's Honeyeater,3,1,1
+Aves,Passeriformes,Thamnophilidae,Rhegmatorhina,melanosticta,Hairy-crested Antbird,3,0,0
+Reptilia,Squamata,Elapidae,Pseudechis,guttatus,Blue-bellied Black Snake,3,0,0
+Aves,Passeriformes,Eupetidae,Eupetes,macrocerus,Rail-babbler,3,0,0
+Aves,Coraciiformes,Alcedinidae,Megaceryle,torquata,Ringed Kingfisher,3,0,0
+Aves,Columbiformes,Columbidae,Phaps,,Phaps Species,3,0,0
+Mammalia,Rodentia,Sciuridae,Sciurus,deppei,Deppe's Squirrel,3,3,0
+Aves,Passeriformes,Icteridae,Psarocolius,angustifrons,Russet-backed oropendola,3,0,1
+Aves,Cathartiformes,,,,Cathartiformes Order,3,0,0
+Aves,Passeriformes,Icteridae,Amblycercus,holosericeus,Yellow-billed Cacique,3,0,0
+Aves,Passeriformes,Maluridae,Stipiturus,malachurus,Southern Emu-wren,3,0,0
+Aves,Passeriformes,Muscicapidae,Chamaetylas,poliophrys,Red-throated Alethe,3,0,0
+Mammalia,Scandentia,Tupaiidae,Tupaia,montana,Mountain Treeshrew,3,0,0
+Aves,Passeriformes,Furnariidae,Geositta,poeciloptera,Campo Miner,3,0,0
+Mammalia,Rodentia,Sciuridae,Sundasciurus,lowii,Low's Squirrel,3,0,0
+Aves,Passeriformes,Cardinalidae,Passerina,caerulea,Blue Grosbeak,3,0,0
+Aves,Galliformes,Cracidae,Penelope,jacucaca,White-browed Guan,3,0,222
+Aves,Accipitriformes,Accipitridae,Spizaetus,tyrannus,Black Hawk-eagle,3,0,0
+Aves,Caprimulgiformes,Caprimulgidae,Setopagis,parvula,Little Nightjar,3,0,0
+Mammalia,Rodentia,Muridae,Maxomys,,Maxomys Species,3,0,0
+Aves,Passeriformes,Icteridae,Icterus,,Icterus Species,3,0,0
+Aves,Passeriformes,Icteridae,Icteria,virens,Yellow-breasted Chat,3,0,0
+Aves,Passeriformes,Meliphagidae,Gliciphila,melanops,Tawny-crowned Honeyeater,3,0,0
+Reptilia,Squamata,Scincidae,Ctenotus,pantherinus,Leopard Ctenotus,2,0,0
+Aves,Passeriformes,Leiotrichidae,Turdoides,,Turdoides Species,2,0,0
+Aves,Galliformes,Phasianidae,Phasianus,,Phasianus Species,2,0,0
+Aves,Passeriformes,Passerellidae,Spizella,pallida,Clay-colored Sparrow,2,0,0
+Aves,Coraciiformes,Coraciidae,Coracias,caudatus,Lilac-breasted Roller,2,0,0
+Mammalia,Rodentia,Sciuridae,Sciurus,stramineus,Guayaquil Squirrel,2,0,0
+Mammalia,Carnivora,Canidae,Atelocynus,,Atelocynus Species,2,0,33
+Aves,Passeriformes,Fringillidae,Carduelis,carduelis,Goldfinch,2,0,0
+Aves,Passeriformes,Tyrannidae,Tyrannus,savana,Fork-tailed Flycatcher,2,0,0
+Aves,Passeriformes,Conopophagidae,Conopophaga,roberti,Hooded Gnateater,2,0,0
+Aves,Coraciiformes,Momotidae,Momotus,mexicanus,Russet-crowned Motmot,2,0,0
+Aves,Accipitriformes,Accipitridae,Accipiter,,Accipiter Species,2,0,0
+Aves,Passeriformes,Tyrannidae,Phyllomyias,uropygialis,Tawny-rumped Tyrannulet,2,0,0
+Aves,Passeriformes,Paridae,Baeolophus,inornatus,Oak Titmouse,2,0,0
+Aves,Passeriformes,Petroicidae,Petroica,rodinogaster,Pink Robin,2,0,0
+Aves,Galliformes,Odontophoridae,Cyrtonyx,montezumae,Montezuma quail,2,0,0
+Aves,Passeriformes,Corvidae,Aphelocoma,,Aphelocoma Species,2,0,6
+Aves,Cuculiformes,Cuculidae,Cuculus,clamosus,Black Cuckoo,2,0,0
+Aves,Passeriformes,Estrildidae,Nigrita,fusconotus,White-breasted Nigrita,2,0,0
+Mammalia,Chiroptera,Rhinolophidae,Rhinolophus,,Rhinolophus Species,2,0,0
+Mammalia,Afrosoricida,Tenrecidae,Microgale,cowani,Cowan's Shrew Tenrec,2,0,0
+Aves,Strigiformes,Strigidae,Otus,spilocephalus,Mountain Scops-owl,2,0,0
+Mammalia,Rodentia,Sciuridae,Urocitellus,,Urocitellus Species,2,0,0
+Mammalia,Eulipotyphla,Erinaceidae,Mesechinus,dauuricus,Daurian Hedgehog,2,0,0
+Aves,Passeriformes,Petroicidae,,,Petroicidae Family,2,0,0
+Aves,Passeriformes,Ptiliogonatidae,Phainopepla,nitens,Phainopepla,2,0,0
+Aves,Charadriiformes,Scolopacidae,Scolopax,minor,American Woodcock,2,0,20
+Aves,Pelecaniformes,Ardeidae,Egretta,novaehollandiae,White-faced Heron,2,0,0
+Aves,Passeriformes,Muscicapidae,Oenanthe,oenanthe,Northern wheatear,2,0,0
+Aves,Passeriformes,Sturnidae,Sturnus,,Sturnus Species,2,77,0
+Aves,Passeriformes,Tyrannidae,Cnemotriccus,fuscatus,Fuscous Flycatcher,2,0,0
+Aves,Passeriformes,Regulidae,Regulus,satrapa,Golden-crowned Kinglet,2,0,0
+Aves,Passeriformes,Troglodytidae,Cantorchilus,leucotis,Buff-breasted Wren,2,0,0
+Mammalia,Primates,Hylobatidae,Hylobates,muelleri,Bornean Gibbon,2,2,0
+Aves,Passeriformes,Grallariidae,Grallaria,varia,Variegated Antpitta,2,0,0
+Mammalia,Rodentia,Erethizontidae,Coendou,mexicanus,Mexican Hairy Dwarf Porcupine,2,0,0
+Mammalia,Primates,Callitrichidae,Saguinus,melanoleucus,White/crandall's Saddleback Tamarin,2,0,0
+Mammalia,Rodentia,Dipodidae,,,Dipodidae Family,2,0,0
+Mammalia,Rodentia,Cricetidae,Myodes,,Myodes Species,2,0,0
+Aves,Passeriformes,Passerellidae,Amphispiza,bilineata,Black-throated Sparrow,2,0,0
+Aves,Caprimulgiformes,Caprimulgidae,Antrostomus,,Antrostomus Species,2,0,0
+Aves,Charadriiformes,Laridae,Larus,delawarensis,Ring-billed Gull,2,43,0
+Aves,Passeriformes,Acanthizidae,Acanthiza,,Acanthiza Species,2,0,0
+Mammalia,Chiroptera,Pteropodidae,,,Pteropodidae Family,2,0,0
+Aves,Charadriiformes,Haematopodidae,Haematopus,fuliginosus,Sooty Oystercatcher,2,0,0
+Mammalia,Primates,Cercopithecidae,Presbytis,siamensis,White-thighed Surili,2,2,0
+Aves,Passeriformes,Troglodytidae,Thryothorus,,Thryothorus Species,2,0,0
+Mammalia,Carnivora,Mustelidae,Aonyx,,Aonyx Species,2,4,0
+Aves,Passeriformes,Dicruridae,Dicrurus,leucophaeus,Ashy Drongo,2,0,0
+Mammalia,Primates,Lemuridae,Eulemur,albifrons,White-fronted Lemur,2,0,0
+Mammalia,Rodentia,Cricetidae,Microtus,arvalis,Common Vole,2,0,0
+Mammalia,Primates,Atelidae,Alouatta,belzebul,Red-handed Howler Monkey,2,0,0
+Aves,Passeriformes,Passerellidae,Atlapetes,pallidinucha,Pale-naped Brush-finch,2,0,0
+Aves,Passeriformes,Turdidae,Turdus,fumigatus,Cocoa Thrush,2,0,0
+Aves,Passeriformes,Bombycillidae,Bombycilla,cedrorum,Cedar Waxwing,2,0,0
+Aves,Passeriformes,Troglodytidae,Henicorhina,leucophrys,Gray-breasted Wood-Wren,2,0,0
+Aves,Charadriiformes,Laridae,Larus,philadelphia,Bonaparte's Gull,2,0,0
+Aves,Passeriformes,Sturnidae,Sturnus,unicolor,Spotless Starling,2,2,0
+Mammalia,Cetartiodactyla,Bovidae,Oryx,gazella,Gemsbok,2,0,0
+Aves,Coraciiformes,Alcedinidae,Dacelo,,Dacelo Species,1,0,0
+Aves,Caprimulgiformes,Trochilidae,Phaethornis,longirostris,Long-billed Hermit,1,0,0
+Aves,Passeriformes,Parulidae,Mniotilta,varia,Black-and-white Warbler,1,3,0
+Aves,Galliformes,Cracidae,Nothocrax,,Nothocrax Species,1,0,0
+Aves,Charadriiformes,Laridae,Larus,pipixcan,Franklin's Gull,1,0,0
+Mammalia,Primates,Cercopithecidae,Cercopithecus,ascanius,Red-tailed Monkey,1,0,71
+Aves,Passeriformes,Paridae,Poecile,montanus,Willow Tit,1,0,0
+Aves,Anseriformes,Anhimidae,Anhima,cornuta,Horned Screamer,1,0,0
+Aves,Passeriformes,Turdidae,Turdus,ignobilis,Black-billed Thrush,1,0,0
+Aves,Coraciiformes,Meropidae,Merops,,Merops Species,1,0,0
+Reptilia,Squamata,Helodermatidae,Heloderma,suspectum,Gila Monster,1,0,0
+Aves,Passeriformes,Meliphagidae,Conopophila,whitei,Grey Honeyeater,1,0,0
+Aves,Passeriformes,Nectariniidae,Nectarinia,purpureiventris,Purple-breasted Sunbird,1,0,0
+Aves,Passeriformes,Icteridae,Quiscalus,,Quiscalus Species,1,0,0
+Aves,Passeriformes,Tyrannidae,Knipolegus,,Knipolegus Species,1,0,0
+Mammalia,Eulipotyphla,Soricidae,Blarina,brevicauda,Northern Short-tailed Shrew,1,0,0
+Aves,Columbiformes,Columbidae,Columbina,minuta,Plain-breasted Ground-dove,1,0,0
+Mammalia,Primates,Atelidae,Ateles,hybridus,Variegated Spider Monkey,1,0,0
+Aves,Passeriformes,Hirundinidae,Hirundo,rustica,Barn Swallow,1,1,0
+Mammalia,Primates,Pitheciidae,Plecturocebus,brunneus,Brown Titi Monkey,1,0,0
+Aves,Pelecaniformes,Ardeidae,Butorides,striatus,Striated Heron,1,0,0
+Aves,Psittaciformes,Cacatuidae,Cacatua,sulphurea,Yellow-crested Cockatoo,1,0,0
+Aves,Falconiformes,Falconidae,Falco,peregrinus,Faucon pèlerin,1,7,0
+Aves,Accipitriformes,Accipitridae,Aquila,nipalensis,Steppe Eagle,1,0,0
+Aves,Passeriformes,Passerellidae,Melozone,fusca,Canyon Towhee,1,0,0
+Aves,Passeriformes,Pycnonotidae,Phyllastrephus,flavostriatus,Yellow-streaked Greenbul,1,0,0
+Aves,Ciconiiformes,Ciconiidae,Jabiru,mycteria,Jabiru,1,0,0
+Aves,Podicipediformes,Podicipedidae,Aechmophorus,occidentalis,Western Grebe,1,0,0
+Mammalia,Primates,Callitrichidae,Saguinus,tripartitus,Golden-mantle Saddleback Tamarin,1,0,0
+Aves,Passeriformes,Parulidae,Setophaga,pinus,Pine Warbler,1,0,0
+Aves,Passeriformes,Certhiidae,,,Certhiidae Family,1,0,0
+Aves,Passeriformes,Furnariidae,Lepidocolaptes,,Lepidocolaptes Species,1,0,0
+Reptilia,Squamata,Pythonidae,Antaresia,stimsoni,Stimson's Python,1,0,0
+Aves,Passeriformes,Thamnophilidae,Myrmoborus,,Myrmoborus Species,1,0,0
+Mammalia,Chiroptera,Vespertilionidae,Myotis,,Myotis Species,1,0,0
+Aves,Charadriiformes,Scolopacidae,Limnodromus,scolopaceus,Long-billed Dowitcher,1,0,0
+Aves,Passeriformes,Acanthizidae,Sericornis,,Scrubwren Species,1,0,0
+Aves,Coraciiformes,Meropidae,Merops,apiaster,European Bee-eater,1,0,0
+Aves,Caprimulgiformes,Trochilidae,Adelomyia,melanogenys,Speckled Hummingbird,1,0,0
+Aves,Passeriformes,Ptiliogonatidae,Phainopepla,,Phainopepla Species,1,0,0
+Amphibia,Anura,Ranidae,Rana,,Rana species,1,0,0
+Aves,Passeriformes,Thamnophilidae,Pyriglena,leuconota,White-backed Fire-eye,1,6,0
+Mammalia,Primates,Callitrichidae,Callithrix,,Callithrix Species,1,0,0
+Aves,Passeriformes,Motacillidae,Motacilla,feldegg,Black-headed Wagtail,1,0,0
+Mammalia,Chiroptera,Vespertilionidae,Plecotus,,Plecotus Species,1,0,0
+Aves,Accipitriformes,Accipitridae,Accipiter,novaehollandiae,Grey Goshawk,1,0,0
+Aves,Passeriformes,Paridae,Cyanistes,,Cyanistes Species,1,0,0
+Mammalia,Cetartiodactyla,Camelidae,Lama,,Lama Species,1,0,0
+Aves,Cathartiformes,Cathartidae,,,Cathartidae Family,1,0,0
+Aves,Passeriformes,Cardinalidae,Cardinalis,,Cardinalis Species,1,17,0
+Aves,Ciconiiformes,Ciconiidae,Ciconia,maguari,Maguari Stork,1,0,0
+Aves,Charadriiformes,Charadriidae,Vanellus,miles,Masked Lapwing,1,0,0
+Mammalia,Carnivora,Mustelidae,Pteronura,,Pteronura Species,1,0,0
+Aves,Passeriformes,Passerellidae,Peucaea,cassinii,Cassin's Sparrow,1,1,0
+Aves,Passeriformes,Regulidae,Regulus,calendula,Ruby-crowned Kinglet,1,5,0
+Mammalia,Rodentia,Sciuridae,Sciurus,aureogaster,Mexican Gray Squirrel,1,0,0
+Aves,Passeriformes,Icteridae,Psarocolius,,Psarocolius Species,1,0,0
+Reptilia,Testudines,Emydidae,Terrapene,triunguis,Three-toed Box Turtle,1,0,0
+Aves,Pelecaniformes,Ardeidae,Syrigma,sibilatrix,Whistling Heron,1,0,0
+Reptilia,Squamata,Varanidae,Varanus,niloticus,Nile monitor,1,37,0
+Mammalia,Rodentia,Cricetidae,Oryzomys,,Oryzomys Species,1,0,0
+Aves,Charadriiformes,Scolopacidae,Tringa,melanoleuca,Greater Yellowlegs,1,0,0
+Mammalia,Dermoptera,Cynocephalidae,Galeopterus,variegatus,Sunda Flying Lemur,1,0,0
+Aves,Columbiformes,Columbidae,Patagioenas,speciosa,Scaled Pigeon,1,0,1
+Mammalia,Dasyuromorphia,Dasyuridae,Sminthopsis,murina,Common Dunnart,1,0,0
+Aves,Piciformes,Picidae,Dryobates,nuttallii,Nuttall's Woodpecker,1,0,2
+Reptilia,Squamata,Natricidae,Thamnophis,proximus,Western Ribbonsnake,1,0,0
+Mammalia,Perissodactyla,Rhinocerotidae,Ceratotherium,simum,White Rhinoceros,1,0,0
+Aves,Passeriformes,Hirundinidae,Alopochelidon,fucata,Tawny-headed Swallow,1,0,0
+Reptilia,Squamata,Dactyloidae,Anolis,carolinensis,Green Anole,1,0,0
+Aves,Passeriformes,Paridae,Periparus,ater,Coal Tit,1,0,0
+Reptilia,Squamata,Varanidae,Varanus,gouldii,Sand Monitor,1,1,0
+Aves,Passeriformes,Tyrannidae,Tyrannus,vociferans,Cassin's Kingbird,1,0,0
+Mammalia,Carnivora,Felidae,Prionailurus,rubiginosus,Rusty-spotted Cat,1,0,0
+Mammalia,Pilosa,Myrmecophagidae,Myrmecophaga,,Myrmecophaga Species,1,0,24
+Mammalia,Rodentia,Hystricidae,Atherurus,,Atherurus Species,1,0,0
+Aves,Gruiformes,Psophiidae,Psophia,ochroptera,Ochre-winged Trumpeter,1,0,0
+Aves,Struthioniformes,Tinamidae,Tinamotis,,Tinamotis Species,1,8,0
+Mammalia,Pilosa,Myrmecophagidae,,,Anteater Family,1,0,0
+Aves,Strigiformes,Strigidae,Asio,clamator,Striped Owl,1,0,0
+Mammalia,Rodentia,Sciuridae,Ratufa,indica,Indian Giant Squirrel,1,0,0
+Aves,Passeriformes,Muscicapidae,Melaenornis,fischeri,White-eyed Slaty-flycatcher,1,0,64
+Aves,Passeriformes,Meliphagidae,Entomyzon,cyanotis,Blue-faced Honeyeater,1,0,0
+Aves,Passeriformes,Icteridae,Curaeus,curaeus,Austral Blackbird,1,0,0
+Mammalia,Rodentia,Cricetidae,Onychomys,leucogaster,Northern Grasshopper Mouse,1,0,0
+Aves,Passeriformes,Meliphagidae,Phylidonyris,niger,White-cheeked Honeyeater,1,0,1
+Aves,Psittaciformes,Psittacidae,Platycercus,icterotis,Western Rosella,1,0,0
+Mammalia,Rodentia,Sciuridae,Xerospermophilus,tereticaudus,Round-tailed Ground Squirrel,1,1,0
+Aves,Gruiformes,Rallidae,Gallinula,chloropus,Moorhen,1,0,0
+Aves,Passeriformes,Parulidae,Dendroica,aestiva,Yellow Warbler,1,0,0
+Aves,Psittaciformes,Psittacidae,Brotogeris,,Brotogeris Species,1,0,0
+Aves,Coraciiformes,Momotidae,Electron,platyrhynchum,Broad-billed Motmot,1,0,0
+Aves,Passeriformes,Pomatostomidae,Pomatostomus,superciliosus,White-browed Babbler,1,4,0
+Mammalia,Primates,Cercopithecidae,Cercopithecus,hamlyni,Owl-faced Monkey,1,0,0
+Aves,Passeriformes,Paridae,Lophophanes,cristatus,Crested Tit,1,0,0
+Aves,Musophagiformes,Musophagidae,Gallirex,johnstoni,Ruwenzori Turaco,1,0,6
+Mammalia,Rodentia,Sciuridae,Paraxerus,cepapi,Smith's Bush Squirrel,1,0,0
+Mammalia,Chiroptera,Vespertilionidae,,,Vespertilionidae Family,1,1,0
+Aves,Charadriiformes,Scolopacidae,Steganopus,tricolor,Wilson's Phalarope,1,0,0
+Mammalia,Artiodactyla,Bovidae,Bubalus,bubalis,Domestic Water Buffalo,1,0,0
+Mammalia,Rodentia,Sciuridae,Callospermophilus,saturatus,Cascade Golden-mantled Ground Squirrel,1,0,0
+Mammalia,Rodentia,Sciuridae,Neotamias,obscurus,California Chipmunk,1,0,0
+Mammalia,Rodentia,Spalacidae,Rhizomys,pruinosus,Hoary Bamboo Rat,1,10,0
+Aves,Passeriformes,Fringillidae,,,Fringillidae Family,1,0,0
+Aves,Passeriformes,Fringillidae,Spinus,magellanicus,Hooded Siskin,1,0,0
+Aves,Caprimulgiformes,Caprimulgidae,Chordeiles,acutipennis,Lesser Nighthawk,0,1,0
+Mammalia,Lagomorpha,Leporidae,Lepus,insularis,Black Jackrabbit,0,0,26
+Mammalia,Primates,Cebidae,Sapajus,libidinosus,Bearded Capuchin,0,0,10
+Aves,Strigiformes,Strigidae,Ninox,boobook,Southern Boobook,0,0,3
+Reptilia,Crocodylia,Alligatoridae,Alligator,mississippiensis,American Alligator,0,2,0
+Aves,Passeriformes,Muscicapidae,Saxicola,tectes,Reunion Stonechat,0,2,0
+Aves,Passeriformes,Psophodidae,Psophodes,,Psophodes Species,0,0,1
+Aves,Struthioniformes,Tinamidae,Rhynchotus,,Rhynchotus Species,0,0,6
+Mammalia,Rodentia,Muridae,Chiropodomys,calamianensis,Palawan Pencil-tailed Tree Mouse,0,6,0
+Aves,Galliformes,Odontophoridae,Odontophorus,capueira,Spot-winged Wood-quail,0,53,0
+Aves,Piciformes,Ramphastidae,,,Ramphastidae Family,0,0,5
+Mammalia,Rodentia,Bathyergidae,Cryptomys,,Cryptomys Species,0,0,38
+Aves,Accipitriformes,Accipitridae,Hieraaetus,pennatus,Booted Eagle,0,0,2
+Aves,Passeriformes,Corvidae,Urocissa,xanthomelana,White-winged Magpie,0,0,34
+Aves,Anseriformes,Anatidae,Spatula,rhynchotis,Australian Shoveler,0,2,0
+Aves,Passeriformes,Thraupidae,Saltator,coerulescens,Grayish Saltator,0,3,0
+Aves,Passeriformes,Rhipiduridae,Rhipidura,phoenicura,Rufous-tailed Fantail,0,0,1
+Aves,Piciformes,Bucconidae,Nystalus,chacuru,White-eared Puffbird,0,0,5
+Mammalia,Perissodactyla,Equidae,Equus,mulus,Domestic Mule,0,0,39
+Aves,Passeriformes,Icteridae,Cacicus,,Cacicus Species,0,3,0
+Mammalia,Rodentia,Hystricidae,Hystrix,,Hystrix Species,0,24,0
+Mammalia,Primates,Callitrichidae,Mico,melanurus,Black-tailed Marmoset,0,0,9
+Aves,Passeriformes,Nectariniidae,Cinnyris,regius,Regal Sunbird,0,0,4
+Mammalia,Primates,Atelidae,Lagothrix,lagotricha,Common Woolly Monkey,0,6,0
+Aves,Passeriformes,Tyrannidae,Ochthoeca,,Ochthoeca Species,0,3,0
+Aves,Passeriformes,Cinclosomatidae,Cinclosoma,ajax,Painted Quail-thrush,0,0,4
+Mammalia,Eulipotyphla,Soricidae,Sylvisorex,vulcanorum,Volcano Shrew,0,0,1
+Aves,Strigiformes,Strigidae,Megascops,guatemalae,Middle American Screech-Owl,0,0,2
+Aves,Passeriformes,Pittidae,Pitta,moluccensis,Blue-winged Pitta,0,3,0
+Aves,Passeriformes,Pellorneidae,Turdinus,crispifrons,Limestone Wren-Babbler,0,0,1
+Aves,Gruiformes,Rallidae,Sarothrura,insularis,Madagascar Flufftail,0,3,0
+Aves,Accipitriformes,Accipitridae,Buteo,ridgwayi,Ridgway's Hawk,0,8,0
+Aves,Passeriformes,Petroicidae,Petroica,rosea,Rose Robin,0,0,1
+Mammalia,Carnivora,Canidae,Cerdocyon,,Cerdocyon Species,0,0,4
+Aves,Passeriformes,Paradisaeidae,Lophorina,paradisea,Paradise Riflebird,0,3,10
+Aves,Columbiformes,Columbidae,Patagioenas,,Patagioenas Species,0,0,34
+Aves,Caprimulgiformes,Trochilidae,Phaethornis,hispidus,White-bearded Hermit,0,0,1
+Mammalia,Primates,Hylobatidae,Symphalangus,syndactylus,Siamang,0,0,5
+Aves,Piciformes,Picidae,Celeus,,Celeus Species,0,0,2
+Aves,Passeriformes,Pittidae,Pitta,guajana,Banded Pitta,0,0,3
+Mammalia,Cetartiodactyla,Giraffidae,,,Giraffidae Family,0,3,0
+Mammalia,Chiroptera,Vespertilionidae,Nyctalus,,Nyctalus Species,0,2,0
+Aves,Passeriformes,Thraupidae,Pseudospingus,verticalis,Black-headed Hemispingus,0,3,0
+Mammalia,Rodentia,Muridae,Mastacomys,fuscus,Broad-toothed Rat,0,13,0
+Aves,Passeriformes,Pittidae,Hydrornis,irena,Malay Banded Pitta,0,3,0
+Aves,Caprimulgiformes,Trochilidae,Glaucis,hirsutus,Rufous-breasted Hermit,0,0,1
+Aves,Passeriformes,Pycnonotidae,Pycnonotus,xanthopygos,White-spectacled Bulbul,0,1,0
+Aves,Charadriiformes,Scolopacidae,Gallinago,nemoricola,Wood Snipe,0,5,6
+Mammalia,Pilosa,Myrmecophagidae,Tamandua,,Tamandua Species,0,0,3
+Mammalia,Dasyuromorphia,Dasyuridae,Antechinus,swainsonii,Dusky Antechinus,0,6,4
+Aves,Passeriformes,Corvidae,Cyanopica,cooki,Iberian Azure-winged Magpie,0,53,0
+Aves,Passeriformes,Turdidae,Turdus,obscurus,Eyebrowed Thrush,0,5,0
+Mammalia,Chiroptera,Pteropodidae,Acerodon,,Acerodon Species,0,0,2
+Mammalia,Rodentia,Muridae,Praomys,degraaffi,De Graaff's Praomys,0,0,119
+Mammalia,Rodentia,Gliridae,Graphiurus,microtis,Small-eared Dormouse,0,5,0
+Aves,Caprimulgiformes,Trochilidae,Phaethornis,malaris,Great-billed Hermit,0,0,2
+Aves,Falconiformes,Falconidae,Falco,femoralis,Aplomado Falcon,0,1,0
+Mammalia,Primates,Pitheciidae,Callicebus,,Callicebus Species,0,0,12
+Aves,Passeriformes,Paridae,Melaniparus,fasciiventer,Stripe-breasted Tit,0,0,1
+Mammalia,Pholidota,Manidae,,,Pangolin Family,0,0,18
+Aves,Accipitriformes,Accipitridae,Spizaetus,melanoleucus,Black-and-white Hawk-eagle,0,0,379
+Mammalia,Rodentia,Cricetidae,Reithrodontomys,megalotis,Western Harvest Mouse,0,23,0
+Aves,Passeriformes,Thamnophilidae,Cercomacroides,tyrannina,Dusky Antbird,0,0,3
+Mammalia,Carnivora,Felidae,Panthera,,Panthera Species,0,3,0
+Mammalia,Cetartiodactyla,Camelidae,Camelus,,Camelus Species,0,3,0
+Aves,Passeriformes,Muscicapidae,Tarsiger,cyanurus,Orange-flanked Bush-Robin,0,0,16
+Aves,Charadriiformes,Turnicidae,Turnix,suscitator,Barred Buttonquail,0,0,4
+Aves,Pelecaniformes,Threskiornithidae,Mesembrinibis,,Mesembrinibis Species,0,0,2
+Mammalia,Rodentia,Sciuridae,Spermophilus,erythrogenys,Red-cheeked Ground Squirrel,0,0,322
+Aves,Passeriformes,Sylviidae,Sylvia,,Sylvia Species,0,5,0
+Aves,Accipitriformes,Accipitridae,Leptodon,,Leptodon Species,0,0,3
+Aves,Piciformes,Picidae,Chrysocolaptes,erythrocephalus,Red-headed Flameback,0,0,3
+Mammalia,Dasyuromorphia,Dasyuridae,Antechinus,stuartii,Brown Antechinus,0,0,5
+Aves,Anseriformes,Anatidae,Tadorna,tadornoides,Australian Shelduck,0,20,0
+Mammalia,Cetartiodactyla,Giraffidae,Giraffa,,Giraffa Species,0,3,0
+Aves,Passeriformes,Tityridae,Onychorhynchus,mexicanus,Northern Royal Flycatcher,0,1,0
+Aves,Cuculiformes,Cuculidae,Cacomantis,flabelliformis,Fan-tailed Cuckoo,0,0,5
+Aves,Passeriformes,Meliphagidae,Epthianura,tricolor,Crimson Chat,0,21,0
+Mammalia,Cetartiodactyla,Bovidae,Cephalophus,natalensis,Natal Red Duiker,0,0,16
+Mammalia,Rodentia,Sciuridae,Neotamias,senex,Shadow Chipmunk,0,1,0
+Mammalia,Carnivora,Viverridae,Cynogale,bennettii,Otter Civet,0,0,1
+Aves,Accipitriformes,Accipitridae,Hamirostra,melanosternon,Black-breasted Buzzard,0,60,0
+Mammalia,Carnivora,Procyonidae,Nasuella,,Nasuella Species,0,4,0
+Aves,Psittaciformes,Cacatuidae,Nymphicus,hollandicus,Cockatiel,0,23,0
+Mammalia,Rodentia,Sciuridae,Ictidomys,mexicanus,Mexican Ground Squirrel,0,3,0
+Aves,Pelecaniformes,Threskiornithidae,,,Threskiornithidae Family,0,0,3
+Aves,Accipitriformes,Accipitridae,Haliaeetus,leucogaster,White-bellied Sea-eagle,0,2,0
+Mammalia,Peramelemorphia,Peramelidae,Isoodon,,Isoodon Species,0,0,403
+Mammalia,Pilosa,Bradypodidae,Bradypus,variegatus,Brown-throated Sloth,0,3,0
+Aves,Passeriformes,Turdidae,Turdus,nudigenis,Bare-eyed Robin,0,3,0
+Mammalia,Cetartiodactyla,Cervidae,Ozotoceros,,Ozotoceros Species,0,0,6
+Aves,Coraciiformes,Alcedinidae,Halcyon,coromanda,Ruddy Kingfisher,0,5,0
+Mammalia,Cetartiodactyla,Camelidae,,,Camelidae Family,0,31,0
+Aves,Galliformes,Cracidae,Pauxi,,Pauxi Species,0,0,1950
+Aves,Passeriformes,Timaliidae,Pomatorhinus,ruficollis,Streak-breasted Scimitar Babbler,0,0,16
+Aves,Passeriformes,Meliphagidae,Acanthorhynchus,tenuirostris,Eastern Spinebill,0,0,7
+Aves,Passeriformes,Dicruridae,Dicrurus,ludwigii,Square-tailed Drongo,0,1,0
+Aves,Passeriformes,Thamnophilidae,Thamnophilus,,Thamnophilus Species,0,1,0
+Aves,Anseriformes,Anatidae,Anas,castanea,Chestnut Teal,0,6,0
+Aves,Passeriformes,Corvidae,Corvus,enca,Slender-billed Crow,0,0,5
+Aves,Passeriformes,Sturnidae,Lamprotornis,chalybaeus,Greater Blue-eared Starling,0,3,0
+Mammalia,Rodentia,Cuniculidae,Cuniculus,,Cuniculus Species,0,1,4
+Mammalia,Primates,Cercopithecidae,Presbytis,melalophos,Sumatran Surili,0,0,11
+Aves,Musophagiformes,Musophagidae,Corythaeola,cristata,Great Blue Turaco,0,0,3
+Aves,Anseriformes,Anatidae,Alopochen,aegyptiaca,Egyptian Goose,0,24,0
+Aves,Passeriformes,Tyrannidae,Myiarchus,crinitus,Great Crested Flycatcher,0,1,0
+Mammalia,Rodentia,Dasyproctidae,Myoprocta,,Myoprocta Species,0,3,0
+Aves,Passeriformes,Icteridae,Pseudoleistes,guirahuro,Yellow-rumped Marshbird,0,1,0
+Mammalia,Rodentia,Myocastoridae,,,Myocastoridae Family,0,0,3
+Aves,Accipitriformes,Accipitridae,Circus,cyaneus,Busard Saint-Martin,0,1,0
+Mammalia,Cingulata,Chlamyphoridae,Priodontes,,Priodontes Species,0,0,2
+Reptilia,Testudines,Testudinidae,Stigmochelys,pardalis,Leopard Tortoise,0,4,0
+Mammalia,Chiroptera,Phyllostomidae,Vampyrum,,Vampyrum Species,0,0,10
+Mammalia,Chiroptera,Vespertilionidae,Eptesicus,nilssonii,Northern Bat,0,0,4
+Aves,Accipitriformes,Sagittariidae,Sagittarius,serpentarius,Secretarybird,0,15,0
+Aves,Strigiformes,Strigidae,Ciccaba,virgata,Mottled Owl,0,3,2
+Mammalia,Rodentia,Cricetidae,Tylomys,,Tylomys Species,0,1,0
+Mammalia,Carnivora,Procyonidae,Nasua,,Nasua Species,0,3,15
+Mammalia,Rodentia,Sciuridae,Petaurista,philippensis,Indian Giant Flying Squirrel,0,0,127
+Mammalia,Rodentia,Spalacidae,Rhizomys,,Rhizomys Species,0,0,24
+Aves,Passeriformes,Falcunculidae,Falcunculus,frontatus,Crested Shriketit,0,1,0
+Aves,Passeriformes,Leiotrichidae,Garrulax,cinereiceps,Eastern Moustached Laughingthrush,0,0,105
+Aves,Passeriformes,Acanthizidae,Sericornis,magnirostra,Large-billed Scrubwren,0,0,3
+Mammalia,Rodentia,Sciuridae,Tamiops,maritimus,Maritime Striped Squirrel,0,0,13
+Aves,Passeriformes,Muscicapidae,Sheppardia,lowei,Iringa Akalat,0,1,0
+Aves,Pelecaniformes,Threskiornithidae,Platalea,ajaja,Roseate Spoonbill,0,1,0
+Gastropoda,,,,,gastropods,0,20,0
+Mammalia,Cetartiodactyla,Cervidae,Muntiacus,montanus,Sumatran Mountain Muntjac,0,0,128
+Mammalia,Primates,Galagidae,Euoticus,elegantulus,Southern Needle-clawed Galago,0,0,11
+Aves,Gruiformes,Rallidae,Porzana,albicollis,Ash-throated Crake,0,0,4

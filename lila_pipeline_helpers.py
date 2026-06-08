@@ -30,30 +30,40 @@ def select_bottom_percent_classes(
 ) -> pd.DataFrame:
     if pd is None:
         raise ImportError("pandas is required to use lila_pipeline_helpers")
+
     filtered = df.copy()
+
     if exclude_common_names:
         filtered = filtered[~filtered["common_name"].isin(set(exclude_common_names))]
+
     filtered = filtered[filtered["count_train"].notna()].copy()
     filtered = filtered[filtered["count_train"] > 0].copy()
+
     if filtered.empty:
         raise ValueError("No classes remain after filtering.")
 
     threshold = filtered["count_train"].quantile(percentile / 100.0)
-    selected = filtered[filtered["count_train"] <= threshold].copy()
-    selected = selected.sort_values(["count_train", "common_name"], ascending=[True, True]).reset_index(drop=True)
-    selected["deficit_to_threshold"] = (threshold - selected["count_train"]).clip(lower=0).astype(int)
-    selected["threshold_count"] = int(threshold)
-    return selected
 
+    selected = (
+        filtered[filtered["count_train"] <= threshold]
+        .sort_values(["count_train", "common_name"], ascending=[True, True])
+        .reset_index(drop=True)
+    )
 
-def build_class_targets(df: pd.DataFrame) -> pd.DataFrame:
-    if pd is None:
-        raise ImportError("pandas is required to use lila_pipeline_helpers")
-    out = df.copy()
-    out["target_added"] = (out["threshold_count"] - out["count_train"]).clip(lower=0).astype(int)
-    out["target_total_after_addition"] = out["count_train"] + out["target_added"]
-    return out
+    # Keep only the original class metadata columns.
+    cols = [
+        "class",
+        "order",
+        "family",
+        "genus",
+        "species",
+        "common_name",
+        "count_train",
+        "count_validation",
+        "count_test",
+    ]
 
+    return selected[cols]
 
 def serialize_class_targets(
     targets: pd.DataFrame,
