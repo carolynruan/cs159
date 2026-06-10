@@ -1,5 +1,8 @@
 artifacts
-__pycache__*
+__pycache__
 
-old_alia
 lila_splits
+
+
+carolyn_CS_159.ipynb
+CS_159.ipynb
